@@ -1,4 +1,4 @@
-// Default browser for `web-ext run` (see README). Override with ZEN_BROWSER or ZEN_BROWSER_BIN.
+// web-ext `run` defaults (see README).
 import process from "node:process";
 
 const zenBinary =
@@ -8,7 +8,9 @@ const zenBinary =
 
 export default {
   run: {
-    // web-ext CLI name — any Gecko desktop binary (here: Zen), not “Mozilla Firefox” only.
+    // web-ext CLI name — any Gecko desktop binary (here: Zen).
     firefox: zenBinary,
+    // Fresh web-ext profiles otherwise rerun Zen’s welcome flow.
+    pref: ["zen.welcome-screen.seen=true"],
   },
 };

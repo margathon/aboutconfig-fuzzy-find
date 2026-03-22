@@ -42,14 +42,12 @@ Only `name` is required. Reload the extension from `about:debugging` after chang
 
 ## Development
 
-Install deps if needed (`bun install`). Use [web-ext](https://github.com/mozilla/web-ext) from this directory. By default, [`web-ext-config.mjs`](web-ext-config.mjs) points `web-ext run` at Zen (`/opt/zen-browser-bin/zen-bin`), not Mozilla Firefox. Override the binary with **`ZEN_BROWSER`** or **`ZEN_BROWSER_BIN`**, or pass **`--firefox=/path/to/zen-bin`** once.
+Install deps if needed (`bun install`). Use [web-ext](https://github.com/mozilla/web-ext) from this directory. [`web-ext-config.mjs`](web-ext-config.mjs) points **`web-ext run` at Zen** (`/opt/zen-browser-bin/zen-bin` unless **`ZEN_BROWSER`** / **`ZEN_BROWSER_BIN`** is set) and passes **`zen.welcome-screen.seen=true`** so new dev profiles skip the welcome flow. To use stock Firefox for a session: **`bunx web-ext run --firefox=firefox`**.
 
 ```bash
 bun run start
 # or: bunx web-ext run
 ```
-
-To use stock Firefox instead for a session: `bunx web-ext run --firefox=firefox` (or the full path to `firefox`).
 
 ## Permissions
 

@@ -5,12 +5,20 @@
 const MAX_RESULTS = 100;
 
 /**
+ * Pref names have no spaces; users often type "browser tabs" anyway.
+ * Collapse whitespace so the query is one subsequence over the name.
+ */
+function compactQuery(query) {
+  return query.replace(/\s+/g, "");
+}
+
+/**
  * Subsequence fuzzy score: higher is better. 0 = no match.
  * Rewards consecutive character matches and matches after ".".
  */
 function fuzzyScore(query, text) {
-  if (!query.trim()) return 1;
-  const q = query.toLowerCase();
+  const q = compactQuery(query).toLowerCase();
+  if (!q) return 1;
   const t = text.toLowerCase();
   let qi = 0;
   let score = 0;
