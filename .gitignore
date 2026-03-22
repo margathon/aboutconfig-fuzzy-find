@@ -1,4 +1,23 @@
-.DS_Store
+# Dependencies
+node_modules/
+
+# web-ext
+web-ext-artifacts/
 *.xpi
 *.zip
-web-ext-artifacts/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Env / local overrides
+.env
+.env.*
+
+# Python (scripts/)
+.venv/
+__pycache__/
+*.py[cod]

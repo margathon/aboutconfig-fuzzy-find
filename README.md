@@ -2,10 +2,12 @@
 
 A small Firefox and Zen browser extension that provides a **popup** to fuzzy-search a **bundled** list of preference names, **copy** a name to the clipboard, and **open** `about:config` so you can paste or filter there.
 
+The default [`data/prefs.json`](data/prefs.json) is generated from **your Zen install’s shipped defaults** (toolkit + browser `pref(...)` lines in `omni.ja`), so it includes Firefox-engine prefs plus Zen-specific names such as `zen.*`. Regenerate after upgrading Zen so names stay in sync with that version.
+
 ## Limitations
 
 - **Not** an overlay on the built-in `about:config` page. WebExtensions cannot inject scripts into that page.
-- **No live pref list**: the extension cannot read or enumerate your full profile preferences. Results come only from [`data/prefs.json`](data/prefs.json) shipped with the add-on.
+- **Bundled names, not live values**: the add-on cannot read your profile. The list is every **declared default** found in the install’s preference JS (typically thousands of names). A few prefs may exist only at runtime and not appear here.
 - **No automatic filter URL**: do not rely on old `about:config?filter=` behavior; use the search box inside `about:config` after opening it.
 
 ## Load temporarily (Firefox or Zen)
@@ -17,9 +19,17 @@ A small Firefox and Zen browser extension that provides a **popup** to fuzzy-sea
 
 The add-on clears when you close the browser unless you install a signed build.
 
-## Extending the pref list
+## Pref list (full list from Zen)
 
-Edit [`data/prefs.json`](data/prefs.json). Each entry is an object:
+Regenerate [`data/prefs.json`](data/prefs.json) from the Zen binary on your machine (requires `unzip`):
+
+```bash
+python3 scripts/extract-prefs-from-zen.py --root /opt/zen-browser-bin -o data/prefs.json
+```
+
+If Zen lives elsewhere, set `--root` to that directory (the one containing `omni.ja` and `browser/omni.ja`). You can also set `ZEN_BROWSER_ROOT` and omit `--root`.
+
+To **add or override** entries by hand, edit the same file. Each object looks like:
 
 ```json
 {
@@ -32,7 +42,14 @@ Only `name` is required. Reload the extension from `about:debugging` after chang
 
 ## Development
 
-Optional: use [web-ext](https://github.com/mozilla/web-ext) (`web-ext run`) for a tighter dev loop; not required for the first iteration.
+Install deps if needed (`bun install`). Use [web-ext](https://github.com/mozilla/web-ext) from this directory. By default, [`web-ext-config.mjs`](web-ext-config.mjs) points `web-ext run` at Zen (`/opt/zen-browser-bin/zen-bin`), not Mozilla Firefox. Override the binary with **`ZEN_BROWSER`** or **`ZEN_BROWSER_BIN`**, or pass **`--firefox=/path/to/zen-bin`** once.
+
+```bash
+bun run start
+# or: bunx web-ext run
+```
+
+To use stock Firefox instead for a session: `bunx web-ext run --firefox=firefox` (or the full path to `firefox`).
 
 ## Permissions
 

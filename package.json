@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "web-ext run"
+  },
+  "dependencies": {
+    "web-ext": "^10.0.0"
+  }
+}

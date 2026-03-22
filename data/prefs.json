@@ -1,74 +1,9026 @@
 [
   {
-    "name": "browser.startup.page",
-    "description": "What to show when the browser starts (0=blank, 1=home, 2=last session, 3=restore session)."
+    "name": "about.glean.redesign.enabled"
   },
   {
-    "name": "browser.startup.homepage",
-    "description": "Home page URL when using a custom home page."
+    "name": "accessibility.blockautorefresh"
   },
   {
-    "name": "browser.search.region",
-    "description": "Region used for search engine defaults."
+    "name": "accessibility.browsewithcaret_shortcut.enabled"
   },
   {
-    "name": "browser.search.suggest.enabled",
-    "description": "Enable search suggestions in the address bar."
+    "name": "accessibility.force_disabled"
   },
   {
-    "name": "browser.urlbar.trimURLs",
-    "description": "Hide https:// and www in the address bar."
+    "name": "accessibility.typeaheadfind"
   },
   {
-    "name": "browser.tabs.loadInBackground",
-    "description": "Whether new tabs load in the background."
+    "name": "accessibility.typeaheadfind.casesensitive"
   },
   {
-    "name": "browser.tabs.warnOnClose",
-    "description": "Warn when closing a window with multiple tabs."
+    "name": "accessibility.typeaheadfind.enablesound"
   },
   {
-    "name": "privacy.trackingprotection.enabled",
-    "description": "Enable Enhanced Tracking Protection in standard windows."
+    "name": "accessibility.typeaheadfind.flashBar"
   },
   {
-    "name": "privacy.trackingprotection.enabled.pbmode",
-    "description": "Enhanced Tracking Protection in private windows."
+    "name": "accessibility.typeaheadfind.linksonly"
   },
   {
-    "name": "privacy.trackingprotection.socialtracking.enabled",
-    "description": "Block social media trackers."
+    "name": "accessibility.typeaheadfind.manual"
   },
   {
-    "name": "browser.cache.disk.enable",
-    "description": "Enable disk cache."
+    "name": "accessibility.typeaheadfind.matchesCountLimit"
   },
   {
-    "name": "network.http.http3.enabled",
-    "description": "Enable HTTP/3 (QUIC)."
+    "name": "accessibility.typeaheadfind.prefillwithselection"
   },
   {
-    "name": "network.dns.disableIPv6",
-    "description": "Disable IPv6 for DNS (diagnostic)."
+    "name": "accessibility.typeaheadfind.soundURL"
   },
   {
-    "name": "gfx.webrender.all",
-    "description": "Force-enable WebRender compositor."
+    "name": "accessibility.typeaheadfind.startlinksonly"
   },
   {
-    "name": "media.ffmpeg.vaapi.enabled",
-    "description": "Hardware video decode via VA-API on Linux (when supported)."
+    "name": "accessibility.typeaheadfind.timeout"
   },
   {
-    "name": "general.useragent.override",
-    "description": "Override the global User-Agent string (empty = default)."
+    "name": "accessibility.typeaheadfind.wrappedSoundURL"
   },
   {
-    "name": "devtools.chrome.enabled",
-    "description": "Allow debugging of browser chrome (advanced)."
+    "name": "accessibility.warn_on_browsewithcaret"
   },
   {
-    "name": "browser.aboutConfig.showWarning",
-    "description": "Show the warning when opening about:config."
+    "name": "app.feedback.baseURL"
+  },
+  {
+    "name": "app.normandy.api_url"
+  },
+  {
+    "name": "app.normandy.dev_mode"
+  },
+  {
+    "name": "app.normandy.enabled"
+  },
+  {
+    "name": "app.normandy.first_run"
+  },
+  {
+    "name": "app.normandy.last_seen_buildid"
+  },
+  {
+    "name": "app.normandy.logging.level"
+  },
+  {
+    "name": "app.normandy.onsync_skew_sec"
+  },
+  {
+    "name": "app.normandy.run_interval_seconds"
+  },
+  {
+    "name": "app.normandy.shieldLearnMoreUrl"
+  },
+  {
+    "name": "app.releaseNotesURL"
+  },
+  {
+    "name": "app.releaseNotesURL.aboutDialog"
+  },
+  {
+    "name": "app.releaseNotesURL.prompt"
+  },
+  {
+    "name": "app.shield.optoutstudies.enabled"
+  },
+  {
+    "name": "app.support.baseURL"
+  },
+  {
+    "name": "app.update.auto"
+  },
+  {
+    "name": "app.update.backgroundMaxErrors"
+  },
+  {
+    "name": "app.update.channel"
+  },
+  {
+    "name": "app.update.checkInstallTime"
+  },
+  {
+    "name": "app.update.checkInstallTime.days"
+  },
+  {
+    "name": "app.update.download.maxAttempts"
+  },
+  {
+    "name": "app.update.elevate.maxAttempts"
+  },
+  {
+    "name": "app.update.langpack.enabled"
+  },
+  {
+    "name": "app.update.log"
+  },
+  {
+    "name": "app.update.log.file"
+  },
+  {
+    "name": "app.update.notifyDuringDownload"
+  },
+  {
+    "name": "app.update.promptWaitTime"
+  },
+  {
+    "name": "app.update.staging.enabled"
+  },
+  {
+    "name": "app.update.timerFirstInterval"
+  },
+  {
+    "name": "app.update.timerMinimumDelay"
+  },
+  {
+    "name": "app.update.url.details"
+  },
+  {
+    "name": "app.update.url.manual"
+  },
+  {
+    "name": "apz.overscroll.stop_velocity_threshold"
+  },
+  {
+    "name": "apz.overscroll.stretch_factor"
+  },
+  {
+    "name": "apz.zoom-to-focused-input.enabled"
+  },
+  {
+    "name": "breakpad.reportURL"
+  },
+  {
+    "name": "browser.aboutConfig.showWarning"
+  },
+  {
+    "name": "browser.aboutwelcome.enabled"
+  },
+  {
+    "name": "browser.aboutwelcome.screens"
+  },
+  {
+    "name": "browser.ai.control.default"
+  },
+  {
+    "name": "browser.ai.control.linkPreviewKeyPoints"
+  },
+  {
+    "name": "browser.ai.control.pdfjsAltText"
+  },
+  {
+    "name": "browser.ai.control.sidebarChatbot"
+  },
+  {
+    "name": "browser.ai.control.smartTabGroups"
+  },
+  {
+    "name": "browser.ai.control.translations"
+  },
+  {
+    "name": "browser.aiwindow.apiKey"
+  },
+  {
+    "name": "browser.aiwindow.chatStore.loglevel"
+  },
+  {
+    "name": "browser.aiwindow.enabled"
+  },
+  {
+    "name": "browser.aiwindow.endpoint"
+  },
+  {
+    "name": "browser.aiwindow.firstrun.autoAdvanceMS"
+  },
+  {
+    "name": "browser.aiwindow.firstrun.modelChoice"
+  },
+  {
+    "name": "browser.aiwindow.memories"
+  },
+  {
+    "name": "browser.aiwindow.memoriesLogLevel"
+  },
+  {
+    "name": "browser.aiwindow.model"
+  },
+  {
+    "name": "browser.aiwindow.preferences.enabled"
+  },
+  {
+    "name": "browser.altClickSave"
+  },
+  {
+    "name": "browser.attribution.enabled"
+  },
+  {
+    "name": "browser.backspace_action"
+  },
+  {
+    "name": "browser.backup.archive.enabled"
+  },
+  {
+    "name": "browser.backup.backup-retry-limit"
+  },
+  {
+    "name": "browser.backup.disabled-on-idle-backup-retry"
+  },
+  {
+    "name": "browser.backup.enabled"
+  },
+  {
+    "name": "browser.backup.errorCode"
+  },
+  {
+    "name": "browser.backup.max-num-unremovable-staging-items"
+  },
+  {
+    "name": "browser.backup.restore.enabled"
+  },
+  {
+    "name": "browser.backup.scheduled.enabled"
+  },
+  {
+    "name": "browser.backup.scheduled.idle-threshold-seconds"
+  },
+  {
+    "name": "browser.backup.scheduled.minimum-time-between-backups-seconds"
+  },
+  {
+    "name": "browser.backup.scheduled.user-disabled"
+  },
+  {
+    "name": "browser.backup.sqlite.pages_per_step"
+  },
+  {
+    "name": "browser.backup.sqlite.step_delay_ms"
+  },
+  {
+    "name": "browser.backup.tab-flush-timeout"
+  },
+  {
+    "name": "browser.backup.template.fallback-download.aurora"
+  },
+  {
+    "name": "browser.backup.template.fallback-download.beta"
+  },
+  {
+    "name": "browser.backup.template.fallback-download.esr"
+  },
+  {
+    "name": "browser.backup.template.fallback-download.nightly"
+  },
+  {
+    "name": "browser.backup.template.fallback-download.release"
+  },
+  {
+    "name": "browser.bookmarks.autoExportHTML"
+  },
+  {
+    "name": "browser.bookmarks.defaultLocation"
+  },
+  {
+    "name": "browser.bookmarks.editDialog.firstEditField"
+  },
+  {
+    "name": "browser.bookmarks.editDialog.maxRecentFolders"
+  },
+  {
+    "name": "browser.bookmarks.editDialog.showForNewBookmarks"
+  },
+  {
+    "name": "browser.bookmarks.max_backups"
+  },
+  {
+    "name": "browser.bookmarks.openInTabClosesMenu"
+  },
+  {
+    "name": "browser.cache.disk_cache_ssl"
+  },
+  {
+    "name": "browser.cache.frecency_half_life_hours"
+  },
+  {
+    "name": "browser.chrome.site_icons"
+  },
+  {
+    "name": "browser.compactmode.show"
+  },
+  {
+    "name": "browser.contentblocking.cfr-milestone.enabled"
+  },
+  {
+    "name": "browser.contentblocking.cfr-milestone.milestone-achieved"
+  },
+  {
+    "name": "browser.contentblocking.cfr-milestone.milestones"
+  },
+  {
+    "name": "browser.contentblocking.cryptomining.preferences.ui.enabled"
+  },
+  {
+    "name": "browser.contentblocking.database.enabled"
+  },
+  {
+    "name": "browser.contentblocking.features.strict"
+  },
+  {
+    "name": "browser.contentblocking.fingerprinting.preferences.ui.enabled"
+  },
+  {
+    "name": "browser.contentblocking.reject-and-isolate-cookies.preferences.ui.enabled"
+  },
+  {
+    "name": "browser.contentblocking.report.cookie.url"
+  },
+  {
+    "name": "browser.contentblocking.report.cryptominer.url"
+  },
+  {
+    "name": "browser.contentblocking.report.endpoint_url"
+  },
+  {
+    "name": "browser.contentblocking.report.fingerprinter.url"
+  },
+  {
+    "name": "browser.contentblocking.report.hide_vpn_banner"
+  },
+  {
+    "name": "browser.contentblocking.report.lockwise.enabled"
+  },
+  {
+    "name": "browser.contentblocking.report.lockwise.how_it_works.url"
+  },
+  {
+    "name": "browser.contentblocking.report.manage_devices.url"
+  },
+  {
+    "name": "browser.contentblocking.report.mobile-android.url"
+  },
+  {
+    "name": "browser.contentblocking.report.mobile-ios.url"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.enabled"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.home_page_url"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.how_it_works.url"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.preferences_url"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.sign_in_url"
+  },
+  {
+    "name": "browser.contentblocking.report.monitor.url"
+  },
+  {
+    "name": "browser.contentblocking.report.proxy.enabled"
+  },
+  {
+    "name": "browser.contentblocking.report.proxy_extension.url"
+  },
+  {
+    "name": "browser.contentblocking.report.show_mobile_app"
+  },
+  {
+    "name": "browser.contentblocking.report.social.url"
+  },
+  {
+    "name": "browser.contentblocking.report.tracker.url"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn-android.url"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn-ios.url"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn-promo.url"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn.url"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn_regions"
+  },
+  {
+    "name": "browser.contentblocking.report.vpn_sub_id"
+  },
+  {
+    "name": "browser.contextual-password-manager.enabled"
+  },
+  {
+    "name": "browser.contextual-services.contextId.rotation-in-days"
+  },
+  {
+    "name": "browser.contextual-services.contextId.rust-component.enabled"
+  },
+  {
+    "name": "browser.crashReports.unsubmittedCheck.autoSubmit2"
+  },
+  {
+    "name": "browser.crashReports.unsubmittedCheck.chancesUntilSuppress"
+  },
+  {
+    "name": "browser.crashReports.unsubmittedCheck.enabled"
+  },
+  {
+    "name": "browser.ctrlTab.sortByRecentlyUsed"
+  },
+  {
+    "name": "browser.dataFeatureRecommendations.enabled"
+  },
+  {
+    "name": "browser.dictionaries.download.url"
+  },
+  {
+    "name": "browser.discovery.containers.enabled"
+  },
+  {
+    "name": "browser.discovery.enabled"
+  },
+  {
+    "name": "browser.discovery.sites"
+  },
+  {
+    "name": "browser.dom.window.dump.enabled"
+  },
+  {
+    "name": "browser.download.alwaysOpenInSystemViewerContextMenuItem"
+  },
+  {
+    "name": "browser.download.alwaysOpenPanel"
+  },
+  {
+    "name": "browser.download.autohideButton"
+  },
+  {
+    "name": "browser.download.clearHistoryOnDelete"
+  },
+  {
+    "name": "browser.download.folderList"
+  },
+  {
+    "name": "browser.download.forbid_open_with"
+  },
+  {
+    "name": "browser.download.manager.addToRecentDocs"
+  },
+  {
+    "name": "browser.download.manager.resumeOnWakeDelay"
+  },
+  {
+    "name": "browser.download.openInSystemViewerContextMenuItem"
+  },
+  {
+    "name": "browser.download.panel.shown"
+  },
+  {
+    "name": "browser.download.saveLinkAsFilenameTimeout"
+  },
+  {
+    "name": "browser.download.useDownloadDir"
+  },
+  {
+    "name": "browser.download.viewableInternally.enabledTypes"
+  },
+  {
+    "name": "browser.drag_out_of_frame_style"
+  },
+  {
+    "name": "browser.eme.ui.enabled"
+  },
+  {
+    "name": "browser.engagement.ctrlTab.has-used"
+  },
+  {
+    "name": "browser.engagement.downloads-button.has-used"
+  },
+  {
+    "name": "browser.engagement.fxa-toolbar-menu-button.has-used"
+  },
+  {
+    "name": "browser.engagement.home-button.has-used"
+  },
+  {
+    "name": "browser.engagement.library-button.has-used"
+  },
+  {
+    "name": "browser.engagement.recent_visited_origins.expiry"
+  },
+  {
+    "name": "browser.engagement.sidebar-button.has-used"
+  },
+  {
+    "name": "browser.esedbreader.loglevel"
+  },
+  {
+    "name": "browser.firefox-view.feature-tour"
+  },
+  {
+    "name": "browser.firefox-view.max-history-rows"
+  },
+  {
+    "name": "browser.firefox-view.view-count"
+  },
+  {
+    "name": "browser.firefox-view.virtual-list.enabled"
+  },
+  {
+    "name": "browser.fixup.alternate.prefix"
+  },
+  {
+    "name": "browser.fixup.alternate.protocol"
+  },
+  {
+    "name": "browser.fixup.alternate.suffix"
+  },
+  {
+    "name": "browser.fixup.dns_first_for_single_words"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.example"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.internal"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.invalid"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.local"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.localhost"
+  },
+  {
+    "name": "browser.fixup.domainsuffixwhitelist.test"
+  },
+  {
+    "name": "browser.fixup.domainwhitelist.localhost"
+  },
+  {
+    "name": "browser.fixup.fallback-to-https"
+  },
+  {
+    "name": "browser.formfill.agedWeight"
+  },
+  {
+    "name": "browser.formfill.boundaryWeight"
+  },
+  {
+    "name": "browser.formfill.bucketSize"
+  },
+  {
+    "name": "browser.formfill.debug"
+  },
+  {
+    "name": "browser.formfill.enable"
+  },
+  {
+    "name": "browser.formfill.expire_days"
+  },
+  {
+    "name": "browser.formfill.maxTimeGroupings"
+  },
+  {
+    "name": "browser.formfill.prefixWeight"
+  },
+  {
+    "name": "browser.formfill.timeGroupingSize"
+  },
+  {
+    "name": "browser.fullscreen.autohide"
+  },
+  {
+    "name": "browser.geolocation.warning.infoURL"
+  },
+  {
+    "name": "browser.gesture.pinch.in"
+  },
+  {
+    "name": "browser.gesture.pinch.in.shift"
+  },
+  {
+    "name": "browser.gesture.pinch.latched"
+  },
+  {
+    "name": "browser.gesture.pinch.out"
+  },
+  {
+    "name": "browser.gesture.pinch.out.shift"
+  },
+  {
+    "name": "browser.gesture.pinch.threshold"
+  },
+  {
+    "name": "browser.gesture.swipe.down"
+  },
+  {
+    "name": "browser.gesture.swipe.left"
+  },
+  {
+    "name": "browser.gesture.swipe.right"
+  },
+  {
+    "name": "browser.gesture.swipe.up"
+  },
+  {
+    "name": "browser.gesture.tap"
+  },
+  {
+    "name": "browser.gesture.twist.end"
+  },
+  {
+    "name": "browser.gesture.twist.latched"
+  },
+  {
+    "name": "browser.gesture.twist.left"
+  },
+  {
+    "name": "browser.gesture.twist.right"
+  },
+  {
+    "name": "browser.gesture.twist.threshold"
+  },
+  {
+    "name": "browser.helperApps.deleteTempFileOnExit"
+  },
+  {
+    "name": "browser.helperApps.neverAsk.openFile"
+  },
+  {
+    "name": "browser.helperApps.neverAsk.saveToDisk"
+  },
+  {
+    "name": "browser.helperApps.showOpenOptionForPdfJS"
+  },
+  {
+    "name": "browser.helperApps.showOpenOptionForViewableInternally"
+  },
+  {
+    "name": "browser.history_swipe_animation.disabled"
+  },
+  {
+    "name": "browser.ipProtection.added"
+  },
+  {
+    "name": "browser.ipProtection.autoStartEnabled"
+  },
+  {
+    "name": "browser.ipProtection.autoStartPrivateEnabled"
+  },
+  {
+    "name": "browser.ipProtection.enabled"
+  },
+  {
+    "name": "browser.ipProtection.features.autoStart"
+  },
+  {
+    "name": "browser.ipProtection.features.siteExceptions"
+  },
+  {
+    "name": "browser.ipProtection.guardian.endpoint"
+  },
+  {
+    "name": "browser.ipProtection.log"
+  },
+  {
+    "name": "browser.ipProtection.optedOut"
+  },
+  {
+    "name": "browser.ipProtection.panelOpenCount"
+  },
+  {
+    "name": "browser.ipProtection.userEnabled"
+  },
+  {
+    "name": "browser.ipProtection.variant"
+  },
+  {
+    "name": "browser.laterrun.enabled"
+  },
+  {
+    "name": "browser.link.alternative_click.block_javascript"
+  },
+  {
+    "name": "browser.link.force_default_user_context_id_for_external_opens"
+  },
+  {
+    "name": "browser.link.open_newwindow"
+  },
+  {
+    "name": "browser.link.open_newwindow.disabled_in_fullscreen"
+  },
+  {
+    "name": "browser.link.open_newwindow.override.external"
+  },
+  {
+    "name": "browser.link.open_newwindow.restriction"
+  },
+  {
+    "name": "browser.lna.warning.infoURL"
+  },
+  {
+    "name": "browser.mailto.dualPrompt"
+  },
+  {
+    "name": "browser.mailto.dualPrompt.dismissNotNowMinutes"
+  },
+  {
+    "name": "browser.mailto.dualPrompt.dismissXClickMinutes"
+  },
+  {
+    "name": "browser.mailto.dualPrompt.onLocationChange"
+  },
+  {
+    "name": "browser.menu.showViewImageInfo"
+  },
+  {
+    "name": "browser.meta_refresh_when_inactive.disabled"
+  },
+  {
+    "name": "browser.migrate.bookmarks-file.enabled"
+  },
+  {
+    "name": "browser.migrate.brave.enabled"
+  },
+  {
+    "name": "browser.migrate.canary.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome-beta.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome-dev.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome.extensions.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome.get_permissions.enabled"
+  },
+  {
+    "name": "browser.migrate.chrome.history.limit"
+  },
+  {
+    "name": "browser.migrate.chrome.payment_methods.enabled"
+  },
+  {
+    "name": "browser.migrate.chromium-360se.enabled"
+  },
+  {
+    "name": "browser.migrate.chromium-edge-beta.enabled"
+  },
+  {
+    "name": "browser.migrate.chromium-edge.enabled"
+  },
+  {
+    "name": "browser.migrate.chromium.enabled"
+  },
+  {
+    "name": "browser.migrate.content-modal.about-welcome-behavior"
+  },
+  {
+    "name": "browser.migrate.content-modal.import-all.enabled"
+  },
+  {
+    "name": "browser.migrate.edge.enabled"
+  },
+  {
+    "name": "browser.migrate.firefox.enabled"
+  },
+  {
+    "name": "browser.migrate.history.maxAgeInDays"
+  },
+  {
+    "name": "browser.migrate.ie.enabled"
+  },
+  {
+    "name": "browser.migrate.interactions.bookmarks"
+  },
+  {
+    "name": "browser.migrate.interactions.csvpasswords"
+  },
+  {
+    "name": "browser.migrate.interactions.history"
+  },
+  {
+    "name": "browser.migrate.interactions.passwords"
+  },
+  {
+    "name": "browser.migrate.opera-gx.enabled"
+  },
+  {
+    "name": "browser.migrate.opera.enabled"
+  },
+  {
+    "name": "browser.migrate.preferences-entrypoint.enabled"
+  },
+  {
+    "name": "browser.migrate.safari.enabled"
+  },
+  {
+    "name": "browser.migrate.vivaldi.enabled"
+  },
+  {
+    "name": "browser.ml.chat.enabled"
+  },
+  {
+    "name": "browser.ml.chat.hideLocalhost"
+  },
+  {
+    "name": "browser.ml.chat.maxLength"
+  },
+  {
+    "name": "browser.ml.chat.menu"
+  },
+  {
+    "name": "browser.ml.chat.page"
+  },
+  {
+    "name": "browser.ml.chat.page.footerBadge"
+  },
+  {
+    "name": "browser.ml.chat.page.menuBadge"
+  },
+  {
+    "name": "browser.ml.chat.prompt.prefix"
+  },
+  {
+    "name": "browser.ml.chat.prompts.0"
+  },
+  {
+    "name": "browser.ml.chat.prompts.1"
+  },
+  {
+    "name": "browser.ml.chat.prompts.3"
+  },
+  {
+    "name": "browser.ml.chat.prompts.4"
+  },
+  {
+    "name": "browser.ml.chat.provider"
+  },
+  {
+    "name": "browser.ml.chat.shortcut.onboardingMouseoverCount"
+  },
+  {
+    "name": "browser.ml.chat.shortcuts"
+  },
+  {
+    "name": "browser.ml.chat.shortcuts.custom"
+  },
+  {
+    "name": "browser.ml.chat.shortcuts.longPress"
+  },
+  {
+    "name": "browser.ml.chat.sidebar"
+  },
+  {
+    "name": "browser.ml.checkForMemory"
+  },
+  {
+    "name": "browser.ml.enable"
+  },
+  {
+    "name": "browser.ml.linkPreview.allowedLanguages"
+  },
+  {
+    "name": "browser.ml.linkPreview.blockListEnabled"
+  },
+  {
+    "name": "browser.ml.linkPreview.collapsed"
+  },
+  {
+    "name": "browser.ml.linkPreview.enabled"
+  },
+  {
+    "name": "browser.ml.linkPreview.ignoreMs"
+  },
+  {
+    "name": "browser.ml.linkPreview.longPress"
+  },
+  {
+    "name": "browser.ml.linkPreview.longPressMs"
+  },
+  {
+    "name": "browser.ml.linkPreview.noKeyPointsRegions"
+  },
+  {
+    "name": "browser.ml.linkPreview.optin"
+  },
+  {
+    "name": "browser.ml.linkPreview.outputSentences"
+  },
+  {
+    "name": "browser.ml.linkPreview.recentTypingMs"
+  },
+  {
+    "name": "browser.ml.linkPreview.shift"
+  },
+  {
+    "name": "browser.ml.linkPreview.shiftAlt"
+  },
+  {
+    "name": "browser.ml.linkPreview.supportedLocales"
+  },
+  {
+    "name": "browser.ml.logLevel"
+  },
+  {
+    "name": "browser.ml.minimumPhysicalMemory"
+  },
+  {
+    "name": "browser.ml.modelCacheMaxSize"
+  },
+  {
+    "name": "browser.ml.modelCacheTimeout"
+  },
+  {
+    "name": "browser.ml.modelHubRootUrl"
+  },
+  {
+    "name": "browser.ml.modelHubUrlTemplate"
+  },
+  {
+    "name": "browser.ml.overridePipelineOptions"
+  },
+  {
+    "name": "browser.ml.pageAssist.enabled"
+  },
+  {
+    "name": "browser.ml.smartAssist.apiKey"
+  },
+  {
+    "name": "browser.ml.smartAssist.enabled"
+  },
+  {
+    "name": "browser.ml.smartAssist.endpoint"
+  },
+  {
+    "name": "browser.ml.smartAssist.model"
+  },
+  {
+    "name": "browser.ml.smartAssist.overrideNewTab"
+  },
+  {
+    "name": "browser.newtab.preload"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.providers.cfr"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.providers.message-groups"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.providers.messaging-experiments"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.providers.onboarding"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.useRemoteL10n"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.compactGrid.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.compactImages.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.contile-topsites-positions"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.ctaButtonSponsors"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.ctaButtonVariant"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.descLines"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.fourCardLayout.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.hardcoded-basic-layout"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.hideCardBackground.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.hideDescriptions.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.hideDescriptionsRegions"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.hybridLayout.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.imageGradient.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.imageProxy.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.locale-list-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.locale-weather-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.merino-feed-experiment"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.merino-provider.endpoint"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.merino-provider.ohttp.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.newFooterSection.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.newSponsoredLabel.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.ohttp.configURL"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.ohttp.relayURL"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.personalization.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.personalization.modelKeys"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.personalization.override"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.contextualBanners"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.contextualBanners.counts"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.contextualSpocs"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.contextualSpocs.counts"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.spocs"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.spocs.counts"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.tiles"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.placements.tiles.counts"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.pocket-feed-parameters"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.promoCard.visible"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.publisherFavicon.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.readTime.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.recs.personalized"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.refinedCardsLayout.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.region-basic-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.region-spocs-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.region-stories-block"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.region-stories-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.region-weather-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.reportAds.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.cards.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.contextualAds.locale-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.contextualAds.region-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.interestPicker.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.interestPicker.visibleSections"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.locale-content-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.personalization.inferred.locale-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.personalization.inferred.model.override"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.personalization.inferred.region-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.personalization.inferred.user.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.sections.region-content-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spoc-positions"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocAdTypes"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocSiteId"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocZoneIds"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocs-endpoint"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocs-endpoint-query"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.spocs.personalized"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.thumbsUpDown.locale-thumbs-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.thumbsUpDown.region-thumbs-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.thumbsUpDown.searchTopsitesCompact"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.titleLines"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.topicLabels.locale-topic-label-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.topicLabels.region-topic-label-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.topicSelection.locale-topics-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.topicSelection.onboarding.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.topicSelection.region-topics-config"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.discoverystream.widget-positions"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.externalComponents.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.feeds.section.topstories"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.feeds.telemetry"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.feeds.topsites"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.fxaccounts.endpoint"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.hideTopSitesWithSearchParam"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.images.smart"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.logowordmark.alwaysVisible"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.mobileDownloadModal.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.mobileDownloadModal.variant-a"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.mobileDownloadModal.variant-b"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.mobileDownloadModal.variant-c"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newNewtabExperience.colors"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customColor.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.fileSize"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.fileSize.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.theme"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.uuid"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightContentText"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightCtaText"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightDismissed"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightEnabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightHeaderText"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.highlightSeenCounter"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.newtabWallpapers.wallpaper"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.search.useHandoffComponent"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.showSponsoredCheckboxes"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.showWeather"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.system.showWeather"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry.privatePing.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry.privatePing.inferredInterests.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry.privatePing.maxSubmissionDelayMs"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry.privatePing.redactNewtabPing.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.telemetry.surfaceId"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.unifiedAds.adsFeed.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.unifiedAds.endpoint"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.unifiedAds.ohttp.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.unifiedAds.spocs.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.unifiedAds.tiles.enabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.weather.display"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.weather.locationSearchEnabled"
+  },
+  {
+    "name": "browser.newtabpage.activity-stream.weather.query"
+  },
+  {
+    "name": "browser.newtabpage.resource-mapping.log"
+  },
+  {
+    "name": "browser.newtabpage.sponsor-protection.enabled"
+  },
+  {
+    "name": "browser.newtabpage.trainhopAddon.xpiBaseURL"
+  },
+  {
+    "name": "browser.overlink-delay"
+  },
+  {
+    "name": "browser.partnerlink.attributionURL"
+  },
+  {
+    "name": "browser.partnerlink.campaign.topsites"
+  },
+  {
+    "name": "browser.pdfjs.feature-tour"
+  },
+  {
+    "name": "browser.ping-centre.telemetry"
+  },
+  {
+    "name": "browser.places.interactions.enabled"
+  },
+  {
+    "name": "browser.places.speculativeConnect.enabled"
+  },
+  {
+    "name": "browser.preferences.aiControls"
+  },
+  {
+    "name": "browser.preferences.defaultPerformanceSettings.enabled"
+  },
+  {
+    "name": "browser.preferences.experimental"
+  },
+  {
+    "name": "browser.preferences.experimental.hidden"
+  },
+  {
+    "name": "browser.preferences.moreFromMozilla"
+  },
+  {
+    "name": "browser.preonboarding.enabled"
+  },
+  {
+    "name": "browser.privacySegmentation.preferences.show"
+  },
+  {
+    "name": "browser.privateWindowSeparation.enabled"
+  },
+  {
+    "name": "browser.privatebrowsing.felt-privacy-v1"
+  },
+  {
+    "name": "browser.privatebrowsing.forceMediaMemoryCache"
+  },
+  {
+    "name": "browser.privatebrowsing.resetPBM.enabled"
+  },
+  {
+    "name": "browser.privatebrowsing.resetPBM.showConfirmationDialog"
+  },
+  {
+    "name": "browser.privatebrowsing.vpnpromourl"
+  },
+  {
+    "name": "browser.profiles.enabled"
+  },
+  {
+    "name": "browser.profiles.forceEnableRefresh"
+  },
+  {
+    "name": "browser.profiles.profile-name.updated"
+  },
+  {
+    "name": "browser.profiles.sync.allow-danger-merge"
+  },
+  {
+    "name": "browser.promo.cookiebanners.enabled"
+  },
+  {
+    "name": "browser.promo.focus.disallowed_regions"
+  },
+  {
+    "name": "browser.promo.focus.enabled"
+  },
+  {
+    "name": "browser.promo.pin.enabled"
+  },
+  {
+    "name": "browser.protections_panel.infoMessage.seen"
+  },
+  {
+    "name": "browser.proton.toolbar.version"
+  },
+  {
+    "name": "browser.quitShortcut.disabled"
+  },
+  {
+    "name": "browser.region.log"
+  },
+  {
+    "name": "browser.region.network.scan"
+  },
+  {
+    "name": "browser.region.network.url"
+  },
+  {
+    "name": "browser.region.timeout"
+  },
+  {
+    "name": "browser.region.update.enabled"
+  },
+  {
+    "name": "browser.safebrowsing.allowOverride"
+  },
+  {
+    "name": "browser.safebrowsing.debug"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.enabled"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.block_dangerous"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.block_dangerous_host"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.block_potentially_unwanted"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.block_uncommon"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.enabled"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.timeout_ms"
+  },
+  {
+    "name": "browser.safebrowsing.downloads.remote.url"
+  },
+  {
+    "name": "browser.safebrowsing.id"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.advisoryName"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.advisoryURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.gethashURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.lists"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.pver"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.reportMalwareMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.reportPhishMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.reportURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google.updateURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.advisoryName"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.advisoryURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.dataSharing.enabled"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.dataSharingURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.gethashURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.lists"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.pver"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.reportMalwareMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.reportPhishMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.reportURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google4.updateURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.advisoryName"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.advisoryURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.enabled"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.gethashURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.lists"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.reportMalwareMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.reportPhishMistakeURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.reportURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.google5.updateURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.gethashURL"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.lists"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.lists.base"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.lists.content"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.nextupdatetime"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.pver"
+  },
+  {
+    "name": "browser.safebrowsing.provider.mozilla.updateURL"
+  },
+  {
+    "name": "browser.safebrowsing.reportPhishURL"
+  },
+  {
+    "name": "browser.sanitizer.loglevel"
+  },
+  {
+    "name": "browser.screenshots.dir"
+  },
+  {
+    "name": "browser.screenshots.folderList"
+  },
+  {
+    "name": "browser.search.context.loadInBackground"
+  },
+  {
+    "name": "browser.search.log"
+  },
+  {
+    "name": "browser.search.openintab"
+  },
+  {
+    "name": "browser.search.removeEngineInfobar.enabled"
+  },
+  {
+    "name": "browser.search.searchEnginesURL"
+  },
+  {
+    "name": "browser.search.separatePrivateDefault"
+  },
+  {
+    "name": "browser.search.separatePrivateDefault.ui.banner.max"
+  },
+  {
+    "name": "browser.search.separatePrivateDefault.ui.enabled"
+  },
+  {
+    "name": "browser.search.serpEventTelemetryCategorization.enabled"
+  },
+  {
+    "name": "browser.search.serpMetricsRecordedCounter"
+  },
+  {
+    "name": "browser.search.suggest.enabled"
+  },
+  {
+    "name": "browser.search.suggest.enabled.private"
+  },
+  {
+    "name": "browser.search.totalSearches"
+  },
+  {
+    "name": "browser.search.update"
+  },
+  {
+    "name": "browser.search.visualSearch.featureGate"
+  },
+  {
+    "name": "browser.search.widget.new"
+  },
+  {
+    "name": "browser.search.widget.removeAfterDaysUnused"
+  },
+  {
+    "name": "browser.send_pings"
+  },
+  {
+    "name": "browser.send_pings.max_per_link"
+  },
+  {
+    "name": "browser.send_pings.require_same_host"
+  },
+  {
+    "name": "browser.send_to_device_locales"
+  },
+  {
+    "name": "browser.sessionhistory.max_entries"
+  },
+  {
+    "name": "browser.sessionhistory.max_total_viewers"
+  },
+  {
+    "name": "browser.sessionstore.cleanup.forget_closed_after"
+  },
+  {
+    "name": "browser.sessionstore.closedTabsFromAllWindows"
+  },
+  {
+    "name": "browser.sessionstore.closedTabsFromClosedWindows"
+  },
+  {
+    "name": "browser.sessionstore.debug"
+  },
+  {
+    "name": "browser.sessionstore.idleDelay"
+  },
+  {
+    "name": "browser.sessionstore.interval.idle"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.console"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.dump"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.file.level"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.file.logOnError"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.file.logOnSuccess"
+  },
+  {
+    "name": "browser.sessionstore.log.appender.file.maxErrorAge"
+  },
+  {
+    "name": "browser.sessionstore.logFlushIntervalSeconds"
+  },
+  {
+    "name": "browser.sessionstore.loglevel"
+  },
+  {
+    "name": "browser.sessionstore.max_resumed_crashes"
+  },
+  {
+    "name": "browser.sessionstore.max_serialize_back"
+  },
+  {
+    "name": "browser.sessionstore.max_serialize_forward"
+  },
+  {
+    "name": "browser.sessionstore.max_tabs_undo"
+  },
+  {
+    "name": "browser.sessionstore.max_windows_undo"
+  },
+  {
+    "name": "browser.sessionstore.persist_closed_tabs_between_sessions"
+  },
+  {
+    "name": "browser.sessionstore.privacy_level"
+  },
+  {
+    "name": "browser.sessionstore.restore_hidden_tabs"
+  },
+  {
+    "name": "browser.sessionstore.restore_on_demand"
+  },
+  {
+    "name": "browser.sessionstore.restore_pinned_tabs_on_demand"
+  },
+  {
+    "name": "browser.sessionstore.restore_tabs_lazily"
+  },
+  {
+    "name": "browser.sessionstore.resume_from_crash"
+  },
+  {
+    "name": "browser.sessionstore.resume_session_once"
+  },
+  {
+    "name": "browser.sessionstore.resuming_after_os_restart"
+  },
+  {
+    "name": "browser.sessionstore.upgradeBackup.latestBuildID"
+  },
+  {
+    "name": "browser.sessionstore.upgradeBackup.maxUpgradeBackups"
+  },
+  {
+    "name": "browser.settings-redesign.enabled"
+  },
+  {
+    "name": "browser.shell.checkDefaultBrowser"
+  },
+  {
+    "name": "browser.shell.defaultBrowserCheckCount"
+  },
+  {
+    "name": "browser.shell.didSkipDefaultBrowserCheckOnFirstRun"
+  },
+  {
+    "name": "browser.shell.mostRecentDateSetAsDefault"
+  },
+  {
+    "name": "browser.shell.shortcutFavicons"
+  },
+  {
+    "name": "browser.shell.skipDefaultBrowserCheckOnFirstRun"
+  },
+  {
+    "name": "browser.spin_cursor_while_busy"
+  },
+  {
+    "name": "browser.startup.blankWindow"
+  },
+  {
+    "name": "browser.startup.couldRestoreSession.count"
+  },
+  {
+    "name": "browser.startup.firstrunSkipsHomepage"
+  },
+  {
+    "name": "browser.startup.homepage"
+  },
+  {
+    "name": "browser.startup.homepage.abouthome_cache.enabled"
+  },
+  {
+    "name": "browser.startup.homepage.abouthome_cache.loglevel"
+  },
+  {
+    "name": "browser.startup.page"
+  },
+  {
+    "name": "browser.startup.upgradeDialog.enabled"
+  },
+  {
+    "name": "browser.storageManager.pressureNotification.minIntervalMS"
+  },
+  {
+    "name": "browser.storageManager.pressureNotification.usageThresholdGB"
+  },
+  {
+    "name": "browser.suppress_first_window_animation"
+  },
+  {
+    "name": "browser.swipe.navigation-icon-end-position"
+  },
+  {
+    "name": "browser.swipe.navigation-icon-max-radius"
+  },
+  {
+    "name": "browser.swipe.navigation-icon-min-radius"
+  },
+  {
+    "name": "browser.swipe.navigation-icon-start-position"
+  },
+  {
+    "name": "browser.tabs.allowTabDetach"
+  },
+  {
+    "name": "browser.tabs.allow_transparent_browser"
+  },
+  {
+    "name": "browser.tabs.closeTabByDblclick"
+  },
+  {
+    "name": "browser.tabs.closeWindowWithLastTab"
+  },
+  {
+    "name": "browser.tabs.context.close-duplicate.enabled"
+  },
+  {
+    "name": "browser.tabs.crashReporting.includeURL"
+  },
+  {
+    "name": "browser.tabs.crashReporting.sendReport"
+  },
+  {
+    "name": "browser.tabs.delayHidingAudioPlayingIconMS"
+  },
+  {
+    "name": "browser.tabs.dragDrop.createGroup.delayMS"
+  },
+  {
+    "name": "browser.tabs.dragDrop.dragToPin.enabled"
+  },
+  {
+    "name": "browser.tabs.dragDrop.expandGroup.delayMS"
+  },
+  {
+    "name": "browser.tabs.dragDrop.moveOverThresholdPercent"
+  },
+  {
+    "name": "browser.tabs.dragDrop.multiselectStacking"
+  },
+  {
+    "name": "browser.tabs.dragDrop.pinInteractionCue.delayMS"
+  },
+  {
+    "name": "browser.tabs.dragDrop.selectTab.delayMS"
+  },
+  {
+    "name": "browser.tabs.fadeOutExplicitlyUnloadedTabs"
+  },
+  {
+    "name": "browser.tabs.fadeOutUnloadedTabs"
+  },
+  {
+    "name": "browser.tabs.firefox-view.logLevel"
+  },
+  {
+    "name": "browser.tabs.groups.enabled"
+  },
+  {
+    "name": "browser.tabs.groups.hoverPreview.enabled"
+  },
+  {
+    "name": "browser.tabs.groups.smart.embeddingModelRevision"
+  },
+  {
+    "name": "browser.tabs.groups.smart.enabled"
+  },
+  {
+    "name": "browser.tabs.groups.smart.nearestNeighborThresholdInt"
+  },
+  {
+    "name": "browser.tabs.groups.smart.optin"
+  },
+  {
+    "name": "browser.tabs.groups.smart.searchTopicEnabled"
+  },
+  {
+    "name": "browser.tabs.groups.smart.suggestOtherTabsMethod"
+  },
+  {
+    "name": "browser.tabs.groups.smart.topicModelRevision"
+  },
+  {
+    "name": "browser.tabs.groups.smart.userEnabled"
+  },
+  {
+    "name": "browser.tabs.hoverPreview.enabled"
+  },
+  {
+    "name": "browser.tabs.hoverPreview.showThumbnails"
+  },
+  {
+    "name": "browser.tabs.insertAfterCurrent"
+  },
+  {
+    "name": "browser.tabs.insertAfterCurrentExceptPinned"
+  },
+  {
+    "name": "browser.tabs.insertRelatedAfterCurrent"
+  },
+  {
+    "name": "browser.tabs.loadBookmarksInBackground"
+  },
+  {
+    "name": "browser.tabs.loadBookmarksInTabs"
+  },
+  {
+    "name": "browser.tabs.loadDivertedInBackground"
+  },
+  {
+    "name": "browser.tabs.maxOpenBeforeWarn"
+  },
+  {
+    "name": "browser.tabs.min_inactive_duration_before_unload"
+  },
+  {
+    "name": "browser.tabs.notes.enabled"
+  },
+  {
+    "name": "browser.tabs.remote.enforceRemoteTypeRestrictions"
+  },
+  {
+    "name": "browser.tabs.remote.separatePrivilegedContentProcess"
+  },
+  {
+    "name": "browser.tabs.remote.separatePrivilegedMozillaWebContentProcess"
+  },
+  {
+    "name": "browser.tabs.remote.separatedMozillaDomains"
+  },
+  {
+    "name": "browser.tabs.remote.tabCacheSize"
+  },
+  {
+    "name": "browser.tabs.remote.warmup.enabled"
+  },
+  {
+    "name": "browser.tabs.remote.warmup.maxTabs"
+  },
+  {
+    "name": "browser.tabs.remote.warmup.unloadDelayMs"
+  },
+  {
+    "name": "browser.tabs.remoteSVGIconDecoding"
+  },
+  {
+    "name": "browser.tabs.searchclipboardfor.middleclick"
+  },
+  {
+    "name": "browser.tabs.secondaryTextUnsupportedLocales"
+  },
+  {
+    "name": "browser.tabs.selectOwnerOnClose"
+  },
+  {
+    "name": "browser.tabs.splitView.enabled"
+  },
+  {
+    "name": "browser.tabs.tabClipWidth"
+  },
+  {
+    "name": "browser.tabs.tabMinWidth"
+  },
+  {
+    "name": "browser.tabs.tooltipsShowPidAndActiveness"
+  },
+  {
+    "name": "browser.tabs.unloadOnLowMemory"
+  },
+  {
+    "name": "browser.tabs.unloadTabInContextMenu"
+  },
+  {
+    "name": "browser.tabs.warnOnClose"
+  },
+  {
+    "name": "browser.tabs.warnOnCloseOtherTabs"
+  },
+  {
+    "name": "browser.tabs.warnOnOpen"
+  },
+  {
+    "name": "browser.taskbarTabs.enabled"
+  },
+  {
+    "name": "browser.theme.dark-private-windows"
+  },
+  {
+    "name": "browser.theme.forced-colors-override.enabled"
+  },
+  {
+    "name": "browser.toolbars.bookmarks.showOtherBookmarks"
+  },
+  {
+    "name": "browser.toolbars.bookmarks.visibility"
+  },
+  {
+    "name": "browser.toolbars.keyboard_navigation"
+  },
+  {
+    "name": "browser.topsites.component.enabled"
+  },
+  {
+    "name": "browser.topsites.contile.enabled"
+  },
+  {
+    "name": "browser.topsites.contile.endpoint"
+  },
+  {
+    "name": "browser.topsites.useRemoteSetting"
+  },
+  {
+    "name": "browser.touchmode.auto"
+  },
+  {
+    "name": "browser.translation.neverForLanguages"
+  },
+  {
+    "name": "browser.translations.alwaysTranslateLanguages"
+  },
+  {
+    "name": "browser.translations.automaticallyPopup"
+  },
+  {
+    "name": "browser.translations.chaos.errors"
+  },
+  {
+    "name": "browser.translations.chaos.timeoutMS"
+  },
+  {
+    "name": "browser.translations.enable"
+  },
+  {
+    "name": "browser.translations.logLevel"
+  },
+  {
+    "name": "browser.translations.mostRecentTargetLanguages"
+  },
+  {
+    "name": "browser.translations.neverTranslateLanguages"
+  },
+  {
+    "name": "browser.translations.newSettingsUI.enable"
+  },
+  {
+    "name": "browser.translations.quickAction.enabled"
+  },
+  {
+    "name": "browser.translations.select.enable"
+  },
+  {
+    "name": "browser.translations.simulateUnsupportedEngine"
+  },
+  {
+    "name": "browser.translations.useHTML"
+  },
+  {
+    "name": "browser.translations.useLexicalShortlist"
+  },
+  {
+    "name": "browser.triple_click_selects_paragraph"
+  },
+  {
+    "name": "browser.uiCustomization.debug"
+  },
+  {
+    "name": "browser.uiCustomization.state"
+  },
+  {
+    "name": "browser.uidensity"
+  },
+  {
+    "name": "browser.uitour.enabled"
+  },
+  {
+    "name": "browser.uitour.loglevel"
+  },
+  {
+    "name": "browser.uitour.surveyDuration"
+  },
+  {
+    "name": "browser.uitour.url"
+  },
+  {
+    "name": "browser.unexpectedScriptLoad.logLevel"
+  },
+  {
+    "name": "browser.urlbar.accessibility.tabToSearch.announceResults"
+  },
+  {
+    "name": "browser.urlbar.addons.featureGate"
+  },
+  {
+    "name": "browser.urlbar.addons.minKeywordLength"
+  },
+  {
+    "name": "browser.urlbar.allowSearchSuggestionsForSimpleOrigins"
+  },
+  {
+    "name": "browser.urlbar.amp.featureGate"
+  },
+  {
+    "name": "browser.urlbar.autoFill"
+  },
+  {
+    "name": "browser.urlbar.autoFill.adaptiveHistory.enabled"
+  },
+  {
+    "name": "browser.urlbar.autoFill.adaptiveHistory.minCharsThreshold"
+  },
+  {
+    "name": "browser.urlbar.clipboard.featureGate"
+  },
+  {
+    "name": "browser.urlbar.closeOnWindowBlur"
+  },
+  {
+    "name": "browser.urlbar.contextualSearch.enabled"
+  },
+  {
+    "name": "browser.urlbar.ctrlCanonizesURLs"
+  },
+  {
+    "name": "browser.urlbar.decodeURLsOnCopy"
+  },
+  {
+    "name": "browser.urlbar.deduplication.enabled"
+  },
+  {
+    "name": "browser.urlbar.deduplication.thresholdDays"
+  },
+  {
+    "name": "browser.urlbar.dnsResolveSingleWordsAfterSearch"
+  },
+  {
+    "name": "browser.urlbar.extension.timeout"
+  },
+  {
+    "name": "browser.urlbar.fakespot.featureGate"
+  },
+  {
+    "name": "browser.urlbar.filter.javascript"
+  },
+  {
+    "name": "browser.urlbar.flightStatus.featureGate"
+  },
+  {
+    "name": "browser.urlbar.focusContentDocumentOnEsc"
+  },
+  {
+    "name": "browser.urlbar.groupLabels.enabled"
+  },
+  {
+    "name": "browser.urlbar.importantDates.featureGate"
+  },
+  {
+    "name": "browser.urlbar.intentThreshold"
+  },
+  {
+    "name": "browser.urlbar.keepPanelOpenDuringImeComposition"
+  },
+  {
+    "name": "browser.urlbar.lastUrlbarSearchSeconds"
+  },
+  {
+    "name": "browser.urlbar.loglevel"
+  },
+  {
+    "name": "browser.urlbar.market.featureGate"
+  },
+  {
+    "name": "browser.urlbar.market.minKeywordLength"
+  },
+  {
+    "name": "browser.urlbar.maxCharsForSearchSuggestions"
+  },
+  {
+    "name": "browser.urlbar.maxHistoricalSearchSuggestions"
+  },
+  {
+    "name": "browser.urlbar.maxRichResults"
+  },
+  {
+    "name": "browser.urlbar.mdn.featureGate"
+  },
+  {
+    "name": "browser.urlbar.merino.clientVariants"
+  },
+  {
+    "name": "browser.urlbar.merino.endpointURL"
+  },
+  {
+    "name": "browser.urlbar.merino.ohttpConfigURL"
+  },
+  {
+    "name": "browser.urlbar.merino.ohttpRelayURL"
+  },
+  {
+    "name": "browser.urlbar.merino.providers"
+  },
+  {
+    "name": "browser.urlbar.merino.timeoutMs"
+  },
+  {
+    "name": "browser.urlbar.nerThreshold"
+  },
+  {
+    "name": "browser.urlbar.openintab"
+  },
+  {
+    "name": "browser.urlbar.perplexity.hasBeenInSearchMode"
+  },
+  {
+    "name": "browser.urlbar.quickactions.enabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.ampMatchingStrategy"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.ampTopPickCharThreshold"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.dismissedCount"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.firstReshowAfterPeriodDays"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.impressionCount"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.impressionDaysLimit"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.impressionLimit"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.secondReshowAfterPeriodDays"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.contextualOptIn.thirdReshowAfterPeriodDays"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.dynamicSuggestionTypes"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.enabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.impressionCaps.nonSponsoredEnabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.impressionCaps.sponsoredEnabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.mlEnabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.mlInitDelaySeconds"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.nonSponsoredIndex"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.online.available"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.online.enabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.rankingMode"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.rustEnabled"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.settingsUi"
+  },
+  {
+    "name": "browser.urlbar.quicksuggest.sponsoredIndex"
+  },
+  {
+    "name": "browser.urlbar.recentsearches.featureGate"
+  },
+  {
+    "name": "browser.urlbar.resultMenu.keyboardAccessible"
+  },
+  {
+    "name": "browser.urlbar.richSuggestions.featureGate"
+  },
+  {
+    "name": "browser.urlbar.richSuggestions.tail"
+  },
+  {
+    "name": "browser.urlbar.scotchBonnet.enableOverride"
+  },
+  {
+    "name": "browser.urlbar.shortcuts.bookmarks"
+  },
+  {
+    "name": "browser.urlbar.shortcuts.history"
+  },
+  {
+    "name": "browser.urlbar.shortcuts.tabs"
+  },
+  {
+    "name": "browser.urlbar.showSearchSuggestionsFirst"
+  },
+  {
+    "name": "browser.urlbar.showSearchTerms.enabled"
+  },
+  {
+    "name": "browser.urlbar.showSearchTerms.featureGate"
+  },
+  {
+    "name": "browser.urlbar.speculativeConnect.enabled"
+  },
+  {
+    "name": "browser.urlbar.sponsoredTopSites"
+  },
+  {
+    "name": "browser.urlbar.sports.featureGate"
+  },
+  {
+    "name": "browser.urlbar.suggest.addons"
+  },
+  {
+    "name": "browser.urlbar.suggest.amp"
+  },
+  {
+    "name": "browser.urlbar.suggest.bookmark"
+  },
+  {
+    "name": "browser.urlbar.suggest.calculator"
+  },
+  {
+    "name": "browser.urlbar.suggest.clipboard"
+  },
+  {
+    "name": "browser.urlbar.suggest.engines"
+  },
+  {
+    "name": "browser.urlbar.suggest.history"
+  },
+  {
+    "name": "browser.urlbar.suggest.importantDates"
+  },
+  {
+    "name": "browser.urlbar.suggest.mdn"
+  },
+  {
+    "name": "browser.urlbar.suggest.openpage"
+  },
+  {
+    "name": "browser.urlbar.suggest.quickactions"
+  },
+  {
+    "name": "browser.urlbar.suggest.quicksuggest.all"
+  },
+  {
+    "name": "browser.urlbar.suggest.quicksuggest.nonsponsored"
+  },
+  {
+    "name": "browser.urlbar.suggest.quicksuggest.sponsored"
+  },
+  {
+    "name": "browser.urlbar.suggest.realtimeOptIn"
+  },
+  {
+    "name": "browser.urlbar.suggest.recentsearches"
+  },
+  {
+    "name": "browser.urlbar.suggest.remotetab"
+  },
+  {
+    "name": "browser.urlbar.suggest.searches"
+  },
+  {
+    "name": "browser.urlbar.suggest.semanticHistory.minLength"
+  },
+  {
+    "name": "browser.urlbar.suggest.sports"
+  },
+  {
+    "name": "browser.urlbar.suggest.topsites"
+  },
+  {
+    "name": "browser.urlbar.suggest.trending"
+  },
+  {
+    "name": "browser.urlbar.suggest.weather"
+  },
+  {
+    "name": "browser.urlbar.suggest.wikipedia"
+  },
+  {
+    "name": "browser.urlbar.suggest.yelp"
+  },
+  {
+    "name": "browser.urlbar.suggest.yelpRealtime"
+  },
+  {
+    "name": "browser.urlbar.switchTabs.adoptIntoActiveWindow"
+  },
+  {
+    "name": "browser.urlbar.switchTabs.searchAllContainers"
+  },
+  {
+    "name": "browser.urlbar.trending.featureGate"
+  },
+  {
+    "name": "browser.urlbar.trending.requireSearchMode"
+  },
+  {
+    "name": "browser.urlbar.trimHttps"
+  },
+  {
+    "name": "browser.urlbar.trimURLs"
+  },
+  {
+    "name": "browser.urlbar.trustPanel.featureGate"
+  },
+  {
+    "name": "browser.urlbar.unifiedSearchButton.always"
+  },
+  {
+    "name": "browser.urlbar.unitConversion.enabled"
+  },
+  {
+    "name": "browser.urlbar.untrimOnUserInteraction.featureGate"
+  },
+  {
+    "name": "browser.urlbar.weather.featureGate"
+  },
+  {
+    "name": "browser.urlbar.weather.minKeywordLength"
+  },
+  {
+    "name": "browser.urlbar.weather.uiTreatment"
+  },
+  {
+    "name": "browser.urlbar.wikipedia.featureGate"
+  },
+  {
+    "name": "browser.urlbar.yelp.featureGate"
+  },
+  {
+    "name": "browser.urlbar.yelp.minKeywordLength"
+  },
+  {
+    "name": "browser.urlbar.yelp.mlEnabled"
+  },
+  {
+    "name": "browser.urlbar.yelp.priority"
+  },
+  {
+    "name": "browser.urlbar.yelp.serviceResultDistinction"
+  },
+  {
+    "name": "browser.urlbar.yelpRealtime.featureGate"
+  },
+  {
+    "name": "browser.urlbar.yelpRealtime.minKeywordLength"
+  },
+  {
+    "name": "browser.vpn_promo.disallowed_regions"
+  },
+  {
+    "name": "browser.vpn_promo.enabled"
+  },
+  {
+    "name": "browser.warnOnQuit"
+  },
+  {
+    "name": "browser.warnOnQuitShortcut"
+  },
+  {
+    "name": "browser.xr.warning.infoURL"
+  },
+  {
+    "name": "browser.xul.error_pages.expert_bad_cert"
+  },
+  {
+    "name": "browser.xul.error_pages.show_safe_browsing_details_on_load"
+  },
+  {
+    "name": "browser.zoom.full"
+  },
+  {
+    "name": "browser.zoom.updateBackgroundTabs"
+  },
+  {
+    "name": "captchadetection.actor.enabled"
+  },
+  {
+    "name": "captchadetection.loglevel"
+  },
+  {
+    "name": "captivedetect.canonicalContent"
+  },
+  {
+    "name": "captivedetect.canonicalURL"
+  },
+  {
+    "name": "captivedetect.maxRetryCount"
+  },
+  {
+    "name": "captivedetect.maxWaitingTime"
+  },
+  {
+    "name": "captivedetect.pollingTime"
+  },
+  {
+    "name": "converter.html2txt.header_strategy"
+  },
+  {
+    "name": "converter.html2txt.structs"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.enabled"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.logLevel"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.pollingInterval"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.testing"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.timeoutAfterDOMContentLoaded"
+  },
+  {
+    "name": "cookiebanners.bannerClicking.timeoutAfterLoad"
+  },
+  {
+    "name": "cookiebanners.listService.logLevel"
+  },
+  {
+    "name": "cookiebanners.listService.testRules"
+  },
+  {
+    "name": "cookiebanners.listService.testSkipRemoteSettings"
+  },
+  {
+    "name": "cookiebanners.ui.desktop.cfrVariant"
+  },
+  {
+    "name": "cookiebanners.ui.desktop.enabled"
+  },
+  {
+    "name": "cookiebanners.ui.desktop.showCallout"
+  },
+  {
+    "name": "dap.ohttp.hpke"
+  },
+  {
+    "name": "dap.ohttp.relayURL"
+  },
+  {
+    "name": "datareporting.healthreport.infoURL"
+  },
+  {
+    "name": "datareporting.healthreport.uploadEnabled"
+  },
+  {
+    "name": "datareporting.policy.currentPolicyVersion"
+  },
+  {
+    "name": "datareporting.policy.dataSubmissionEnabled"
+  },
+  {
+    "name": "datareporting.policy.dataSubmissionPolicyAcceptedVersion"
+  },
+  {
+    "name": "datareporting.policy.dataSubmissionPolicyBypassNotification"
+  },
+  {
+    "name": "datareporting.policy.dataSubmissionPolicyNotifiedTime"
+  },
+  {
+    "name": "datareporting.policy.firstRunURL"
+  },
+  {
+    "name": "datareporting.policy.minimumPolicyVersion"
+  },
+  {
+    "name": "datareporting.policy.minimumPolicyVersion.channel-beta"
+  },
+  {
+    "name": "datareporting.usage.uploadEnabled"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.installedExtension"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.otherWorker"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.serviceWorker"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.sharedWorker"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.tab"
+  },
+  {
+    "name": "devtools.aboutdebugging.collapsibilities.temporaryExtension"
+  },
+  {
+    "name": "devtools.aboutdebugging.local-tab-debugging"
+  },
+  {
+    "name": "devtools.aboutdebugging.network-locations"
+  },
+  {
+    "name": "devtools.aboutdebugging.process-debugging"
+  },
+  {
+    "name": "devtools.aboutdebugging.showHiddenAddons"
+  },
+  {
+    "name": "devtools.aboutdebugging.showReduxActionsInConsole"
+  },
+  {
+    "name": "devtools.accessibility.enabled"
+  },
+  {
+    "name": "devtools.anti-tracking.enabled"
+  },
+  {
+    "name": "devtools.application.enabled"
+  },
+  {
+    "name": "devtools.browserconsole.enableNetworkMonitoring"
+  },
+  {
+    "name": "devtools.browserconsole.filter.css"
+  },
+  {
+    "name": "devtools.browserconsole.filter.debug"
+  },
+  {
+    "name": "devtools.browserconsole.filter.error"
+  },
+  {
+    "name": "devtools.browserconsole.filter.info"
+  },
+  {
+    "name": "devtools.browserconsole.filter.log"
+  },
+  {
+    "name": "devtools.browserconsole.filter.net"
+  },
+  {
+    "name": "devtools.browserconsole.filter.netxhr"
+  },
+  {
+    "name": "devtools.browserconsole.filter.warn"
+  },
+  {
+    "name": "devtools.browserconsole.input.editor"
+  },
+  {
+    "name": "devtools.browserconsole.input.editorWidth"
+  },
+  {
+    "name": "devtools.browsertoolbox.scope"
+  },
+  {
+    "name": "devtools.cache.disabled"
+  },
+  {
+    "name": "devtools.chrome.enabled"
+  },
+  {
+    "name": "devtools.command-button-errorcount.enabled"
+  },
+  {
+    "name": "devtools.command-button-frames.enabled"
+  },
+  {
+    "name": "devtools.command-button-measure.enabled"
+  },
+  {
+    "name": "devtools.command-button-noautohide.enabled"
+  },
+  {
+    "name": "devtools.command-button-pick.enabled"
+  },
+  {
+    "name": "devtools.command-button-responsive.enabled"
+  },
+  {
+    "name": "devtools.command-button-rulers.enabled"
+  },
+  {
+    "name": "devtools.command-button-screenshot.enabled"
+  },
+  {
+    "name": "devtools.console.stdout.chrome"
+  },
+  {
+    "name": "devtools.console.stdout.content"
+  },
+  {
+    "name": "devtools.custom-formatters.enabled"
+  },
+  {
+    "name": "devtools.debugger.alphabetize-outline"
+  },
+  {
+    "name": "devtools.debugger.auto-pretty-print"
+  },
+  {
+    "name": "devtools.debugger.breakpoints-visible"
+  },
+  {
+    "name": "devtools.debugger.call-stack-visible"
+  },
+  {
+    "name": "devtools.debugger.chrome-debugging-host"
+  },
+  {
+    "name": "devtools.debugger.chrome-debugging-websocket"
+  },
+  {
+    "name": "devtools.debugger.dom-mutation-breakpoints-visible"
+  },
+  {
+    "name": "devtools.debugger.enabled"
+  },
+  {
+    "name": "devtools.debugger.end-panel-collapsed"
+  },
+  {
+    "name": "devtools.debugger.end-panel-size"
+  },
+  {
+    "name": "devtools.debugger.event-listeners-visible"
+  },
+  {
+    "name": "devtools.debugger.expressions"
+  },
+  {
+    "name": "devtools.debugger.expressions-visible"
+  },
+  {
+    "name": "devtools.debugger.features.async-captured-stacks"
+  },
+  {
+    "name": "devtools.debugger.features.async-live-stacks"
+  },
+  {
+    "name": "devtools.debugger.features.autocomplete-expressions"
+  },
+  {
+    "name": "devtools.debugger.features.code-folding"
+  },
+  {
+    "name": "devtools.debugger.features.inline-preview"
+  },
+  {
+    "name": "devtools.debugger.features.javascript-tracing"
+  },
+  {
+    "name": "devtools.debugger.features.log-points"
+  },
+  {
+    "name": "devtools.debugger.features.map-await-expression"
+  },
+  {
+    "name": "devtools.debugger.features.map-expression-bindings"
+  },
+  {
+    "name": "devtools.debugger.features.overlay"
+  },
+  {
+    "name": "devtools.debugger.features.wasm"
+  },
+  {
+    "name": "devtools.debugger.features.windowless-service-workers"
+  },
+  {
+    "name": "devtools.debugger.file-search-case-sensitive"
+  },
+  {
+    "name": "devtools.debugger.file-search-regex-match"
+  },
+  {
+    "name": "devtools.debugger.file-search-whole-word"
+  },
+  {
+    "name": "devtools.debugger.force-local"
+  },
+  {
+    "name": "devtools.debugger.hide-ignored-sources"
+  },
+  {
+    "name": "devtools.debugger.ignore-caught-exceptions"
+  },
+  {
+    "name": "devtools.debugger.javascript-tracing-log-method"
+  },
+  {
+    "name": "devtools.debugger.javascript-tracing-values"
+  },
+  {
+    "name": "devtools.debugger.log"
+  },
+  {
+    "name": "devtools.debugger.log-actions"
+  },
+  {
+    "name": "devtools.debugger.log-event-breakpoints"
+  },
+  {
+    "name": "devtools.debugger.log.verbose"
+  },
+  {
+    "name": "devtools.debugger.logging"
+  },
+  {
+    "name": "devtools.debugger.map-scopes-enabled"
+  },
+  {
+    "name": "devtools.debugger.pause-on-caught-exceptions"
+  },
+  {
+    "name": "devtools.debugger.pause-on-debugger-statement"
+  },
+  {
+    "name": "devtools.debugger.pause-on-exceptions"
+  },
+  {
+    "name": "devtools.debugger.pending-breakpoints"
+  },
+  {
+    "name": "devtools.debugger.pending-selected-location"
+  },
+  {
+    "name": "devtools.debugger.prefs-schema-version"
+  },
+  {
+    "name": "devtools.debugger.project-directory-root"
+  },
+  {
+    "name": "devtools.debugger.prompt-connection"
+  },
+  {
+    "name": "devtools.debugger.remote-enabled"
+  },
+  {
+    "name": "devtools.debugger.remote-host"
+  },
+  {
+    "name": "devtools.debugger.remote-port"
+  },
+  {
+    "name": "devtools.debugger.remote-timeout"
+  },
+  {
+    "name": "devtools.debugger.remote-websocket"
+  },
+  {
+    "name": "devtools.debugger.scopes-visible"
+  },
+  {
+    "name": "devtools.debugger.show-content-scripts"
+  },
+  {
+    "name": "devtools.debugger.skip-pausing"
+  },
+  {
+    "name": "devtools.debugger.start-panel-collapsed"
+  },
+  {
+    "name": "devtools.debugger.start-panel-size"
+  },
+  {
+    "name": "devtools.debugger.tabs"
+  },
+  {
+    "name": "devtools.debugger.threads-visible"
+  },
+  {
+    "name": "devtools.debugger.ui.editor-wrapping"
+  },
+  {
+    "name": "devtools.debugger.ui.framework-grouping-on"
+  },
+  {
+    "name": "devtools.debugger.xhr-breakpoints-visible"
+  },
+  {
+    "name": "devtools.defaultColorUnit"
+  },
+  {
+    "name": "devtools.discovery.log"
+  },
+  {
+    "name": "devtools.dom.enabled"
+  },
+  {
+    "name": "devtools.dump.emit"
+  },
+  {
+    "name": "devtools.editor.autoclosebrackets"
+  },
+  {
+    "name": "devtools.editor.autocomplete"
+  },
+  {
+    "name": "devtools.editor.detectindentation"
+  },
+  {
+    "name": "devtools.editor.enableCodeFolding"
+  },
+  {
+    "name": "devtools.editor.expandtab"
+  },
+  {
+    "name": "devtools.editor.keymap"
+  },
+  {
+    "name": "devtools.editor.tabsize"
+  },
+  {
+    "name": "devtools.errorconsole.deprecation_warnings"
+  },
+  {
+    "name": "devtools.eyedropper.zoom"
+  },
+  {
+    "name": "devtools.f12_enabled"
+  },
+  {
+    "name": "devtools.gridinspector.gridOutlineMaxColumns"
+  },
+  {
+    "name": "devtools.gridinspector.gridOutlineMaxRows"
+  },
+  {
+    "name": "devtools.gridinspector.maxHighlighters"
+  },
+  {
+    "name": "devtools.gridinspector.showGridAreas"
+  },
+  {
+    "name": "devtools.gridinspector.showGridLineNumbers"
+  },
+  {
+    "name": "devtools.gridinspector.showInfiniteLines"
+  },
+  {
+    "name": "devtools.high-contrast-mode-support"
+  },
+  {
+    "name": "devtools.hud.loglimit"
+  },
+  {
+    "name": "devtools.inspector.activeSidebar"
+  },
+  {
+    "name": "devtools.inspector.chrome.three-pane-enabled"
+  },
+  {
+    "name": "devtools.inspector.compatibility.target-browsers"
+  },
+  {
+    "name": "devtools.inspector.draggable_properties"
+  },
+  {
+    "name": "devtools.inspector.enabled"
+  },
+  {
+    "name": "devtools.inspector.imagePreviewTooltipSize"
+  },
+  {
+    "name": "devtools.inspector.remote"
+  },
+  {
+    "name": "devtools.inspector.rule-view.focusNextOnEnter"
+  },
+  {
+    "name": "devtools.inspector.selectedSidebar"
+  },
+  {
+    "name": "devtools.inspector.showAllAnonymousContent"
+  },
+  {
+    "name": "devtools.inspector.showUserAgentStyles"
+  },
+  {
+    "name": "devtools.inspector.show_pseudo_elements"
+  },
+  {
+    "name": "devtools.inspector.simple-highlighters-reduced-motion"
+  },
+  {
+    "name": "devtools.inspector.three-pane-enabled"
+  },
+  {
+    "name": "devtools.jsonview.enabled"
+  },
+  {
+    "name": "devtools.jsonview.size-profiler.enabled"
+  },
+  {
+    "name": "devtools.layout.boxmodel.highlightProperty"
+  },
+  {
+    "name": "devtools.layout.boxmodel.opened"
+  },
+  {
+    "name": "devtools.layout.flex-container.opened"
+  },
+  {
+    "name": "devtools.layout.flex-item.opened"
+  },
+  {
+    "name": "devtools.layout.flexbox.opened"
+  },
+  {
+    "name": "devtools.layout.grid.opened"
+  },
+  {
+    "name": "devtools.markup.beautifyOnCopy"
+  },
+  {
+    "name": "devtools.markup.collapseAttributeLength"
+  },
+  {
+    "name": "devtools.markup.collapseAttributes"
+  },
+  {
+    "name": "devtools.memory.custom-census-displays"
+  },
+  {
+    "name": "devtools.memory.custom-label-displays"
+  },
+  {
+    "name": "devtools.memory.custom-tree-map-displays"
+  },
+  {
+    "name": "devtools.memory.enabled"
+  },
+  {
+    "name": "devtools.memory.max-individuals"
+  },
+  {
+    "name": "devtools.memory.max-retaining-paths"
+  },
+  {
+    "name": "devtools.netmonitor.audits.slow"
+  },
+  {
+    "name": "devtools.netmonitor.columnsData"
+  },
+  {
+    "name": "devtools.netmonitor.customRequest"
+  },
+  {
+    "name": "devtools.netmonitor.enabled"
+  },
+  {
+    "name": "devtools.netmonitor.features.newEditAndResend"
+  },
+  {
+    "name": "devtools.netmonitor.features.requestBlocking"
+  },
+  {
+    "name": "devtools.netmonitor.features.webtransport"
+  },
+  {
+    "name": "devtools.netmonitor.filters"
+  },
+  {
+    "name": "devtools.netmonitor.har.compress"
+  },
+  {
+    "name": "devtools.netmonitor.har.defaultFileName"
+  },
+  {
+    "name": "devtools.netmonitor.har.defaultLogDir"
+  },
+  {
+    "name": "devtools.netmonitor.har.enableAutoExportToFile"
+  },
+  {
+    "name": "devtools.netmonitor.har.forceExport"
+  },
+  {
+    "name": "devtools.netmonitor.har.includeResponseBodies"
+  },
+  {
+    "name": "devtools.netmonitor.har.jsonp"
+  },
+  {
+    "name": "devtools.netmonitor.har.jsonpCallback"
+  },
+  {
+    "name": "devtools.netmonitor.har.multiple-pages"
+  },
+  {
+    "name": "devtools.netmonitor.har.pageLoadedTimeout"
+  },
+  {
+    "name": "devtools.netmonitor.msg.displayed-messages.limit"
+  },
+  {
+    "name": "devtools.netmonitor.msg.messageDataLimit"
+  },
+  {
+    "name": "devtools.netmonitor.msg.payload-preview-height"
+  },
+  {
+    "name": "devtools.netmonitor.msg.visibleColumns"
+  },
+  {
+    "name": "devtools.netmonitor.panes-network-details-height"
+  },
+  {
+    "name": "devtools.netmonitor.panes-network-details-width"
+  },
+  {
+    "name": "devtools.netmonitor.panes-search-height"
+  },
+  {
+    "name": "devtools.netmonitor.panes-search-width"
+  },
+  {
+    "name": "devtools.netmonitor.persistlog"
+  },
+  {
+    "name": "devtools.netmonitor.requestBodyLimit"
+  },
+  {
+    "name": "devtools.netmonitor.requestfilter"
+  },
+  {
+    "name": "devtools.netmonitor.responseBodyLimit"
+  },
+  {
+    "name": "devtools.netmonitor.saveRequestAndResponseBodies"
+  },
+  {
+    "name": "devtools.netmonitor.ui.default-raw-response"
+  },
+  {
+    "name": "devtools.netmonitor.visibleColumns"
+  },
+  {
+    "name": "devtools.overflow.debugging.enabled"
+  },
+  {
+    "name": "devtools.performance.aboutprofiling.has-developer-options"
+  },
+  {
+    "name": "devtools.performance.enabled"
+  },
+  {
+    "name": "devtools.performance.popup.feature-flag"
+  },
+  {
+    "name": "devtools.performance.popup.intro-displayed"
+  },
+  {
+    "name": "devtools.performance.recording.active-tab-view.enabled"
+  },
+  {
+    "name": "devtools.performance.recording.child.timeout_s"
+  },
+  {
+    "name": "devtools.performance.recording.duration"
+  },
+  {
+    "name": "devtools.performance.recording.duration.remote"
+  },
+  {
+    "name": "devtools.performance.recording.entries"
+  },
+  {
+    "name": "devtools.performance.recording.entries.remote"
+  },
+  {
+    "name": "devtools.performance.recording.features"
+  },
+  {
+    "name": "devtools.performance.recording.features.remote"
+  },
+  {
+    "name": "devtools.performance.recording.interval"
+  },
+  {
+    "name": "devtools.performance.recording.interval.remote"
+  },
+  {
+    "name": "devtools.performance.recording.markers.external-url"
+  },
+  {
+    "name": "devtools.performance.recording.objdirs"
+  },
+  {
+    "name": "devtools.performance.recording.power.external-url"
+  },
+  {
+    "name": "devtools.performance.recording.preset"
+  },
+  {
+    "name": "devtools.performance.recording.preset.remote"
+  },
+  {
+    "name": "devtools.performance.recording.threads"
+  },
+  {
+    "name": "devtools.performance.recording.threads.remote"
+  },
+  {
+    "name": "devtools.performance.recording.ui-base-url"
+  },
+  {
+    "name": "devtools.policy.disabled"
+  },
+  {
+    "name": "devtools.popup.disable_autohide"
+  },
+  {
+    "name": "devtools.popups.debug"
+  },
+  {
+    "name": "devtools.remote.adb.extensionID"
+  },
+  {
+    "name": "devtools.remote.adb.extensionURL"
+  },
+  {
+    "name": "devtools.responsive.dynamicToolbar.enabled"
+  },
+  {
+    "name": "devtools.responsive.leftAlignViewport.enabled"
+  },
+  {
+    "name": "devtools.responsive.reloadConditions.touchSimulation"
+  },
+  {
+    "name": "devtools.responsive.reloadConditions.userAgent"
+  },
+  {
+    "name": "devtools.responsive.reloadNotification.enabled"
+  },
+  {
+    "name": "devtools.responsive.showUserAgentInput"
+  },
+  {
+    "name": "devtools.responsive.touchSimulation.enabled"
+  },
+  {
+    "name": "devtools.responsive.userAgent"
+  },
+  {
+    "name": "devtools.responsive.viewport.angle"
+  },
+  {
+    "name": "devtools.responsive.viewport.height"
+  },
+  {
+    "name": "devtools.responsive.viewport.pixelRatio"
+  },
+  {
+    "name": "devtools.responsive.viewport.width"
+  },
+  {
+    "name": "devtools.screenshot.audio.enabled"
+  },
+  {
+    "name": "devtools.screenshot.clipboard.enabled"
+  },
+  {
+    "name": "devtools.selfxss.count"
+  },
+  {
+    "name": "devtools.serviceWorkers.testing.enabled"
+  },
+  {
+    "name": "devtools.source-map.client-service.enabled"
+  },
+  {
+    "name": "devtools.storage.enabled"
+  },
+  {
+    "name": "devtools.styleeditor.atRulesSidebarWidth"
+  },
+  {
+    "name": "devtools.styleeditor.autocompletion-enabled"
+  },
+  {
+    "name": "devtools.styleeditor.enabled"
+  },
+  {
+    "name": "devtools.styleeditor.navSidebarWidth"
+  },
+  {
+    "name": "devtools.styleeditor.showAtRulesSidebar"
+  },
+  {
+    "name": "devtools.styleeditor.transitions"
+  },
+  {
+    "name": "devtools.target-switching.server.enabled"
+  },
+  {
+    "name": "devtools.theme"
+  },
+  {
+    "name": "devtools.toolbox.alwaysOnTop"
+  },
+  {
+    "name": "devtools.toolbox.footer.height"
+  },
+  {
+    "name": "devtools.toolbox.host"
+  },
+  {
+    "name": "devtools.toolbox.previousHost"
+  },
+  {
+    "name": "devtools.toolbox.selectedTool"
+  },
+  {
+    "name": "devtools.toolbox.sidebar.width"
+  },
+  {
+    "name": "devtools.toolbox.splitconsole.enabled"
+  },
+  {
+    "name": "devtools.toolbox.splitconsole.open"
+  },
+  {
+    "name": "devtools.toolbox.splitconsoleHeight"
+  },
+  {
+    "name": "devtools.toolbox.tabsOrder"
+  },
+  {
+    "name": "devtools.toolbox.zoomValue"
+  },
+  {
+    "name": "devtools.webconsole.filter.css"
+  },
+  {
+    "name": "devtools.webconsole.filter.debug"
+  },
+  {
+    "name": "devtools.webconsole.filter.error"
+  },
+  {
+    "name": "devtools.webconsole.filter.info"
+  },
+  {
+    "name": "devtools.webconsole.filter.log"
+  },
+  {
+    "name": "devtools.webconsole.filter.net"
+  },
+  {
+    "name": "devtools.webconsole.filter.netxhr"
+  },
+  {
+    "name": "devtools.webconsole.filter.warn"
+  },
+  {
+    "name": "devtools.webconsole.groupSimilarMessages"
+  },
+  {
+    "name": "devtools.webconsole.input.autocomplete"
+  },
+  {
+    "name": "devtools.webconsole.input.eagerEvaluation"
+  },
+  {
+    "name": "devtools.webconsole.input.editor"
+  },
+  {
+    "name": "devtools.webconsole.input.editorOnboarding"
+  },
+  {
+    "name": "devtools.webconsole.input.editorWidth"
+  },
+  {
+    "name": "devtools.webconsole.inputHistoryCount"
+  },
+  {
+    "name": "devtools.webconsole.persistlog"
+  },
+  {
+    "name": "devtools.webconsole.sidebarToggle"
+  },
+  {
+    "name": "devtools.webconsole.timestampMessages"
+  },
+  {
+    "name": "doh-rollout.clearModeOnShutdown"
+  },
+  {
+    "name": "dom.allow_scripts_to_close_windows"
+  },
+  {
+    "name": "dom.beforeunload_timeout_ms"
+  },
+  {
+    "name": "dom.cycle_collector.incremental"
+  },
+  {
+    "name": "dom.debug.propagate_gesture_events_through_content"
+  },
+  {
+    "name": "dom.disable_open_during_load"
+  },
+  {
+    "name": "dom.disable_window_flip"
+  },
+  {
+    "name": "dom.disable_window_move_resize"
+  },
+  {
+    "name": "dom.event.contextmenu.enabled"
+  },
+  {
+    "name": "dom.forms.datetime.timepicker"
+  },
+  {
+    "name": "dom.forms.select.customstyling"
+  },
+  {
+    "name": "dom.forms.selectSearch"
+  },
+  {
+    "name": "dom.global_stop_script"
+  },
+  {
+    "name": "dom.indexedDB.logging.details"
+  },
+  {
+    "name": "dom.indexedDB.logging.enabled"
+  },
+  {
+    "name": "dom.indexedDB.logging.profiler-marks"
+  },
+  {
+    "name": "dom.input.fallbackUploadDir"
+  },
+  {
+    "name": "dom.ipc.keepProcessesAlive.privilegedabout"
+  },
+  {
+    "name": "dom.ipc.processCount"
+  },
+  {
+    "name": "dom.ipc.processCount.extension"
+  },
+  {
+    "name": "dom.ipc.processCount.file"
+  },
+  {
+    "name": "dom.ipc.processCount.inference"
+  },
+  {
+    "name": "dom.ipc.processCount.privilegedabout"
+  },
+  {
+    "name": "dom.ipc.processCount.privilegedmozilla"
+  },
+  {
+    "name": "dom.ipc.processCount.webIsolated"
+  },
+  {
+    "name": "dom.ipc.processPrelaunch.enabled"
+  },
+  {
+    "name": "dom.keyboardevent.keypress.hack.dispatch_non_printable_keys"
+  },
+  {
+    "name": "dom.keyboardevent.keypress.hack.dispatch_non_printable_keys.addl"
+  },
+  {
+    "name": "dom.keyboardevent.keypress.hack.use_legacy_keycode_and_charcode"
+  },
+  {
+    "name": "dom.keyboardevent.keypress.hack.use_legacy_keycode_and_charcode.addl"
+  },
+  {
+    "name": "dom.payments.request.supportedRegions"
+  },
+  {
+    "name": "dom.popup_allowed_events"
+  },
+  {
+    "name": "dom.postMessage.sharedArrayBuffer.bypassCOOP_COEP.insecure.enabled"
+  },
+  {
+    "name": "dom.push.connection.enabled"
+  },
+  {
+    "name": "dom.push.loglevel"
+  },
+  {
+    "name": "dom.push.maxQuotaPerSubscription"
+  },
+  {
+    "name": "dom.push.maxRecentMessageIDsPerSubscription"
+  },
+  {
+    "name": "dom.push.pingInterval"
+  },
+  {
+    "name": "dom.push.quotaUpdateDelay"
+  },
+  {
+    "name": "dom.push.requestTimeout"
+  },
+  {
+    "name": "dom.push.retryBaseInterval"
+  },
+  {
+    "name": "dom.push.serverURL"
+  },
+  {
+    "name": "dom.push.userAgentID"
+  },
+  {
+    "name": "dom.serviceWorkers.idle_extended_timeout"
+  },
+  {
+    "name": "dom.serviceWorkers.idle_timeout"
+  },
+  {
+    "name": "dom.serviceWorkers.testUpdateOverOneDay"
+  },
+  {
+    "name": "dom.serviceWorkers.update_delay"
+  },
+  {
+    "name": "dom.sitepermsaddon-provider.separatedBlocklistedDomains"
+  },
+  {
+    "name": "dom.storage.client_validation"
+  },
+  {
+    "name": "dom.storage.shadow_writes"
+  },
+  {
+    "name": "dom.storage.snapshot_gradual_prefill"
+  },
+  {
+    "name": "dom.storage.snapshot_prefill"
+  },
+  {
+    "name": "dom.storage.snapshot_reusing"
+  },
+  {
+    "name": "dom.storageManager.prompt.testing"
+  },
+  {
+    "name": "dom.storageManager.prompt.testing.allow"
+  },
+  {
+    "name": "dom.text-recognition.enabled"
+  },
+  {
+    "name": "dom.use_watchdog"
+  },
+  {
+    "name": "dom.webnotifications.requireinteraction.count"
+  },
+  {
+    "name": "dom.workers.maxPerDomain"
+  },
+  {
+    "name": "editor.htmleditor.inputevent.hack.no_dispatch_after_compositionend"
+  },
+  {
+    "name": "editor.htmleditor.inputevent.hack.no_dispatch_after_compositionend.addl"
+  },
+  {
+    "name": "editor.htmleditor.inputevent.hack.no_dispatch_before_compositionend"
+  },
+  {
+    "name": "editor.htmleditor.inputevent.hack.no_dispatch_before_compositionend.addl"
+  },
+  {
+    "name": "editor.texteditor.inputevent.hack.no_dispatch_after_compositionend"
+  },
+  {
+    "name": "editor.texteditor.inputevent.hack.no_dispatch_after_compositionend.addl"
+  },
+  {
+    "name": "editor.texteditor.inputevent.hack.no_dispatch_before_compositionend"
+  },
+  {
+    "name": "editor.texteditor.inputevent.hack.no_dispatch_before_compositionend.addl"
+  },
+  {
+    "name": "extensions.abuseReport.amoFormURL"
+  },
+  {
+    "name": "extensions.abuseReport.enabled"
+  },
+  {
+    "name": "extensions.addonAbuseReport.url"
+  },
+  {
+    "name": "extensions.autoDisableScopes"
+  },
+  {
+    "name": "extensions.backgroundServiceWorker.enabled"
+  },
+  {
+    "name": "extensions.blocklist.addonItemURL"
+  },
+  {
+    "name": "extensions.blocklist.detailsURL"
+  },
+  {
+    "name": "extensions.blocklist.enabled"
+  },
+  {
+    "name": "extensions.blocklist.itemURL"
+  },
+  {
+    "name": "extensions.blocklist.level"
+  },
+  {
+    "name": "extensions.browser_style_mv3.same_as_mv2"
+  },
+  {
+    "name": "extensions.browser_style_mv3.supported"
+  },
+  {
+    "name": "extensions.dataCollectionPermissions.enabled"
+  },
+  {
+    "name": "extensions.eventPages.enabled"
+  },
+  {
+    "name": "extensions.experiments.enabled"
+  },
+  {
+    "name": "extensions.formautofill.addresses.capture.enabled"
+  },
+  {
+    "name": "extensions.formautofill.addresses.enabled"
+  },
+  {
+    "name": "extensions.formautofill.addresses.experiments.enabled"
+  },
+  {
+    "name": "extensions.formautofill.addresses.ignoreAutocompleteOff"
+  },
+  {
+    "name": "extensions.formautofill.addresses.supported"
+  },
+  {
+    "name": "extensions.formautofill.addresses.supportedCountries"
+  },
+  {
+    "name": "extensions.formautofill.available"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.enabled"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.heuristics.fathom.confidenceThreshold"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.heuristics.fathom.testConfidence"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.heuristics.fathom.types"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.heuristics.mode"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.ignoreAutocompleteOff"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.os-auth.locked.enabled"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.supported"
+  },
+  {
+    "name": "extensions.formautofill.creditCards.supportedCountries"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.autofillSameOriginWithTop"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.captureOnFormRemoval"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.captureOnPageNavigation"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.detectDynamicFormChanges"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.fillOnDynamicFormChanges"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.fillOnDynamicFormChanges.timeout"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.refillOnSiteClearingFields"
+  },
+  {
+    "name": "extensions.formautofill.heuristics.refillOnSiteClearingFields.timeout"
+  },
+  {
+    "name": "extensions.formautofill.loglevel"
+  },
+  {
+    "name": "extensions.formautofill.supportRTL"
+  },
+  {
+    "name": "extensions.geckoProfiler.acceptedExtensionIds"
+  },
+  {
+    "name": "extensions.getAddons.browserMappings.url"
+  },
+  {
+    "name": "extensions.getAddons.cache.enabled"
+  },
+  {
+    "name": "extensions.getAddons.discovery.api_url"
+  },
+  {
+    "name": "extensions.getAddons.get.url"
+  },
+  {
+    "name": "extensions.getAddons.langpacks.url"
+  },
+  {
+    "name": "extensions.getAddons.link.url"
+  },
+  {
+    "name": "extensions.getAddons.search.browseURL"
+  },
+  {
+    "name": "extensions.getAddons.showPane"
+  },
+  {
+    "name": "extensions.htmlaboutaddons.inline-options.enabled"
+  },
+  {
+    "name": "extensions.htmlaboutaddons.local_model_management"
+  },
+  {
+    "name": "extensions.htmlaboutaddons.recommendations.enabled"
+  },
+  {
+    "name": "extensions.install_origins.enabled"
+  },
+  {
+    "name": "extensions.langpacks.signatures.required"
+  },
+  {
+    "name": "extensions.logging.enabled"
+  },
+  {
+    "name": "extensions.manifestV2.actionsPopupURLRestricted"
+  },
+  {
+    "name": "extensions.ml.enabled"
+  },
+  {
+    "name": "extensions.openPopupWithoutUserGesture.enabled"
+  },
+  {
+    "name": "extensions.originControls.grantByDefault"
+  },
+  {
+    "name": "extensions.postDownloadThirdPartyPrompt"
+  },
+  {
+    "name": "extensions.quarantinedDomains.enabled"
+  },
+  {
+    "name": "extensions.quarantinedDomains.list"
+  },
+  {
+    "name": "extensions.recommendations.privacyPolicyUrl"
+  },
+  {
+    "name": "extensions.recommendations.themeRecommendationUrl"
+  },
+  {
+    "name": "extensions.startupScanScopes"
+  },
+  {
+    "name": "extensions.strictCompatibility"
+  },
+  {
+    "name": "extensions.systemAddon.update.enabled"
+  },
+  {
+    "name": "extensions.systemAddon.update.url"
+  },
+  {
+    "name": "extensions.update.autoUpdateDefault"
+  },
+  {
+    "name": "extensions.update.background.url"
+  },
+  {
+    "name": "extensions.update.enabled"
+  },
+  {
+    "name": "extensions.update.interval"
+  },
+  {
+    "name": "extensions.update.url"
+  },
+  {
+    "name": "extensions.webExtensionsMinPlatformVersion"
+  },
+  {
+    "name": "extensions.webcompat-reporter.enabled"
+  },
+  {
+    "name": "extensions.webcompat-reporter.newIssueEndpoint"
+  },
+  {
+    "name": "extensions.webcompat.smartblockEmbeds.enabled"
+  },
+  {
+    "name": "extensions.webcompat.useScriptingAPI"
+  },
+  {
+    "name": "extensions.webextOptionalPermissionPrompts"
+  },
+  {
+    "name": "extensions.webextensions.ExtensionStorageIDB.enabled"
+  },
+  {
+    "name": "extensions.webextensions.base-content-security-policy"
+  },
+  {
+    "name": "extensions.webextensions.base-content-security-policy.v3"
+  },
+  {
+    "name": "extensions.webextensions.base-content-security-policy.v3-with-localhost"
+  },
+  {
+    "name": "extensions.webextensions.default-content-security-policy"
+  },
+  {
+    "name": "extensions.webextensions.default-content-security-policy.v3"
+  },
+  {
+    "name": "extensions.webextensions.identity.redirectDomain"
+  },
+  {
+    "name": "extensions.webextensions.keepStorageOnUninstall"
+  },
+  {
+    "name": "extensions.webextensions.keepUuidOnUninstall"
+  },
+  {
+    "name": "extensions.webextensions.protocol.remote"
+  },
+  {
+    "name": "extensions.webextensions.remote"
+  },
+  {
+    "name": "extensions.webextensions.restrictedDomains"
+  },
+  {
+    "name": "findbar.entireword"
+  },
+  {
+    "name": "findbar.highlightAll"
+  },
+  {
+    "name": "findbar.iteratorTimeout"
+  },
+  {
+    "name": "findbar.matchdiacritics"
+  },
+  {
+    "name": "findbar.modalHighlight"
+  },
+  {
+    "name": "first-startup.category-tasks-enabled"
+  },
+  {
+    "name": "first-startup.timeout"
+  },
+  {
+    "name": "focusmanager.testmode"
+  },
+  {
+    "name": "font.blacklist.underline_offset"
+  },
+  {
+    "name": "font.cjk_pref_fallback_order"
+  },
+  {
+    "name": "font.default.ar"
+  },
+  {
+    "name": "font.default.el"
+  },
+  {
+    "name": "font.default.he"
+  },
+  {
+    "name": "font.default.ja"
+  },
+  {
+    "name": "font.default.ko"
+  },
+  {
+    "name": "font.default.th"
+  },
+  {
+    "name": "font.default.x-armn"
+  },
+  {
+    "name": "font.default.x-beng"
+  },
+  {
+    "name": "font.default.x-cans"
+  },
+  {
+    "name": "font.default.x-cyrillic"
+  },
+  {
+    "name": "font.default.x-devanagari"
+  },
+  {
+    "name": "font.default.x-ethi"
+  },
+  {
+    "name": "font.default.x-geor"
+  },
+  {
+    "name": "font.default.x-gujr"
+  },
+  {
+    "name": "font.default.x-guru"
+  },
+  {
+    "name": "font.default.x-khmr"
+  },
+  {
+    "name": "font.default.x-knda"
+  },
+  {
+    "name": "font.default.x-math"
+  },
+  {
+    "name": "font.default.x-mlym"
+  },
+  {
+    "name": "font.default.x-orya"
+  },
+  {
+    "name": "font.default.x-sinh"
+  },
+  {
+    "name": "font.default.x-tamil"
+  },
+  {
+    "name": "font.default.x-telu"
+  },
+  {
+    "name": "font.default.x-tibt"
+  },
+  {
+    "name": "font.default.x-unicode"
+  },
+  {
+    "name": "font.default.x-western"
+  },
+  {
+    "name": "font.default.zh-CN"
+  },
+  {
+    "name": "font.default.zh-HK"
+  },
+  {
+    "name": "font.default.zh-TW"
+  },
+  {
+    "name": "font.minimum-size.ar"
+  },
+  {
+    "name": "font.minimum-size.el"
+  },
+  {
+    "name": "font.minimum-size.he"
+  },
+  {
+    "name": "font.minimum-size.ja"
+  },
+  {
+    "name": "font.minimum-size.ko"
+  },
+  {
+    "name": "font.minimum-size.th"
+  },
+  {
+    "name": "font.minimum-size.x-armn"
+  },
+  {
+    "name": "font.minimum-size.x-beng"
+  },
+  {
+    "name": "font.minimum-size.x-cans"
+  },
+  {
+    "name": "font.minimum-size.x-cyrillic"
+  },
+  {
+    "name": "font.minimum-size.x-devanagari"
+  },
+  {
+    "name": "font.minimum-size.x-ethi"
+  },
+  {
+    "name": "font.minimum-size.x-geor"
+  },
+  {
+    "name": "font.minimum-size.x-gujr"
+  },
+  {
+    "name": "font.minimum-size.x-guru"
+  },
+  {
+    "name": "font.minimum-size.x-khmr"
+  },
+  {
+    "name": "font.minimum-size.x-knda"
+  },
+  {
+    "name": "font.minimum-size.x-math"
+  },
+  {
+    "name": "font.minimum-size.x-mlym"
+  },
+  {
+    "name": "font.minimum-size.x-orya"
+  },
+  {
+    "name": "font.minimum-size.x-sinh"
+  },
+  {
+    "name": "font.minimum-size.x-tamil"
+  },
+  {
+    "name": "font.minimum-size.x-telu"
+  },
+  {
+    "name": "font.minimum-size.x-tibt"
+  },
+  {
+    "name": "font.minimum-size.x-unicode"
+  },
+  {
+    "name": "font.minimum-size.x-western"
+  },
+  {
+    "name": "font.minimum-size.zh-CN"
+  },
+  {
+    "name": "font.minimum-size.zh-HK"
+  },
+  {
+    "name": "font.minimum-size.zh-TW"
+  },
+  {
+    "name": "font.name-list.cursive.ar"
+  },
+  {
+    "name": "font.name-list.cursive.el"
+  },
+  {
+    "name": "font.name-list.cursive.he"
+  },
+  {
+    "name": "font.name-list.cursive.ja"
+  },
+  {
+    "name": "font.name-list.cursive.ko"
+  },
+  {
+    "name": "font.name-list.cursive.th"
+  },
+  {
+    "name": "font.name-list.cursive.x-armn"
+  },
+  {
+    "name": "font.name-list.cursive.x-beng"
+  },
+  {
+    "name": "font.name-list.cursive.x-cans"
+  },
+  {
+    "name": "font.name-list.cursive.x-cyrillic"
+  },
+  {
+    "name": "font.name-list.cursive.x-devanagari"
+  },
+  {
+    "name": "font.name-list.cursive.x-ethi"
+  },
+  {
+    "name": "font.name-list.cursive.x-geor"
+  },
+  {
+    "name": "font.name-list.cursive.x-gujr"
+  },
+  {
+    "name": "font.name-list.cursive.x-guru"
+  },
+  {
+    "name": "font.name-list.cursive.x-khmr"
+  },
+  {
+    "name": "font.name-list.cursive.x-knda"
+  },
+  {
+    "name": "font.name-list.cursive.x-mlym"
+  },
+  {
+    "name": "font.name-list.cursive.x-orya"
+  },
+  {
+    "name": "font.name-list.cursive.x-sinh"
+  },
+  {
+    "name": "font.name-list.cursive.x-tamil"
+  },
+  {
+    "name": "font.name-list.cursive.x-telu"
+  },
+  {
+    "name": "font.name-list.cursive.x-tibt"
+  },
+  {
+    "name": "font.name-list.cursive.x-unicode"
+  },
+  {
+    "name": "font.name-list.cursive.x-western"
+  },
+  {
+    "name": "font.name-list.cursive.zh-CN"
+  },
+  {
+    "name": "font.name-list.cursive.zh-HK"
+  },
+  {
+    "name": "font.name-list.cursive.zh-TW"
+  },
+  {
+    "name": "font.name-list.emoji"
+  },
+  {
+    "name": "font.name-list.monospace.ar"
+  },
+  {
+    "name": "font.name-list.monospace.el"
+  },
+  {
+    "name": "font.name-list.monospace.he"
+  },
+  {
+    "name": "font.name-list.monospace.ja"
+  },
+  {
+    "name": "font.name-list.monospace.ko"
+  },
+  {
+    "name": "font.name-list.monospace.th"
+  },
+  {
+    "name": "font.name-list.monospace.x-armn"
+  },
+  {
+    "name": "font.name-list.monospace.x-beng"
+  },
+  {
+    "name": "font.name-list.monospace.x-cans"
+  },
+  {
+    "name": "font.name-list.monospace.x-cyrillic"
+  },
+  {
+    "name": "font.name-list.monospace.x-devanagari"
+  },
+  {
+    "name": "font.name-list.monospace.x-ethi"
+  },
+  {
+    "name": "font.name-list.monospace.x-geor"
+  },
+  {
+    "name": "font.name-list.monospace.x-gujr"
+  },
+  {
+    "name": "font.name-list.monospace.x-guru"
+  },
+  {
+    "name": "font.name-list.monospace.x-khmr"
+  },
+  {
+    "name": "font.name-list.monospace.x-knda"
+  },
+  {
+    "name": "font.name-list.monospace.x-math"
+  },
+  {
+    "name": "font.name-list.monospace.x-mlym"
+  },
+  {
+    "name": "font.name-list.monospace.x-orya"
+  },
+  {
+    "name": "font.name-list.monospace.x-sinh"
+  },
+  {
+    "name": "font.name-list.monospace.x-tamil"
+  },
+  {
+    "name": "font.name-list.monospace.x-telu"
+  },
+  {
+    "name": "font.name-list.monospace.x-tibt"
+  },
+  {
+    "name": "font.name-list.monospace.x-unicode"
+  },
+  {
+    "name": "font.name-list.monospace.x-western"
+  },
+  {
+    "name": "font.name-list.monospace.zh-CN"
+  },
+  {
+    "name": "font.name-list.monospace.zh-HK"
+  },
+  {
+    "name": "font.name-list.monospace.zh-TW"
+  },
+  {
+    "name": "font.name-list.sans-serif.ar"
+  },
+  {
+    "name": "font.name-list.sans-serif.el"
+  },
+  {
+    "name": "font.name-list.sans-serif.he"
+  },
+  {
+    "name": "font.name-list.sans-serif.ja"
+  },
+  {
+    "name": "font.name-list.sans-serif.ko"
+  },
+  {
+    "name": "font.name-list.sans-serif.th"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-armn"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-beng"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-cans"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-cyrillic"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-devanagari"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-ethi"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-geor"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-gujr"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-guru"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-khmr"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-knda"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-math"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-mlym"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-orya"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-sinh"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-tamil"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-telu"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-tibt"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-unicode"
+  },
+  {
+    "name": "font.name-list.sans-serif.x-western"
+  },
+  {
+    "name": "font.name-list.sans-serif.zh-CN"
+  },
+  {
+    "name": "font.name-list.sans-serif.zh-HK"
+  },
+  {
+    "name": "font.name-list.sans-serif.zh-TW"
+  },
+  {
+    "name": "font.name-list.serif.ar"
+  },
+  {
+    "name": "font.name-list.serif.el"
+  },
+  {
+    "name": "font.name-list.serif.he"
+  },
+  {
+    "name": "font.name-list.serif.ja"
+  },
+  {
+    "name": "font.name-list.serif.ko"
+  },
+  {
+    "name": "font.name-list.serif.th"
+  },
+  {
+    "name": "font.name-list.serif.x-armn"
+  },
+  {
+    "name": "font.name-list.serif.x-beng"
+  },
+  {
+    "name": "font.name-list.serif.x-cans"
+  },
+  {
+    "name": "font.name-list.serif.x-cyrillic"
+  },
+  {
+    "name": "font.name-list.serif.x-devanagari"
+  },
+  {
+    "name": "font.name-list.serif.x-ethi"
+  },
+  {
+    "name": "font.name-list.serif.x-geor"
+  },
+  {
+    "name": "font.name-list.serif.x-gujr"
+  },
+  {
+    "name": "font.name-list.serif.x-guru"
+  },
+  {
+    "name": "font.name-list.serif.x-khmr"
+  },
+  {
+    "name": "font.name-list.serif.x-knda"
+  },
+  {
+    "name": "font.name-list.serif.x-math"
+  },
+  {
+    "name": "font.name-list.serif.x-mlym"
+  },
+  {
+    "name": "font.name-list.serif.x-orya"
+  },
+  {
+    "name": "font.name-list.serif.x-sinh"
+  },
+  {
+    "name": "font.name-list.serif.x-tamil"
+  },
+  {
+    "name": "font.name-list.serif.x-telu"
+  },
+  {
+    "name": "font.name-list.serif.x-tibt"
+  },
+  {
+    "name": "font.name-list.serif.x-unicode"
+  },
+  {
+    "name": "font.name-list.serif.x-western"
+  },
+  {
+    "name": "font.name-list.serif.zh-CN"
+  },
+  {
+    "name": "font.name-list.serif.zh-HK"
+  },
+  {
+    "name": "font.name-list.serif.zh-TW"
+  },
+  {
+    "name": "font.name.cursive.ar"
+  },
+  {
+    "name": "font.name.cursive.el"
+  },
+  {
+    "name": "font.name.cursive.he"
+  },
+  {
+    "name": "font.name.cursive.ja"
+  },
+  {
+    "name": "font.name.cursive.ko"
+  },
+  {
+    "name": "font.name.cursive.th"
+  },
+  {
+    "name": "font.name.cursive.x-armn"
+  },
+  {
+    "name": "font.name.cursive.x-beng"
+  },
+  {
+    "name": "font.name.cursive.x-cans"
+  },
+  {
+    "name": "font.name.cursive.x-cyrillic"
+  },
+  {
+    "name": "font.name.cursive.x-devanagari"
+  },
+  {
+    "name": "font.name.cursive.x-ethi"
+  },
+  {
+    "name": "font.name.cursive.x-geor"
+  },
+  {
+    "name": "font.name.cursive.x-gujr"
+  },
+  {
+    "name": "font.name.cursive.x-guru"
+  },
+  {
+    "name": "font.name.cursive.x-khmr"
+  },
+  {
+    "name": "font.name.cursive.x-knda"
+  },
+  {
+    "name": "font.name.cursive.x-math"
+  },
+  {
+    "name": "font.name.cursive.x-mlym"
+  },
+  {
+    "name": "font.name.cursive.x-orya"
+  },
+  {
+    "name": "font.name.cursive.x-sinh"
+  },
+  {
+    "name": "font.name.cursive.x-tamil"
+  },
+  {
+    "name": "font.name.cursive.x-telu"
+  },
+  {
+    "name": "font.name.cursive.x-tibt"
+  },
+  {
+    "name": "font.name.cursive.x-unicode"
+  },
+  {
+    "name": "font.name.cursive.x-western"
+  },
+  {
+    "name": "font.name.cursive.zh-CN"
+  },
+  {
+    "name": "font.name.cursive.zh-HK"
+  },
+  {
+    "name": "font.name.cursive.zh-TW"
+  },
+  {
+    "name": "font.name.monospace.ar"
+  },
+  {
+    "name": "font.name.monospace.el"
+  },
+  {
+    "name": "font.name.monospace.he"
+  },
+  {
+    "name": "font.name.monospace.ja"
+  },
+  {
+    "name": "font.name.monospace.ko"
+  },
+  {
+    "name": "font.name.monospace.th"
+  },
+  {
+    "name": "font.name.monospace.x-armn"
+  },
+  {
+    "name": "font.name.monospace.x-beng"
+  },
+  {
+    "name": "font.name.monospace.x-cans"
+  },
+  {
+    "name": "font.name.monospace.x-cyrillic"
+  },
+  {
+    "name": "font.name.monospace.x-devanagari"
+  },
+  {
+    "name": "font.name.monospace.x-ethi"
+  },
+  {
+    "name": "font.name.monospace.x-geor"
+  },
+  {
+    "name": "font.name.monospace.x-gujr"
+  },
+  {
+    "name": "font.name.monospace.x-guru"
+  },
+  {
+    "name": "font.name.monospace.x-khmr"
+  },
+  {
+    "name": "font.name.monospace.x-knda"
+  },
+  {
+    "name": "font.name.monospace.x-math"
+  },
+  {
+    "name": "font.name.monospace.x-mlym"
+  },
+  {
+    "name": "font.name.monospace.x-orya"
+  },
+  {
+    "name": "font.name.monospace.x-sinh"
+  },
+  {
+    "name": "font.name.monospace.x-tamil"
+  },
+  {
+    "name": "font.name.monospace.x-telu"
+  },
+  {
+    "name": "font.name.monospace.x-tibt"
+  },
+  {
+    "name": "font.name.monospace.x-unicode"
+  },
+  {
+    "name": "font.name.monospace.x-western"
+  },
+  {
+    "name": "font.name.monospace.zh-CN"
+  },
+  {
+    "name": "font.name.monospace.zh-HK"
+  },
+  {
+    "name": "font.name.monospace.zh-TW"
+  },
+  {
+    "name": "font.name.sans-serif.ar"
+  },
+  {
+    "name": "font.name.sans-serif.el"
+  },
+  {
+    "name": "font.name.sans-serif.he"
+  },
+  {
+    "name": "font.name.sans-serif.ja"
+  },
+  {
+    "name": "font.name.sans-serif.ko"
+  },
+  {
+    "name": "font.name.sans-serif.th"
+  },
+  {
+    "name": "font.name.sans-serif.x-armn"
+  },
+  {
+    "name": "font.name.sans-serif.x-beng"
+  },
+  {
+    "name": "font.name.sans-serif.x-cans"
+  },
+  {
+    "name": "font.name.sans-serif.x-cyrillic"
+  },
+  {
+    "name": "font.name.sans-serif.x-devanagari"
+  },
+  {
+    "name": "font.name.sans-serif.x-ethi"
+  },
+  {
+    "name": "font.name.sans-serif.x-geor"
+  },
+  {
+    "name": "font.name.sans-serif.x-gujr"
+  },
+  {
+    "name": "font.name.sans-serif.x-guru"
+  },
+  {
+    "name": "font.name.sans-serif.x-khmr"
+  },
+  {
+    "name": "font.name.sans-serif.x-knda"
+  },
+  {
+    "name": "font.name.sans-serif.x-math"
+  },
+  {
+    "name": "font.name.sans-serif.x-mlym"
+  },
+  {
+    "name": "font.name.sans-serif.x-orya"
+  },
+  {
+    "name": "font.name.sans-serif.x-sinh"
+  },
+  {
+    "name": "font.name.sans-serif.x-tamil"
+  },
+  {
+    "name": "font.name.sans-serif.x-telu"
+  },
+  {
+    "name": "font.name.sans-serif.x-tibt"
+  },
+  {
+    "name": "font.name.sans-serif.x-unicode"
+  },
+  {
+    "name": "font.name.sans-serif.x-western"
+  },
+  {
+    "name": "font.name.sans-serif.zh-CN"
+  },
+  {
+    "name": "font.name.sans-serif.zh-HK"
+  },
+  {
+    "name": "font.name.sans-serif.zh-TW"
+  },
+  {
+    "name": "font.name.serif.ar"
+  },
+  {
+    "name": "font.name.serif.el"
+  },
+  {
+    "name": "font.name.serif.he"
+  },
+  {
+    "name": "font.name.serif.ja"
+  },
+  {
+    "name": "font.name.serif.ko"
+  },
+  {
+    "name": "font.name.serif.th"
+  },
+  {
+    "name": "font.name.serif.x-armn"
+  },
+  {
+    "name": "font.name.serif.x-beng"
+  },
+  {
+    "name": "font.name.serif.x-cans"
+  },
+  {
+    "name": "font.name.serif.x-cyrillic"
+  },
+  {
+    "name": "font.name.serif.x-devanagari"
+  },
+  {
+    "name": "font.name.serif.x-ethi"
+  },
+  {
+    "name": "font.name.serif.x-geor"
+  },
+  {
+    "name": "font.name.serif.x-gujr"
+  },
+  {
+    "name": "font.name.serif.x-guru"
+  },
+  {
+    "name": "font.name.serif.x-khmr"
+  },
+  {
+    "name": "font.name.serif.x-knda"
+  },
+  {
+    "name": "font.name.serif.x-math"
+  },
+  {
+    "name": "font.name.serif.x-mlym"
+  },
+  {
+    "name": "font.name.serif.x-orya"
+  },
+  {
+    "name": "font.name.serif.x-sinh"
+  },
+  {
+    "name": "font.name.serif.x-tamil"
+  },
+  {
+    "name": "font.name.serif.x-telu"
+  },
+  {
+    "name": "font.name.serif.x-tibt"
+  },
+  {
+    "name": "font.name.serif.x-unicode"
+  },
+  {
+    "name": "font.name.serif.x-western"
+  },
+  {
+    "name": "font.name.serif.zh-CN"
+  },
+  {
+    "name": "font.name.serif.zh-HK"
+  },
+  {
+    "name": "font.name.serif.zh-TW"
+  },
+  {
+    "name": "font.size.monospace.ar"
+  },
+  {
+    "name": "font.size.monospace.el"
+  },
+  {
+    "name": "font.size.monospace.he"
+  },
+  {
+    "name": "font.size.monospace.ja"
+  },
+  {
+    "name": "font.size.monospace.ko"
+  },
+  {
+    "name": "font.size.monospace.th"
+  },
+  {
+    "name": "font.size.monospace.x-armn"
+  },
+  {
+    "name": "font.size.monospace.x-beng"
+  },
+  {
+    "name": "font.size.monospace.x-cans"
+  },
+  {
+    "name": "font.size.monospace.x-cyrillic"
+  },
+  {
+    "name": "font.size.monospace.x-devanagari"
+  },
+  {
+    "name": "font.size.monospace.x-ethi"
+  },
+  {
+    "name": "font.size.monospace.x-geor"
+  },
+  {
+    "name": "font.size.monospace.x-gujr"
+  },
+  {
+    "name": "font.size.monospace.x-guru"
+  },
+  {
+    "name": "font.size.monospace.x-khmr"
+  },
+  {
+    "name": "font.size.monospace.x-knda"
+  },
+  {
+    "name": "font.size.monospace.x-math"
+  },
+  {
+    "name": "font.size.monospace.x-mlym"
+  },
+  {
+    "name": "font.size.monospace.x-orya"
+  },
+  {
+    "name": "font.size.monospace.x-sinh"
+  },
+  {
+    "name": "font.size.monospace.x-tamil"
+  },
+  {
+    "name": "font.size.monospace.x-telu"
+  },
+  {
+    "name": "font.size.monospace.x-tibt"
+  },
+  {
+    "name": "font.size.monospace.x-unicode"
+  },
+  {
+    "name": "font.size.monospace.x-western"
+  },
+  {
+    "name": "font.size.monospace.zh-CN"
+  },
+  {
+    "name": "font.size.monospace.zh-HK"
+  },
+  {
+    "name": "font.size.monospace.zh-TW"
+  },
+  {
+    "name": "font.size.variable.ar"
+  },
+  {
+    "name": "font.size.variable.el"
+  },
+  {
+    "name": "font.size.variable.he"
+  },
+  {
+    "name": "font.size.variable.ja"
+  },
+  {
+    "name": "font.size.variable.ko"
+  },
+  {
+    "name": "font.size.variable.th"
+  },
+  {
+    "name": "font.size.variable.x-armn"
+  },
+  {
+    "name": "font.size.variable.x-beng"
+  },
+  {
+    "name": "font.size.variable.x-cans"
+  },
+  {
+    "name": "font.size.variable.x-cyrillic"
+  },
+  {
+    "name": "font.size.variable.x-devanagari"
+  },
+  {
+    "name": "font.size.variable.x-ethi"
+  },
+  {
+    "name": "font.size.variable.x-geor"
+  },
+  {
+    "name": "font.size.variable.x-gujr"
+  },
+  {
+    "name": "font.size.variable.x-guru"
+  },
+  {
+    "name": "font.size.variable.x-khmr"
+  },
+  {
+    "name": "font.size.variable.x-knda"
+  },
+  {
+    "name": "font.size.variable.x-math"
+  },
+  {
+    "name": "font.size.variable.x-mlym"
+  },
+  {
+    "name": "font.size.variable.x-orya"
+  },
+  {
+    "name": "font.size.variable.x-sinh"
+  },
+  {
+    "name": "font.size.variable.x-tamil"
+  },
+  {
+    "name": "font.size.variable.x-telu"
+  },
+  {
+    "name": "font.size.variable.x-tibt"
+  },
+  {
+    "name": "font.size.variable.x-unicode"
+  },
+  {
+    "name": "font.size.variable.x-western"
+  },
+  {
+    "name": "font.size.variable.zh-CN"
+  },
+  {
+    "name": "font.size.variable.zh-HK"
+  },
+  {
+    "name": "font.size.variable.zh-TW"
+  },
+  {
+    "name": "formhelper.autozoom.force-disable.test-only"
+  },
+  {
+    "name": "full-screen-api.transition-duration.enter"
+  },
+  {
+    "name": "full-screen-api.transition-duration.leave"
+  },
+  {
+    "name": "full-screen-api.transition.timeout"
+  },
+  {
+    "name": "full-screen-api.warning.delay"
+  },
+  {
+    "name": "full-screen-api.warning.timeout"
+  },
+  {
+    "name": "general.autoScroll"
+  },
+  {
+    "name": "general.autoscroll.prevent_to_collapse_selection_by_middle_mouse_down"
+  },
+  {
+    "name": "general.autoscroll.prevent_to_start.altKey"
+  },
+  {
+    "name": "general.autoscroll.prevent_to_start.ctrlKey"
+  },
+  {
+    "name": "general.autoscroll.prevent_to_start.metaKey"
+  },
+  {
+    "name": "general.autoscroll.prevent_to_start.shiftKey"
+  },
+  {
+    "name": "general.config.obscure_value"
+  },
+  {
+    "name": "general.smoothScroll"
+  },
+  {
+    "name": "general.smoothScroll.currentVelocityWeighting"
+  },
+  {
+    "name": "general.smoothScroll.mouseWheel.durationMinMS"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.enabled"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.motionBeginSpringConstant"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.regularSpringConstant"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.slowdownMinDeltaMS"
+  },
+  {
+    "name": "general.smoothScroll.msdPhysics.slowdownSpringConstant"
+  },
+  {
+    "name": "general.smoothScroll.stopDecelerationWeighting"
+  },
+  {
+    "name": "general.useragent.compatMode.firefox"
+  },
+  {
+    "name": "geo.provider.network.timeToWaitBeforeSending"
+  },
+  {
+    "name": "geo.provider.network.timeout"
+  },
+  {
+    "name": "geo.provider.network.url"
+  },
+  {
+    "name": "gestures.enable_single_finger_input"
+  },
+  {
+    "name": "gfx.canvas.azure.backends"
+  },
+  {
+    "name": "gfx.content.azure.backends"
+  },
+  {
+    "name": "gfx.downloadable_fonts.enabled"
+  },
+  {
+    "name": "gfx.downloadable_fonts.fallback_delay"
+  },
+  {
+    "name": "gfx.downloadable_fonts.fallback_delay_short"
+  },
+  {
+    "name": "gfx.use_text_smoothing_setting"
+  },
+  {
+    "name": "gfx.vr.osvr.clientKitLibPath"
+  },
+  {
+    "name": "gfx.vr.osvr.clientLibPath"
+  },
+  {
+    "name": "gfx.vr.osvr.commonLibPath"
+  },
+  {
+    "name": "gfx.vr.osvr.utilLibPath"
+  },
+  {
+    "name": "gfx.webrender.batched-texture-uploads"
+  },
+  {
+    "name": "gfx.webrender.compositor"
+  },
+  {
+    "name": "gfx.webrender.debug.alpha-primitives"
+  },
+  {
+    "name": "gfx.webrender.debug.capture-profiler"
+  },
+  {
+    "name": "gfx.webrender.debug.disable-batching"
+  },
+  {
+    "name": "gfx.webrender.debug.echo-driver-messages"
+  },
+  {
+    "name": "gfx.webrender.debug.epochs"
+  },
+  {
+    "name": "gfx.webrender.debug.external-composite-borders"
+  },
+  {
+    "name": "gfx.webrender.debug.force-picture-invalidation"
+  },
+  {
+    "name": "gfx.webrender.debug.glyph-flashing"
+  },
+  {
+    "name": "gfx.webrender.debug.gpu-cache"
+  },
+  {
+    "name": "gfx.webrender.debug.gpu-sample-queries"
+  },
+  {
+    "name": "gfx.webrender.debug.gpu-time-queries"
+  },
+  {
+    "name": "gfx.webrender.debug.obscure-images"
+  },
+  {
+    "name": "gfx.webrender.debug.picture-borders"
+  },
+  {
+    "name": "gfx.webrender.debug.picture-caching"
+  },
+  {
+    "name": "gfx.webrender.debug.primitives"
+  },
+  {
+    "name": "gfx.webrender.debug.profiler"
+  },
+  {
+    "name": "gfx.webrender.debug.profiler-ui"
+  },
+  {
+    "name": "gfx.webrender.debug.render-targets"
+  },
+  {
+    "name": "gfx.webrender.debug.show-overdraw"
+  },
+  {
+    "name": "gfx.webrender.debug.slow-frame-indicator"
+  },
+  {
+    "name": "gfx.webrender.debug.small-screen"
+  },
+  {
+    "name": "gfx.webrender.debug.texture-cache"
+  },
+  {
+    "name": "gfx.webrender.debug.texture-cache.clear-evicted"
+  },
+  {
+    "name": "gfx.webrender.debug.window-visibility"
+  },
+  {
+    "name": "gfx.webrender.draw-calls-for-texture-copy"
+  },
+  {
+    "name": "gfx.webrender.multithreading"
+  },
+  {
+    "name": "gfx.webrender.pbo-uploads"
+  },
+  {
+    "name": "helpers.global_mailcap_file"
+  },
+  {
+    "name": "helpers.global_mime_types_file"
+  },
+  {
+    "name": "helpers.private_mailcap_file"
+  },
+  {
+    "name": "helpers.private_mime_types_file"
+  },
+  {
+    "name": "identity.fxaccounts.auth.uri"
+  },
+  {
+    "name": "identity.fxaccounts.autoconfig.uri"
+  },
+  {
+    "name": "identity.fxaccounts.commands.missed.fetch_interval"
+  },
+  {
+    "name": "identity.fxaccounts.commands.remoteTabManagement.enabled"
+  },
+  {
+    "name": "identity.fxaccounts.contextParam"
+  },
+  {
+    "name": "identity.fxaccounts.enabled"
+  },
+  {
+    "name": "identity.fxaccounts.pairing.enabled"
+  },
+  {
+    "name": "identity.fxaccounts.remote.oauth.uri"
+  },
+  {
+    "name": "identity.fxaccounts.remote.pairing.uri"
+  },
+  {
+    "name": "identity.fxaccounts.remote.profile.uri"
+  },
+  {
+    "name": "identity.fxaccounts.remote.root"
+  },
+  {
+    "name": "identity.fxaccounts.telemetry.clientAssociationPing.enabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.accessed"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.defaultVisible"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.enabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.pxiToolbarEnabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.pxiToolbarEnabled.monitorEnabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.pxiToolbarEnabled.relayEnabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.pxiToolbarEnabled.vpnEnabled"
+  },
+  {
+    "name": "identity.fxaccounts.toolbar.syncSetup.panelAccessed"
+  },
+  {
+    "name": "identity.mobilepromo.android"
+  },
+  {
+    "name": "identity.mobilepromo.ios"
+  },
+  {
+    "name": "identity.sendtabpromo.url"
+  },
+  {
+    "name": "identity.sync.tokenserver.uri"
+  },
+  {
+    "name": "image.animation_mode"
+  },
+  {
+    "name": "image.avif.enabled"
+  },
+  {
+    "name": "image.http.accept"
+  },
+  {
+    "name": "image.jxl.enabled"
+  },
+  {
+    "name": "intl.accept_languages"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.af"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.de-1901"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.de-1996"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.de-CH"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.fi"
+  },
+  {
+    "name": "intl.hyphenate-capitalized.nl"
+  },
+  {
+    "name": "intl.hyphenation-alias.af-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.as"
+  },
+  {
+    "name": "intl.hyphenation-alias.as-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.bg-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.bn-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.bs"
+  },
+  {
+    "name": "intl.hyphenation-alias.bs-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ca-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.cs-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.cy-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.da-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.de"
+  },
+  {
+    "name": "intl.hyphenation-alias.de-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.de-AT-1901"
+  },
+  {
+    "name": "intl.hyphenation-alias.de-CH-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.de-DE-1901"
+  },
+  {
+    "name": "intl.hyphenation-alias.en"
+  },
+  {
+    "name": "intl.hyphenation-alias.en-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.eo-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.es-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.et-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.fi-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.fr-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.gl-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.gu-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.hi-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.hr-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.hsb-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.hu-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ia-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.is-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.it-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.kn-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ku-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.la-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.lt-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ml-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.mn-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.mr"
+  },
+  {
+    "name": "intl.hyphenation-alias.mr-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.nb-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.nl-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.nn-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.no"
+  },
+  {
+    "name": "intl.hyphenation-alias.no-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.or-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.pa-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.pl-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.pt-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ru-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.sh-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.sk"
+  },
+  {
+    "name": "intl.hyphenation-alias.sk-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.sl-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.sr"
+  },
+  {
+    "name": "intl.hyphenation-alias.sr-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.sv-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.ta-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.te-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.tr-*"
+  },
+  {
+    "name": "intl.hyphenation-alias.uk-*"
+  },
+  {
+    "name": "intl.ime.hack.uim.using_key_snooper"
+  },
+  {
+    "name": "intl.ime.use_simple_context_on_password_field"
+  },
+  {
+    "name": "intl.l10n.pseudo"
+  },
+  {
+    "name": "intl.multilingual.aboutWelcome.languageMismatchEnabled"
+  },
+  {
+    "name": "intl.multilingual.downloadEnabled"
+  },
+  {
+    "name": "intl.multilingual.enabled"
+  },
+  {
+    "name": "intl.multilingual.liveReload"
+  },
+  {
+    "name": "intl.multilingual.liveReloadBidirectional"
+  },
+  {
+    "name": "intl.regional_prefs.use_os_locales"
+  },
+  {
+    "name": "javascript.enabled"
+  },
+  {
+    "name": "javascript.options.asyncstack"
+  },
+  {
+    "name": "javascript.options.asyncstack_capture_debuggee_only"
+  },
+  {
+    "name": "javascript.options.discardSystemSource"
+  },
+  {
+    "name": "javascript.options.dump_stack_on_debuggee_would_run"
+  },
+  {
+    "name": "javascript.options.mem.gc_allocation_threshold_mb"
+  },
+  {
+    "name": "javascript.options.mem.gc_balanced_heap_limits"
+  },
+  {
+    "name": "javascript.options.mem.gc_compacting"
+  },
+  {
+    "name": "javascript.options.mem.gc_generational"
+  },
+  {
+    "name": "javascript.options.mem.gc_heap_growth_factor"
+  },
+  {
+    "name": "javascript.options.mem.gc_helper_thread_ratio"
+  },
+  {
+    "name": "javascript.options.mem.gc_high_frequency_large_heap_growth"
+  },
+  {
+    "name": "javascript.options.mem.gc_high_frequency_small_heap_growth"
+  },
+  {
+    "name": "javascript.options.mem.gc_high_frequency_time_limit_ms"
+  },
+  {
+    "name": "javascript.options.mem.gc_incremental"
+  },
+  {
+    "name": "javascript.options.mem.gc_incremental_slice_ms"
+  },
+  {
+    "name": "javascript.options.mem.gc_large_heap_incremental_limit"
+  },
+  {
+    "name": "javascript.options.mem.gc_large_heap_size_min_mb"
+  },
+  {
+    "name": "javascript.options.mem.gc_low_frequency_heap_growth"
+  },
+  {
+    "name": "javascript.options.mem.gc_malloc_threshold_base_mb"
+  },
+  {
+    "name": "javascript.options.mem.gc_max_helper_threads"
+  },
+  {
+    "name": "javascript.options.mem.gc_max_parallel_marking_threads"
+  },
+  {
+    "name": "javascript.options.mem.gc_min_empty_chunk_count"
+  },
+  {
+    "name": "javascript.options.mem.gc_parallel_marking"
+  },
+  {
+    "name": "javascript.options.mem.gc_parallel_marking_threshold_mb"
+  },
+  {
+    "name": "javascript.options.mem.gc_per_zone"
+  },
+  {
+    "name": "javascript.options.mem.gc_small_heap_incremental_limit"
+  },
+  {
+    "name": "javascript.options.mem.gc_small_heap_size_max_mb"
+  },
+  {
+    "name": "javascript.options.mem.gc_urgent_threshold_mb"
+  },
+  {
+    "name": "javascript.options.mem.incremental_weakmap"
+  },
+  {
+    "name": "javascript.options.mem.max"
+  },
+  {
+    "name": "javascript.options.mem.nursery.max_kb"
+  },
+  {
+    "name": "javascript.options.mem.nursery.min_kb"
+  },
+  {
+    "name": "javascript.options.mem.nursery_eager_collection_threshold_kb"
+  },
+  {
+    "name": "javascript.options.mem.nursery_eager_collection_threshold_percent"
+  },
+  {
+    "name": "javascript.options.mem.nursery_eager_collection_timeout_ms"
+  },
+  {
+    "name": "javascript.options.mem.nursery_max_time_goal_ms"
+  },
+  {
+    "name": "javascript.options.shared_memory"
+  },
+  {
+    "name": "javascript.options.throw_on_debuggee_would_run"
+  },
+  {
+    "name": "javascript.options.wasm"
+  },
+  {
+    "name": "javascript.options.wasm_baselinejit"
+  },
+  {
+    "name": "javascript.options.wasm_trustedprincipals"
+  },
+  {
+    "name": "javascript.options.wasm_verbose"
+  },
+  {
+    "name": "keyword.enabled"
+  },
+  {
+    "name": "lightweightThemes.getMoreURL"
+  },
+  {
+    "name": "marionette.debugging.clicktostart"
+  },
+  {
+    "name": "marionette.navigate-after-click.enabled"
+  },
+  {
+    "name": "marionette.navigate-after-click.timeout"
+  },
+  {
+    "name": "marionette.port"
+  },
+  {
+    "name": "mathml.disabled"
+  },
+  {
+    "name": "mathml.scale_stretchy_operators.enabled"
+  },
+  {
+    "name": "media.cubeb.force_mock_context"
+  },
+  {
+    "name": "media.cubeb.output_voice_routing"
+  },
+  {
+    "name": "media.decoder-doctor.decode-errors-allowed"
+  },
+  {
+    "name": "media.decoder-doctor.decode-warnings-allowed"
+  },
+  {
+    "name": "media.decoder-doctor.new-issue-endpoint"
+  },
+  {
+    "name": "media.decoder-doctor.notifications-allowed"
+  },
+  {
+    "name": "media.decoder-doctor.verbose"
+  },
+  {
+    "name": "media.default_volume"
+  },
+  {
+    "name": "media.eme.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.capture.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.max_channels"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.aec"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.aec.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.aec.mobile"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.agc"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.agc.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.agc2.forced"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.hpf.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.noise"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.noise.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.platform.enabled"
+  },
+  {
+    "name": "media.getusermedia.audio.processing.transient.enabled"
+  },
+  {
+    "name": "media.getusermedia.camera.off_while_disabled.delay_ms"
+  },
+  {
+    "name": "media.getusermedia.camera.off_while_disabled.enabled"
+  },
+  {
+    "name": "media.getusermedia.microphone.off_while_disabled.delay_ms"
+  },
+  {
+    "name": "media.getusermedia.microphone.off_while_disabled.enabled"
+  },
+  {
+    "name": "media.getusermedia.screensharing.enabled"
+  },
+  {
+    "name": "media.gmp-gmpopenh264.enabled"
+  },
+  {
+    "name": "media.gmp-gmpopenh264.visible"
+  },
+  {
+    "name": "media.gmp-manager.allowLocalSources"
+  },
+  {
+    "name": "media.gmp-manager.cert.checkAttributes"
+  },
+  {
+    "name": "media.gmp-manager.cert.requireBuiltIn"
+  },
+  {
+    "name": "media.gmp-manager.certs.1.commonName"
+  },
+  {
+    "name": "media.gmp-manager.certs.1.issuerName"
+  },
+  {
+    "name": "media.gmp-manager.certs.2.commonName"
+  },
+  {
+    "name": "media.gmp-manager.certs.2.issuerName"
+  },
+  {
+    "name": "media.gmp-manager.checkContentSignature"
+  },
+  {
+    "name": "media.gmp-manager.chromium-update-url"
+  },
+  {
+    "name": "media.gmp-manager.url"
+  },
+  {
+    "name": "media.gmp-provider.enabled"
+  },
+  {
+    "name": "media.gmp-widevinecdm.chromium-guid"
+  },
+  {
+    "name": "media.gmp-widevinecdm.enabled"
+  },
+  {
+    "name": "media.gmp-widevinecdm.force-chromium-beta"
+  },
+  {
+    "name": "media.gmp-widevinecdm.force-chromium-update"
+  },
+  {
+    "name": "media.gmp-widevinecdm.visible"
+  },
+  {
+    "name": "media.gmp.storage.version.expected"
+  },
+  {
+    "name": "media.navigator.audio.fake_frequency"
+  },
+  {
+    "name": "media.navigator.audio.use_fec"
+  },
+  {
+    "name": "media.navigator.permission.disabled"
+  },
+  {
+    "name": "media.navigator.streams.fake"
+  },
+  {
+    "name": "media.navigator.video.default_fps"
+  },
+  {
+    "name": "media.navigator.video.default_height"
+  },
+  {
+    "name": "media.navigator.video.default_resize_mode"
+  },
+  {
+    "name": "media.navigator.video.default_width"
+  },
+  {
+    "name": "media.navigator.video.disable_h264_baseline"
+  },
+  {
+    "name": "media.navigator.video.enabled"
+  },
+  {
+    "name": "media.navigator.video.h264.level"
+  },
+  {
+    "name": "media.navigator.video.h264.max_br"
+  },
+  {
+    "name": "media.navigator.video.h264.max_mbps"
+  },
+  {
+    "name": "media.navigator.video.max_fr"
+  },
+  {
+    "name": "media.navigator.video.max_fs"
+  },
+  {
+    "name": "media.navigator.video.offer_rtcp_rsize"
+  },
+  {
+    "name": "media.navigator.video.red_ulpfec_enabled"
+  },
+  {
+    "name": "media.navigator.video.resize_mode.enabled"
+  },
+  {
+    "name": "media.navigator.video.use_remb"
+  },
+  {
+    "name": "media.navigator.video.use_tmmbr"
+  },
+  {
+    "name": "media.navigator.video.use_transport_cc"
+  },
+  {
+    "name": "media.peerconnection.allow_old_setParameters"
+  },
+  {
+    "name": "media.peerconnection.default_iceservers"
+  },
+  {
+    "name": "media.peerconnection.description.legacy.enabled"
+  },
+  {
+    "name": "media.peerconnection.dtls.version.max"
+  },
+  {
+    "name": "media.peerconnection.dtls.version.min"
+  },
+  {
+    "name": "media.peerconnection.ice.default_address_only"
+  },
+  {
+    "name": "media.peerconnection.ice.force_interface"
+  },
+  {
+    "name": "media.peerconnection.ice.link_local"
+  },
+  {
+    "name": "media.peerconnection.ice.loopback"
+  },
+  {
+    "name": "media.peerconnection.ice.no_host"
+  },
+  {
+    "name": "media.peerconnection.ice.obfuscate_host_addresses"
+  },
+  {
+    "name": "media.peerconnection.ice.obfuscate_host_addresses.blocklist"
+  },
+  {
+    "name": "media.peerconnection.ice.proxy_only"
+  },
+  {
+    "name": "media.peerconnection.ice.proxy_only_if_behind_proxy"
+  },
+  {
+    "name": "media.peerconnection.ice.proxy_only_if_pbmode"
+  },
+  {
+    "name": "media.peerconnection.ice.relay_only"
+  },
+  {
+    "name": "media.peerconnection.ice.stun_client_maximum_transmits"
+  },
+  {
+    "name": "media.peerconnection.ice.tcp"
+  },
+  {
+    "name": "media.peerconnection.ice.tcp_so_sock_count"
+  },
+  {
+    "name": "media.peerconnection.ice.trickle_grace_period"
+  },
+  {
+    "name": "media.peerconnection.identity.timeout"
+  },
+  {
+    "name": "media.peerconnection.mtransport_process"
+  },
+  {
+    "name": "media.peerconnection.sctp.default_max_streams"
+  },
+  {
+    "name": "media.peerconnection.sctp.use_dcsctp"
+  },
+  {
+    "name": "media.peerconnection.sdp.alternate_parse_mode"
+  },
+  {
+    "name": "media.peerconnection.sdp.disable_stereo_fmtp"
+  },
+  {
+    "name": "media.peerconnection.sdp.parser"
+  },
+  {
+    "name": "media.peerconnection.sdp.quirk.duplicate_fingerprint.allowlist"
+  },
+  {
+    "name": "media.peerconnection.sdp.strict_success"
+  },
+  {
+    "name": "media.peerconnection.treat_warnings_as_errors"
+  },
+  {
+    "name": "media.peerconnection.turn.disable"
+  },
+  {
+    "name": "media.peerconnection.use_document_iceservers"
+  },
+  {
+    "name": "media.peerconnection.video.denoising"
+  },
+  {
+    "name": "media.peerconnection.video.max_bitrate"
+  },
+  {
+    "name": "media.peerconnection.video.min_bitrate"
+  },
+  {
+    "name": "media.peerconnection.video.min_bitrate_estimate"
+  },
+  {
+    "name": "media.peerconnection.video.start_bitrate"
+  },
+  {
+    "name": "media.peerconnection.video.use_rtx"
+  },
+  {
+    "name": "media.peerconnection.video.use_rtx.blocklist"
+  },
+  {
+    "name": "media.peerconnection.video.vp9_enabled"
+  },
+  {
+    "name": "media.peerconnection.video.vp9_preferred"
+  },
+  {
+    "name": "media.play-stand-alone"
+  },
+  {
+    "name": "media.recorder.audio_node.enabled"
+  },
+  {
+    "name": "media.recorder.video.frame_drops"
+  },
+  {
+    "name": "media.throttle-factor"
+  },
+  {
+    "name": "media.videocontrols.keyboard-tab-to-all-controls"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.audio-toggle.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.display-text-tracks.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.display-text-tracks.size"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.display-text-tracks.toggle.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.improved-video-controls.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.keyboard-controls.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.respect-disablePictureInPicture"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.urlbar-button.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.always-show"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.enabled"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.has-used"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.min-video-secs"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.position"
+  },
+  {
+    "name": "media.videocontrols.picture-in-picture.video-toggle.visibility-threshold"
+  },
+  {
+    "name": "media.volume_scale"
+  },
+  {
+    "name": "media.webrtc.debug.log_file"
+  },
+  {
+    "name": "media.webvtt.debug.logging"
+  },
+  {
+    "name": "memory.blob_report.stack_frames"
+  },
+  {
+    "name": "memory.dump_reports_on_oom"
+  },
+  {
+    "name": "memory.ghost_window_timeout_seconds"
+  },
+  {
+    "name": "memory.report_concurrency"
+  },
+  {
+    "name": "memory_info_dumper.watch_fifo.enabled"
+  },
+  {
+    "name": "messaging-system.askForFeedback"
+  },
+  {
+    "name": "messaging-system.log"
+  },
+  {
+    "name": "messaging-system.profile.singleProfileMessaging.disable"
+  },
+  {
+    "name": "messaging-system.rsexperimentloader.collection_id"
+  },
+  {
+    "name": "middlemouse.contentLoadURL"
+  },
+  {
+    "name": "middlemouse.paste"
+  },
+  {
+    "name": "middlemouse.scrollbarPosition"
+  },
+  {
+    "name": "mousebutton.4th.enabled"
+  },
+  {
+    "name": "mousebutton.5th.enabled"
+  },
+  {
+    "name": "mousewheel.default.action"
+  },
+  {
+    "name": "mousewheel.default.action.override_x"
+  },
+  {
+    "name": "mousewheel.default.delta_multiplier_x"
+  },
+  {
+    "name": "mousewheel.default.delta_multiplier_y"
+  },
+  {
+    "name": "mousewheel.default.delta_multiplier_z"
+  },
+  {
+    "name": "mousewheel.min_line_scroll_amount"
+  },
+  {
+    "name": "mousewheel.with_alt.action"
+  },
+  {
+    "name": "mousewheel.with_alt.action.override_x"
+  },
+  {
+    "name": "mousewheel.with_alt.delta_multiplier_x"
+  },
+  {
+    "name": "mousewheel.with_alt.delta_multiplier_y"
+  },
+  {
+    "name": "mousewheel.with_alt.delta_multiplier_z"
+  },
+  {
+    "name": "mousewheel.with_control.action"
+  },
+  {
+    "name": "mousewheel.with_control.action.override_x"
+  },
+  {
+    "name": "mousewheel.with_control.delta_multiplier_x"
+  },
+  {
+    "name": "mousewheel.with_control.delta_multiplier_y"
+  },
+  {
+    "name": "mousewheel.with_control.delta_multiplier_z"
+  },
+  {
+    "name": "mousewheel.with_meta.action"
+  },
+  {
+    "name": "mousewheel.with_meta.action.override_x"
+  },
+  {
+    "name": "mousewheel.with_meta.delta_multiplier_x"
+  },
+  {
+    "name": "mousewheel.with_meta.delta_multiplier_y"
+  },
+  {
+    "name": "mousewheel.with_meta.delta_multiplier_z"
+  },
+  {
+    "name": "mousewheel.with_shift.action"
+  },
+  {
+    "name": "mousewheel.with_shift.action.override_x"
+  },
+  {
+    "name": "mousewheel.with_shift.delta_multiplier_x"
+  },
+  {
+    "name": "mousewheel.with_shift.delta_multiplier_y"
+  },
+  {
+    "name": "mousewheel.with_shift.delta_multiplier_z"
+  },
+  {
+    "name": "narrate.enabled"
+  },
+  {
+    "name": "narrate.filter-voices"
+  },
+  {
+    "name": "narrate.rate"
+  },
+  {
+    "name": "narrate.test"
+  },
+  {
+    "name": "narrate.voice"
+  },
+  {
+    "name": "network.auth.force-generic-ntlm"
+  },
+  {
+    "name": "network.auth.private-browsing-sso"
+  },
+  {
+    "name": "network.automatic-ntlm-auth.allow-non-fqdn"
+  },
+  {
+    "name": "network.automatic-ntlm-auth.allow-proxies"
+  },
+  {
+    "name": "network.automatic-ntlm-auth.trusted-uris"
+  },
+  {
+    "name": "network.buffer.cache.count"
+  },
+  {
+    "name": "network.buffer.cache.size"
+  },
+  {
+    "name": "network.captive-portal-service.backoffFactor"
+  },
+  {
+    "name": "network.captive-portal-service.enabled"
+  },
+  {
+    "name": "network.captive-portal-service.maxInterval"
+  },
+  {
+    "name": "network.captive-portal-service.minInterval"
+  },
+  {
+    "name": "network.connectivity-service.DNS_HTTPS.domain"
+  },
+  {
+    "name": "network.connectivity-service.DNSv4.domain"
+  },
+  {
+    "name": "network.connectivity-service.DNSv6.domain"
+  },
+  {
+    "name": "network.connectivity-service.IPv4.url"
+  },
+  {
+    "name": "network.connectivity-service.IPv6.url"
+  },
+  {
+    "name": "network.connectivity-service.enabled"
+  },
+  {
+    "name": "network.cookie.cookieBehavior"
+  },
+  {
+    "name": "network.cookie.cookieBehavior.pbmode"
+  },
+  {
+    "name": "network.cookie.maxNumber"
+  },
+  {
+    "name": "network.cookie.maxPerHost"
+  },
+  {
+    "name": "network.cookie.quotaPerHost"
+  },
+  {
+    "name": "network.cookie.sameSite.laxByDefault.disabledHosts"
+  },
+  {
+    "name": "network.generic-ntlm-auth.workstation"
+  },
+  {
+    "name": "network.http.accept"
+  },
+  {
+    "name": "network.http.accept-encoding"
+  },
+  {
+    "name": "network.http.accept-encoding.dictionary"
+  },
+  {
+    "name": "network.http.accept-encoding.secure"
+  },
+  {
+    "name": "network.http.altsvc.enabled"
+  },
+  {
+    "name": "network.http.altsvc.oe"
+  },
+  {
+    "name": "network.http.assoc-req.enforce"
+  },
+  {
+    "name": "network.http.connection-retry-timeout"
+  },
+  {
+    "name": "network.http.connection-timeout"
+  },
+  {
+    "name": "network.http.default-socket-type"
+  },
+  {
+    "name": "network.http.diagnostics"
+  },
+  {
+    "name": "network.http.enforce-framing.http1"
+  },
+  {
+    "name": "network.http.enforce-framing.soft"
+  },
+  {
+    "name": "network.http.enforce-framing.strict_chunked_encoding"
+  },
+  {
+    "name": "network.http.fallback-connection-timeout"
+  },
+  {
+    "name": "network.http.fast-fallback-to-IPv4"
+  },
+  {
+    "name": "network.http.focused_window_transaction_ratio"
+  },
+  {
+    "name": "network.http.http3.alt-svc-mapping-for-testing"
+  },
+  {
+    "name": "network.http.http3.default-max-stream-blocked"
+  },
+  {
+    "name": "network.http.http3.default-qpack-table-size"
+  },
+  {
+    "name": "network.http.keep-alive.timeout"
+  },
+  {
+    "name": "network.http.max-connections"
+  },
+  {
+    "name": "network.http.max-persistent-connections-per-proxy"
+  },
+  {
+    "name": "network.http.max-persistent-connections-per-server"
+  },
+  {
+    "name": "network.http.max-urgent-start-excessive-connections-per-host"
+  },
+  {
+    "name": "network.http.network-changed.timeout"
+  },
+  {
+    "name": "network.http.on_click_priority"
+  },
+  {
+    "name": "network.http.pacing.requests.burst"
+  },
+  {
+    "name": "network.http.pacing.requests.enabled"
+  },
+  {
+    "name": "network.http.pacing.requests.hz"
+  },
+  {
+    "name": "network.http.pacing.requests.min-parallelism"
+  },
+  {
+    "name": "network.http.prompt-temp-redirect"
+  },
+  {
+    "name": "network.http.proxy.respect-be-conservative"
+  },
+  {
+    "name": "network.http.proxy.version"
+  },
+  {
+    "name": "network.http.qos"
+  },
+  {
+    "name": "network.http.redirection-limit"
+  },
+  {
+    "name": "network.http.rendering-critical-requests-prioritization"
+  },
+  {
+    "name": "network.http.request.max-attempts"
+  },
+  {
+    "name": "network.http.request.max-start-delay"
+  },
+  {
+    "name": "network.http.response.timeout"
+  },
+  {
+    "name": "network.http.send_window_size"
+  },
+  {
+    "name": "network.http.speculative-parallel-limit"
+  },
+  {
+    "name": "network.http.tcp_keepalive.long_lived_connections"
+  },
+  {
+    "name": "network.http.tcp_keepalive.long_lived_idle_time"
+  },
+  {
+    "name": "network.http.tcp_keepalive.short_lived_connections"
+  },
+  {
+    "name": "network.http.tcp_keepalive.short_lived_idle_time"
+  },
+  {
+    "name": "network.http.tcp_keepalive.short_lived_time"
+  },
+  {
+    "name": "network.http.throttle.enable"
+  },
+  {
+    "name": "network.http.throttle.hold-time-ms"
+  },
+  {
+    "name": "network.http.throttle.max-time-ms"
+  },
+  {
+    "name": "network.http.throttle.resume-for"
+  },
+  {
+    "name": "network.http.throttle.suspend-for"
+  },
+  {
+    "name": "network.http.tls-handshake-timeout"
+  },
+  {
+    "name": "network.http.version"
+  },
+  {
+    "name": "network.lna.etp.enabled"
+  },
+  {
+    "name": "network.lna.prompt.timeout"
+  },
+  {
+    "name": "network.manage-offline-status"
+  },
+  {
+    "name": "network.negotiate-auth.allow-non-fqdn"
+  },
+  {
+    "name": "network.negotiate-auth.allow-proxies"
+  },
+  {
+    "name": "network.negotiate-auth.delegation-uris"
+  },
+  {
+    "name": "network.negotiate-auth.gsslib"
+  },
+  {
+    "name": "network.negotiate-auth.trusted-uris"
+  },
+  {
+    "name": "network.negotiate-auth.using-native-gsslib"
+  },
+  {
+    "name": "network.online"
+  },
+  {
+    "name": "network.predictor.enable-hover-on-ssl"
+  },
+  {
+    "name": "network.prefetch-next"
+  },
+  {
+    "name": "network.protocol-handler.expose-all"
+  },
+  {
+    "name": "network.protocol-handler.expose.mailto"
+  },
+  {
+    "name": "network.protocol-handler.expose.news"
+  },
+  {
+    "name": "network.protocol-handler.expose.nntp"
+  },
+  {
+    "name": "network.protocol-handler.expose.snews"
+  },
+  {
+    "name": "network.protocol-handler.external-default"
+  },
+  {
+    "name": "network.protocol-handler.external.afp"
+  },
+  {
+    "name": "network.protocol-handler.external.data"
+  },
+  {
+    "name": "network.protocol-handler.external.disk"
+  },
+  {
+    "name": "network.protocol-handler.external.disks"
+  },
+  {
+    "name": "network.protocol-handler.external.hcp"
+  },
+  {
+    "name": "network.protocol-handler.external.htp"
+  },
+  {
+    "name": "network.protocol-handler.external.htps"
+  },
+  {
+    "name": "network.protocol-handler.external.ie.http"
+  },
+  {
+    "name": "network.protocol-handler.external.iehistory"
+  },
+  {
+    "name": "network.protocol-handler.external.ierss"
+  },
+  {
+    "name": "network.protocol-handler.external.ile"
+  },
+  {
+    "name": "network.protocol-handler.external.javascript"
+  },
+  {
+    "name": "network.protocol-handler.external.le"
+  },
+  {
+    "name": "network.protocol-handler.external.mailto"
+  },
+  {
+    "name": "network.protocol-handler.external.mk"
+  },
+  {
+    "name": "network.protocol-handler.external.moz-icon"
+  },
+  {
+    "name": "network.protocol-handler.external.ms-cxh"
+  },
+  {
+    "name": "network.protocol-handler.external.ms-cxh-full"
+  },
+  {
+    "name": "network.protocol-handler.external.ms-help"
+  },
+  {
+    "name": "network.protocol-handler.external.ms-msdt"
+  },
+  {
+    "name": "network.protocol-handler.external.ps"
+  },
+  {
+    "name": "network.protocol-handler.external.res"
+  },
+  {
+    "name": "network.protocol-handler.external.search"
+  },
+  {
+    "name": "network.protocol-handler.external.search-ms"
+  },
+  {
+    "name": "network.protocol-handler.external.shell"
+  },
+  {
+    "name": "network.protocol-handler.external.tps"
+  },
+  {
+    "name": "network.protocol-handler.external.ttp"
+  },
+  {
+    "name": "network.protocol-handler.external.ttps"
+  },
+  {
+    "name": "network.protocol-handler.external.vbscript"
+  },
+  {
+    "name": "network.protocol-handler.external.vnd.ms.radio"
+  },
+  {
+    "name": "network.protocol-handler.warn-external-default"
+  },
+  {
+    "name": "network.protocol-handler.warn-external.file"
+  },
+  {
+    "name": "network.protocol-handler.warn-external.mailto"
+  },
+  {
+    "name": "network.proxy.autoconfig_retry_interval_max"
+  },
+  {
+    "name": "network.proxy.autoconfig_retry_interval_min"
+  },
+  {
+    "name": "network.proxy.autoconfig_url"
+  },
+  {
+    "name": "network.proxy.autoconfig_url.include_path"
+  },
+  {
+    "name": "network.proxy.enable_wpad_over_dhcp"
+  },
+  {
+    "name": "network.proxy.failover_timeout"
+  },
+  {
+    "name": "network.proxy.http"
+  },
+  {
+    "name": "network.proxy.http_port"
+  },
+  {
+    "name": "network.proxy.no_proxies_on"
+  },
+  {
+    "name": "network.proxy.proxy_over_tls"
+  },
+  {
+    "name": "network.proxy.share_proxy_settings"
+  },
+  {
+    "name": "network.proxy.socks"
+  },
+  {
+    "name": "network.proxy.socks_port"
+  },
+  {
+    "name": "network.proxy.socks_version"
+  },
+  {
+    "name": "network.proxy.ssl"
+  },
+  {
+    "name": "network.proxy.ssl_port"
+  },
+  {
+    "name": "network.sts.max_time_for_events_between_two_polls"
+  },
+  {
+    "name": "network.sts.max_time_for_pr_close_during_shutdown"
+  },
+  {
+    "name": "network.sts.poll_busy_wait_period"
+  },
+  {
+    "name": "network.sts.poll_busy_wait_period_timeout"
+  },
+  {
+    "name": "network.sts.pollable_event_timeout"
+  },
+  {
+    "name": "network.tcp.keepalive.enabled"
+  },
+  {
+    "name": "network.tcp.keepalive.idle_time"
+  },
+  {
+    "name": "network.tcp.keepalive.probe_count"
+  },
+  {
+    "name": "network.tcp.keepalive.retry_interval"
+  },
+  {
+    "name": "network.tickle-wifi.delay"
+  },
+  {
+    "name": "network.tickle-wifi.duration"
+  },
+  {
+    "name": "network.tickle-wifi.enabled"
+  },
+  {
+    "name": "network.trr.builtin-excluded-domains"
+  },
+  {
+    "name": "network.trr.confirmationNS"
+  },
+  {
+    "name": "network.trr.credentials"
+  },
+  {
+    "name": "network.trr.custom_uri"
+  },
+  {
+    "name": "network.trr.excluded-domains"
+  },
+  {
+    "name": "network.trr.uri"
+  },
+  {
+    "name": "network.trr_ui.fallback_was_checked"
+  },
+  {
+    "name": "network.websocket.allowInsecureFromHTTPS"
+  },
+  {
+    "name": "network.websocket.delay-failed-reconnects"
+  },
+  {
+    "name": "network.websocket.max-connections"
+  },
+  {
+    "name": "network.websocket.max-message-size"
+  },
+  {
+    "name": "network.websocket.timeout.close"
+  },
+  {
+    "name": "network.websocket.timeout.open"
+  },
+  {
+    "name": "network.websocket.timeout.ping.request"
+  },
+  {
+    "name": "network.websocket.timeout.ping.response"
+  },
+  {
+    "name": "nglayout.enable_drag_images"
+  },
+  {
+    "name": "nimbus.debug"
+  },
+  {
+    "name": "nimbus.profilesdatastoreservice.enabled"
+  },
+  {
+    "name": "nimbus.profilesdatastoreservice.read.enabled"
+  },
+  {
+    "name": "nimbus.profilesdatastoreservice.sync.enabled"
+  },
+  {
+    "name": "nimbus.qa.pref-1"
+  },
+  {
+    "name": "nimbus.qa.pref-2"
+  },
+  {
+    "name": "nimbus.rollouts.enabled"
+  },
+  {
+    "name": "nimbus.telemetry.targetingContextEnabled"
+  },
+  {
+    "name": "nimbus.validation.enabled"
+  },
+  {
+    "name": "pdfjs.altTextLearnMoreUrl"
+  },
+  {
+    "name": "pdfjs.annotationEditorMode"
+  },
+  {
+    "name": "pdfjs.annotationMode"
+  },
+  {
+    "name": "pdfjs.capCanvasAreaFactor"
+  },
+  {
+    "name": "pdfjs.commentLearnMoreUrl"
+  },
+  {
+    "name": "pdfjs.cursorToolOnLoad"
+  },
+  {
+    "name": "pdfjs.defaultZoomDelay"
+  },
+  {
+    "name": "pdfjs.defaultZoomValue"
+  },
+  {
+    "name": "pdfjs.disableAutoFetch"
+  },
+  {
+    "name": "pdfjs.disableFontFace"
+  },
+  {
+    "name": "pdfjs.disablePageLabels"
+  },
+  {
+    "name": "pdfjs.disableRange"
+  },
+  {
+    "name": "pdfjs.disableStream"
+  },
+  {
+    "name": "pdfjs.enableAltText"
+  },
+  {
+    "name": "pdfjs.enableAltTextForEnglish"
+  },
+  {
+    "name": "pdfjs.enableAltTextModelDownload"
+  },
+  {
+    "name": "pdfjs.enableAutoLinking"
+  },
+  {
+    "name": "pdfjs.enableComment"
+  },
+  {
+    "name": "pdfjs.enableGuessAltText"
+  },
+  {
+    "name": "pdfjs.enableHWA"
+  },
+  {
+    "name": "pdfjs.enableHighlightEditor"
+  },
+  {
+    "name": "pdfjs.enableHighlightFloatingButton"
+  },
+  {
+    "name": "pdfjs.enableNewAltTextWhenAddingImage"
+  },
+  {
+    "name": "pdfjs.enableOptimizedPartialRendering"
+  },
+  {
+    "name": "pdfjs.enablePermissions"
+  },
+  {
+    "name": "pdfjs.enablePrintAutoRotate"
+  },
+  {
+    "name": "pdfjs.enableScripting"
+  },
+  {
+    "name": "pdfjs.enableSignatureEditor"
+  },
+  {
+    "name": "pdfjs.enableUpdatedAddImage"
+  },
+  {
+    "name": "pdfjs.enableXfa"
+  },
+  {
+    "name": "pdfjs.externalLinkTarget"
+  },
+  {
+    "name": "pdfjs.forcePageColors"
+  },
+  {
+    "name": "pdfjs.handleOctetStream"
+  },
+  {
+    "name": "pdfjs.highlightEditorColors"
+  },
+  {
+    "name": "pdfjs.historyUpdateUrl"
+  },
+  {
+    "name": "pdfjs.ignoreDestinationZoom"
+  },
+  {
+    "name": "pdfjs.pageColorsBackground"
+  },
+  {
+    "name": "pdfjs.pageColorsForeground"
+  },
+  {
+    "name": "pdfjs.pdfBugEnabled"
+  },
+  {
+    "name": "pdfjs.previousHandler.alwaysAskBeforeHandling"
+  },
+  {
+    "name": "pdfjs.previousHandler.preferredAction"
+  },
+  {
+    "name": "pdfjs.scrollModeOnLoad"
+  },
+  {
+    "name": "pdfjs.sidebarViewOnLoad"
+  },
+  {
+    "name": "pdfjs.spreadModeOnLoad"
+  },
+  {
+    "name": "pdfjs.textLayerMode"
+  },
+  {
+    "name": "pdfjs.viewOnLoad"
+  },
+  {
+    "name": "pdfjs.viewerCssTheme"
+  },
+  {
+    "name": "permissions.default.camera"
+  },
+  {
+    "name": "permissions.default.desktop-notification"
+  },
+  {
+    "name": "permissions.default.geo"
+  },
+  {
+    "name": "permissions.default.local-network"
+  },
+  {
+    "name": "permissions.default.localhost"
+  },
+  {
+    "name": "permissions.default.microphone"
+  },
+  {
+    "name": "permissions.default.shortcuts"
+  },
+  {
+    "name": "permissions.default.xr"
+  },
+  {
+    "name": "permissions.desktop-notification.notNow.enabled"
+  },
+  {
+    "name": "permissions.desktop-notification.postPrompt.enabled"
+  },
+  {
+    "name": "permissions.fullscreen.allowed"
+  },
+  {
+    "name": "permissions.manager.defaultsUrl"
+  },
+  {
+    "name": "permissions.media.show_always_ask.enabled"
+  },
+  {
+    "name": "places.frecency.bookmarkVisitBonus"
+  },
+  {
+    "name": "places.frecency.defaultBucketWeight"
+  },
+  {
+    "name": "places.frecency.defaultVisitBonus"
+  },
+  {
+    "name": "places.frecency.downloadVisitBonus"
+  },
+  {
+    "name": "places.frecency.embedVisitBonus"
+  },
+  {
+    "name": "places.frecency.firstBucketCutoff"
+  },
+  {
+    "name": "places.frecency.firstBucketWeight"
+  },
+  {
+    "name": "places.frecency.fourthBucketCutoff"
+  },
+  {
+    "name": "places.frecency.fourthBucketWeight"
+  },
+  {
+    "name": "places.frecency.framedLinkVisitBonus"
+  },
+  {
+    "name": "places.frecency.linkVisitBonus"
+  },
+  {
+    "name": "places.frecency.numVisits"
+  },
+  {
+    "name": "places.frecency.origins.alternative.featureGate"
+  },
+  {
+    "name": "places.frecency.permRedirectVisitBonus"
+  },
+  {
+    "name": "places.frecency.redirectSourceVisitBonus"
+  },
+  {
+    "name": "places.frecency.reloadVisitBonus"
+  },
+  {
+    "name": "places.frecency.secondBucketCutoff"
+  },
+  {
+    "name": "places.frecency.secondBucketWeight"
+  },
+  {
+    "name": "places.frecency.tempRedirectVisitBonus"
+  },
+  {
+    "name": "places.frecency.thirdBucketCutoff"
+  },
+  {
+    "name": "places.frecency.thirdBucketWeight"
+  },
+  {
+    "name": "places.frecency.typedVisitBonus"
+  },
+  {
+    "name": "places.frecency.unvisitedBookmarkBonus"
+  },
+  {
+    "name": "places.frecency.unvisitedTypedBonus"
+  },
+  {
+    "name": "places.history.enabled"
+  },
+  {
+    "name": "places.loglevel"
+  },
+  {
+    "name": "places.search.matchDiacritics"
+  },
+  {
+    "name": "places.semanticHistory.featureGate"
+  },
+  {
+    "name": "places.semanticHistory.supportedRegions"
+  },
+  {
+    "name": "plugins.rewrite_youtube_embeds"
+  },
+  {
+    "name": "pointer-lock-api.warning.timeout"
+  },
+  {
+    "name": "print.cups.monochrome.extra_settings"
+  },
+  {
+    "name": "print.more-settings.open"
+  },
+  {
+    "name": "print.print_edge_bottom"
+  },
+  {
+    "name": "print.print_edge_left"
+  },
+  {
+    "name": "print.print_edge_right"
+  },
+  {
+    "name": "print.print_edge_top"
+  },
+  {
+    "name": "print.print_footercenter"
+  },
+  {
+    "name": "print.print_footerleft"
+  },
+  {
+    "name": "print.print_footerright"
+  },
+  {
+    "name": "print.print_headercenter"
+  },
+  {
+    "name": "print.print_headerleft"
+  },
+  {
+    "name": "print.print_headerright"
+  },
+  {
+    "name": "print.print_in_color"
+  },
+  {
+    "name": "print.print_reversed"
+  },
+  {
+    "name": "print.save_print_settings"
+  },
+  {
+    "name": "print.show_page_setup_menu"
+  },
+  {
+    "name": "print.shrink-to-fit.scale-limit-percent"
+  },
+  {
+    "name": "privacy.authPromptSpoofingProtection"
+  },
+  {
+    "name": "privacy.baselineFingerprintingProtection.granularOverrides"
+  },
+  {
+    "name": "privacy.baselineFingerprintingProtection.overrides"
+  },
+  {
+    "name": "privacy.clearHistory.browsingHistoryAndDownloads"
+  },
+  {
+    "name": "privacy.clearHistory.cache"
+  },
+  {
+    "name": "privacy.clearHistory.cookiesAndStorage"
+  },
+  {
+    "name": "privacy.clearHistory.formdata"
+  },
+  {
+    "name": "privacy.clearHistory.historyFormDataAndDownloads"
+  },
+  {
+    "name": "privacy.clearHistory.siteSettings"
+  },
+  {
+    "name": "privacy.clearOnShutdown.cache"
+  },
+  {
+    "name": "privacy.clearOnShutdown.cookies"
+  },
+  {
+    "name": "privacy.clearOnShutdown.downloads"
+  },
+  {
+    "name": "privacy.clearOnShutdown.formdata"
+  },
+  {
+    "name": "privacy.clearOnShutdown.history"
+  },
+  {
+    "name": "privacy.clearOnShutdown.offlineApps"
+  },
+  {
+    "name": "privacy.clearOnShutdown.openWindows"
+  },
+  {
+    "name": "privacy.clearOnShutdown.sessions"
+  },
+  {
+    "name": "privacy.clearOnShutdown.siteSettings"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.browsingHistoryAndDownloads"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.cache"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.cookiesAndStorage"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.formdata"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.historyFormDataAndDownloads"
+  },
+  {
+    "name": "privacy.clearOnShutdown_v2.siteSettings"
+  },
+  {
+    "name": "privacy.clearSiteData.browsingHistoryAndDownloads"
+  },
+  {
+    "name": "privacy.clearSiteData.cache"
+  },
+  {
+    "name": "privacy.clearSiteData.cookiesAndStorage"
+  },
+  {
+    "name": "privacy.clearSiteData.formdata"
+  },
+  {
+    "name": "privacy.clearSiteData.historyFormDataAndDownloads"
+  },
+  {
+    "name": "privacy.clearSiteData.siteSettings"
+  },
+  {
+    "name": "privacy.cpd.cache"
+  },
+  {
+    "name": "privacy.cpd.cookies"
+  },
+  {
+    "name": "privacy.cpd.downloads"
+  },
+  {
+    "name": "privacy.cpd.formdata"
+  },
+  {
+    "name": "privacy.cpd.history"
+  },
+  {
+    "name": "privacy.cpd.offlineApps"
+  },
+  {
+    "name": "privacy.cpd.openWindows"
+  },
+  {
+    "name": "privacy.cpd.passwords"
+  },
+  {
+    "name": "privacy.cpd.sessions"
+  },
+  {
+    "name": "privacy.cpd.siteSettings"
+  },
+  {
+    "name": "privacy.exposeContentTitleInWindow"
+  },
+  {
+    "name": "privacy.exposeContentTitleInWindow.pbm"
+  },
+  {
+    "name": "privacy.fingerprintingProtection.WebCompatService.logLevel"
+  },
+  {
+    "name": "privacy.fingerprintingProtection.granularOverrides"
+  },
+  {
+    "name": "privacy.fingerprintingProtection.overrides"
+  },
+  {
+    "name": "privacy.globalprivacycontrol.enabled"
+  },
+  {
+    "name": "privacy.globalprivacycontrol.functionality.enabled"
+  },
+  {
+    "name": "privacy.globalprivacycontrol.pbmode.enabled"
+  },
+  {
+    "name": "privacy.history.custom"
+  },
+  {
+    "name": "privacy.panicButton.enabled"
+  },
+  {
+    "name": "privacy.popups.maxReported"
+  },
+  {
+    "name": "privacy.popups.showBrowserMessage"
+  },
+  {
+    "name": "privacy.purge_trackers.consider_entity_list"
+  },
+  {
+    "name": "privacy.purge_trackers.enabled"
+  },
+  {
+    "name": "privacy.purge_trackers.logging.level"
+  },
+  {
+    "name": "privacy.purge_trackers.max_purge_count"
+  },
+  {
+    "name": "privacy.query_stripping.listService.logLevel"
+  },
+  {
+    "name": "privacy.query_stripping.strip_on_share.enableTestMode"
+  },
+  {
+    "name": "privacy.query_stripping.strip_on_share.enabled"
+  },
+  {
+    "name": "privacy.rejectForeign.allowList"
+  },
+  {
+    "name": "privacy.resistFingerprinting.exemptedDomains"
+  },
+  {
+    "name": "privacy.resistFingerprinting.skipEarlyBlankFirstPaint"
+  },
+  {
+    "name": "privacy.restrict3rdpartystorage.partitionedHosts"
+  },
+  {
+    "name": "privacy.restrict3rdpartystorage.url_decorations"
+  },
+  {
+    "name": "privacy.restrict3rdpartystorage.userInteractionRequiredForHosts"
+  },
+  {
+    "name": "privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs2"
+  },
+  {
+    "name": "privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs3"
+  },
+  {
+    "name": "privacy.sanitize.cpd.hasMigratedToNewPrefs2"
+  },
+  {
+    "name": "privacy.sanitize.cpd.hasMigratedToNewPrefs3"
+  },
+  {
+    "name": "privacy.sanitize.timeSpan"
+  },
+  {
+    "name": "privacy.sanitize.useOldClearHistoryDialog"
+  },
+  {
+    "name": "privacy.temporary_permission_expire_time_ms"
+  },
+  {
+    "name": "privacy.trackingprotection.allow_list.hasMigratedCategoryPrefs"
+  },
+  {
+    "name": "privacy.trackingprotection.allow_list.hasUserInteractedWithETPSettings"
+  },
+  {
+    "name": "privacy.trackingprotection.cryptomining.enabled"
+  },
+  {
+    "name": "privacy.trackingprotection.emailtracking.webapp.domains"
+  },
+  {
+    "name": "privacy.trackingprotection.fingerprinting.enabled"
+  },
+  {
+    "name": "privacy.trackingprotection.harmfuladdon.enabled"
+  },
+  {
+    "name": "privacy.userContext.enabled"
+  },
+  {
+    "name": "privacy.userContext.extension"
+  },
+  {
+    "name": "privacy.userContext.newTabContainerOnLeftClick.enabled"
+  },
+  {
+    "name": "privacy.userContext.ui.enabled"
+  },
+  {
+    "name": "privacy.usercontext.about_newtab_segregation.enabled"
+  },
+  {
+    "name": "privacy.wallet_schemes"
+  },
+  {
+    "name": "privacy.webrtc.allowSilencingNotifications"
+  },
+  {
+    "name": "privacy.webrtc.deviceGracePeriodTimeoutMs"
+  },
+  {
+    "name": "privacy.webrtc.globalMuteToggles"
+  },
+  {
+    "name": "privacy.webrtc.hideGlobalIndicator"
+  },
+  {
+    "name": "privacy.webrtc.preview.testGumDelayMs"
+  },
+  {
+    "name": "privacy.webrtc.sharedTabWarning"
+  },
+  {
+    "name": "privacy.webrtc.showIndicatorsOnMacos14AndAbove"
+  },
+  {
+    "name": "prompts.authentication_dialog_abuse_limit"
+  },
+  {
+    "name": "prompts.defaultModalType"
+  },
+  {
+    "name": "reader.character_spacing"
+  },
+  {
+    "name": "reader.color_scheme"
+  },
+  {
+    "name": "reader.color_scheme.values"
+  },
+  {
+    "name": "reader.content_width"
+  },
+  {
+    "name": "reader.custom_colors.background"
+  },
+  {
+    "name": "reader.custom_colors.foreground"
+  },
+  {
+    "name": "reader.custom_colors.selection-highlight"
+  },
+  {
+    "name": "reader.custom_colors.unvisited-links"
+  },
+  {
+    "name": "reader.custom_colors.visited-links"
+  },
+  {
+    "name": "reader.debug"
+  },
+  {
+    "name": "reader.errors.includeURLs"
+  },
+  {
+    "name": "reader.font_size"
+  },
+  {
+    "name": "reader.font_type"
+  },
+  {
+    "name": "reader.font_type.values"
+  },
+  {
+    "name": "reader.font_weight"
+  },
+  {
+    "name": "reader.font_weight.values"
+  },
+  {
+    "name": "reader.line_height"
+  },
+  {
+    "name": "reader.parse-node-limit"
+  },
+  {
+    "name": "reader.parse-on-load.enabled"
+  },
+  {
+    "name": "reader.text_alignment"
+  },
+  {
+    "name": "reader.toolbar.vertical"
+  },
+  {
+    "name": "reader.word_spacing"
+  },
+  {
+    "name": "remote.experimental.enabled"
+  },
+  {
+    "name": "remote.log.level"
+  },
+  {
+    "name": "remote.log.truncate"
+  },
+  {
+    "name": "remote.prefs.recommended"
+  },
+  {
+    "name": "remote.retry-on-abort"
+  },
+  {
+    "name": "screenshots.browser.component.enabled"
+  },
+  {
+    "name": "screenshots.browser.component.last-saved-method"
+  },
+  {
+    "name": "screenshots.browser.component.preventContentEvents"
+  },
+  {
+    "name": "security.allow_parent_unrestricted_js_loads"
+  },
+  {
+    "name": "security.certerrors.felt-privacy-v1"
+  },
+  {
+    "name": "security.certerrors.mitm.auto_enable_enterprise_roots"
+  },
+  {
+    "name": "security.certerrors.mitm.priming.enabled"
+  },
+  {
+    "name": "security.certerrors.mitm.priming.endpoint"
+  },
+  {
+    "name": "security.certerrors.permanentOverride"
+  },
+  {
+    "name": "security.crash_tracking.js_load_1.maxCrashes"
+  },
+  {
+    "name": "security.crash_tracking.js_load_1.prevCrashes"
+  },
+  {
+    "name": "security.default_personal_cert"
+  },
+  {
+    "name": "security.dialog_enable_delay"
+  },
+  {
+    "name": "security.insecure_connection_text.enabled"
+  },
+  {
+    "name": "security.insecure_connection_text.pbmode.enabled"
+  },
+  {
+    "name": "security.insecure_field_warning.ignore_local_ip_address"
+  },
+  {
+    "name": "security.mixed_content.block_active_content"
+  },
+  {
+    "name": "security.notification_enable_delay"
+  },
+  {
+    "name": "security.osreauthenticator.blank_password"
+  },
+  {
+    "name": "security.osreauthenticator.password_last_changed_hi"
+  },
+  {
+    "name": "security.osreauthenticator.password_last_changed_lo"
+  },
+  {
+    "name": "security.pki.mitm_canary_issuer"
+  },
+  {
+    "name": "security.pki.mitm_canary_issuer.enabled"
+  },
+  {
+    "name": "security.pki.mitm_detected"
+  },
+  {
+    "name": "security.remote_settings.crlite_filters.enabled"
+  },
+  {
+    "name": "security.remote_settings.intermediates.downloads_per_poll"
+  },
+  {
+    "name": "security.remote_settings.intermediates.enabled"
+  },
+  {
+    "name": "security.remote_settings.intermediates.parallel_downloads"
+  },
+  {
+    "name": "security.sandbox.content.level"
+  },
+  {
+    "name": "security.sandbox.content.read_path_whitelist"
+  },
+  {
+    "name": "security.sandbox.content.syscall_whitelist"
+  },
+  {
+    "name": "security.sandbox.content.write_path_whitelist"
+  },
+  {
+    "name": "security.sandbox.socket.process.level"
+  },
+  {
+    "name": "security.signed_app_signatures.policy"
+  },
+  {
+    "name": "security.tls.insecure_fallback_hosts"
+  },
+  {
+    "name": "services.common.log.logger.rest.request"
+  },
+  {
+    "name": "services.common.log.logger.rest.response"
+  },
+  {
+    "name": "services.common.log.logger.tokenserverclient"
+  },
+  {
+    "name": "services.common.uptake.sampleRate"
+  },
+  {
+    "name": "services.settings.poll_interval"
+  },
+  {
+    "name": "services.sync.addons.ignoreUserEnabledChanges"
+  },
+  {
+    "name": "services.sync.addons.trustedSourceHostnames"
+  },
+  {
+    "name": "services.sync.engine.addons"
+  },
+  {
+    "name": "services.sync.engine.addresses"
+  },
+  {
+    "name": "services.sync.engine.addresses.available"
+  },
+  {
+    "name": "services.sync.engine.bookmarks"
+  },
+  {
+    "name": "services.sync.engine.bookmarks.validation.interval"
+  },
+  {
+    "name": "services.sync.engine.bookmarks.validation.maxRecords"
+  },
+  {
+    "name": "services.sync.engine.bookmarks.validation.percentageChance"
+  },
+  {
+    "name": "services.sync.engine.creditcards"
+  },
+  {
+    "name": "services.sync.engine.creditcards.available"
+  },
+  {
+    "name": "services.sync.engine.history"
+  },
+  {
+    "name": "services.sync.engine.passwords"
+  },
+  {
+    "name": "services.sync.engine.passwords.validation.interval"
+  },
+  {
+    "name": "services.sync.engine.passwords.validation.maxRecords"
+  },
+  {
+    "name": "services.sync.engine.passwords.validation.percentageChance"
+  },
+  {
+    "name": "services.sync.engine.prefs"
+  },
+  {
+    "name": "services.sync.engine.tabs"
+  },
+  {
+    "name": "services.sync.engine.tabs.filteredSchemes"
+  },
+  {
+    "name": "services.sync.engine.workspaces"
+  },
+  {
+    "name": "services.sync.extension-storage.skipPercentageChance"
+  },
+  {
+    "name": "services.sync.lastversion"
+  },
+  {
+    "name": "services.sync.log.appender.console"
+  },
+  {
+    "name": "services.sync.log.appender.dump"
+  },
+  {
+    "name": "services.sync.log.appender.file.level"
+  },
+  {
+    "name": "services.sync.log.appender.file.logOnError"
+  },
+  {
+    "name": "services.sync.log.appender.file.logOnSuccess"
+  },
+  {
+    "name": "services.sync.log.appender.file.maxErrorAge"
+  },
+  {
+    "name": "services.sync.log.cryptoDebug"
+  },
+  {
+    "name": "services.sync.log.logger"
+  },
+  {
+    "name": "services.sync.log.logger.engine"
+  },
+  {
+    "name": "services.sync.maxResyncs"
+  },
+  {
+    "name": "services.sync.prefs.dangerously_allow_arbitrary"
+  },
+  {
+    "name": "services.sync.prefs.sync-seen.browser.newtabpage.activity-stream.section.highlights"
+  },
+  {
+    "name": "services.sync.prefs.sync-seen.general.autoScroll"
+  },
+  {
+    "name": "services.sync.prefs.sync-seen.media.eme.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.accessibility.blockautorefresh"
+  },
+  {
+    "name": "services.sync.prefs.sync.accessibility.browsewithcaret"
+  },
+  {
+    "name": "services.sync.prefs.sync.accessibility.typeaheadfind"
+  },
+  {
+    "name": "services.sync.prefs.sync.accessibility.typeaheadfind.linksonly"
+  },
+  {
+    "name": "services.sync.prefs.sync.addons.ignoreUserEnabledChanges"
+  },
+  {
+    "name": "services.sync.prefs.sync.app.shield.optoutstudies.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.contentblocking.category"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.contentblocking.features.strict"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.ctrlTab.sortByRecentlyUsed"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.download.useDownloadDir"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.firefox-view.feature-tour"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.formfill.enable"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.ipProtection.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.link.open_newwindow"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.menu.showViewImageInfo"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.highlights"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.section.topstories"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.topsites"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeBookmarks"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeDownloads"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includeVisited"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.rows"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.topstories.rows"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSearch"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsored"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSites"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.activity-stream.topSitesRows"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.newtabpage.pinned"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.pdfjs.feature-tour"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.safebrowsing.downloads.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.safebrowsing.downloads.remote.block_potentially_unwanted"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.safebrowsing.malware.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.safebrowsing.phishing.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.search.update"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.startup.homepage"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.startup.page"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.startup.upgradeDialog.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.tabs.loadInBackground"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.tabs.warnOnClose"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.tabs.warnOnOpen"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.taskbar.previews.enable"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.maxRichResults"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.showSearchSuggestionsFirst"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.bookmark"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.engines"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.history"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.openpage"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.searches"
+  },
+  {
+    "name": "services.sync.prefs.sync.browser.urlbar.suggest.topsites"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.disable_open_during_load"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.disable_window_flip"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.disable_window_move_resize"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.event.contextmenu.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.security.https_only_mode"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.security.https_only_mode_ever_enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.security.https_only_mode_ever_enabled_pbm"
+  },
+  {
+    "name": "services.sync.prefs.sync.dom.security.https_only_mode_pbm"
+  },
+  {
+    "name": "services.sync.prefs.sync.extensions.activeThemeID"
+  },
+  {
+    "name": "services.sync.prefs.sync.extensions.update.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.general.autoScroll"
+  },
+  {
+    "name": "services.sync.prefs.sync.intl.accept_languages"
+  },
+  {
+    "name": "services.sync.prefs.sync.intl.regional_prefs.use_os_locales"
+  },
+  {
+    "name": "services.sync.prefs.sync.layout.spellcheckDefault"
+  },
+  {
+    "name": "services.sync.prefs.sync.media.autoplay.default"
+  },
+  {
+    "name": "services.sync.prefs.sync.media.eme.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.media.videocontrols.picture-in-picture.video-toggle.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.network.cookie.cookieBehavior"
+  },
+  {
+    "name": "services.sync.prefs.sync.nimbus.rollouts.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.permissions.default.image"
+  },
+  {
+    "name": "services.sync.prefs.sync.pref.downloads.disable_button.edit_actions"
+  },
+  {
+    "name": "services.sync.prefs.sync.pref.privacy.disable_button.cookie_exceptions"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.cache"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.cookies"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.downloads"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.formdata"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.history"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.offlineApps"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.sessions"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown.siteSettings"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.browsingHistoryAndDownloads"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.cache"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.cookiesAndStorage"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.downloads"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.formdata"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.historyFormDataAndDownloads"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.clearOnShutdown_v2.siteSettings"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.donottrackheader.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.globalprivacycontrol.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.reduceTimerPrecision"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.jitter"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.resistFingerprinting.reduceTimerPrecision.microseconds"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.sanitize.sanitizeOnShutdown"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.trackingprotection.cryptomining.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.trackingprotection.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.trackingprotection.fingerprinting.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.trackingprotection.harmfuladdon.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.trackingprotection.pbmode.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.userContext.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.privacy.userContext.newTabContainerOnLeftClick.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.security.default_personal_cert"
+  },
+  {
+    "name": "services.sync.prefs.sync.services.sync.syncedTabs.showRemoteIcons"
+  },
+  {
+    "name": "services.sync.prefs.sync.signon.autofillForms"
+  },
+  {
+    "name": "services.sync.prefs.sync.signon.generation.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.signon.management.page.breach-alerts.enabled"
+  },
+  {
+    "name": "services.sync.prefs.sync.signon.rememberSignons"
+  },
+  {
+    "name": "services.sync.prefs.sync.spellchecker.dictionary"
+  },
+  {
+    "name": "services.sync.prefs.sync.ui.osk.enabled"
+  },
+  {
+    "name": "services.sync.scheduler.activeInterval"
+  },
+  {
+    "name": "services.sync.scheduler.fxa.singleDeviceInterval"
+  },
+  {
+    "name": "services.sync.scheduler.idleInterval"
+  },
+  {
+    "name": "services.sync.scheduler.idleTime"
+  },
+  {
+    "name": "services.sync.scheduler.immediateInterval"
+  },
+  {
+    "name": "services.sync.sendVersionInfo"
+  },
+  {
+    "name": "services.sync.syncedTabs.showRemoteIcons"
+  },
+  {
+    "name": "services.sync.syncedTabs.syncDelayAfterTabChange"
+  },
+  {
+    "name": "services.sync.telemetry.maxPayloadCount"
+  },
+  {
+    "name": "services.sync.telemetry.submissionInterval"
+  },
+  {
+    "name": "sidebar.animation.duration-ms"
+  },
+  {
+    "name": "sidebar.animation.enabled"
+  },
+  {
+    "name": "sidebar.animation.expand-on-hover.delay-duration-ms"
+  },
+  {
+    "name": "sidebar.animation.expand-on-hover.duration-ms"
+  },
+  {
+    "name": "sidebar.backupState"
+  },
+  {
+    "name": "sidebar.expandOnHover"
+  },
+  {
+    "name": "sidebar.installed.extensions"
+  },
+  {
+    "name": "sidebar.main.tools"
+  },
+  {
+    "name": "sidebar.new-sidebar.has-used"
+  },
+  {
+    "name": "sidebar.notification.badge.aichat"
+  },
+  {
+    "name": "sidebar.old-sidebar.has-used"
+  },
+  {
+    "name": "sidebar.position_start"
+  },
+  {
+    "name": "sidebar.revamp"
+  },
+  {
+    "name": "sidebar.revamp.round-content-area"
+  },
+  {
+    "name": "sidebar.verticalTabs"
+  },
+  {
+    "name": "sidebar.verticalTabs.dragToPinPromo.dismissed"
+  },
+  {
+    "name": "sidebar.visibility"
+  },
+  {
+    "name": "signon.autofillForms"
+  },
+  {
+    "name": "signon.autofillForms.autocompleteOff"
+  },
+  {
+    "name": "signon.autofillForms.http"
+  },
+  {
+    "name": "signon.autologin.proxy"
+  },
+  {
+    "name": "signon.backup.enabled"
+  },
+  {
+    "name": "signon.capture.inputChanges.enabled"
+  },
+  {
+    "name": "signon.debug"
+  },
+  {
+    "name": "signon.firefoxRelay.base_url"
+  },
+  {
+    "name": "signon.firefoxRelay.feature"
+  },
+  {
+    "name": "signon.firefoxRelay.firstOfferVersionFallback"
+  },
+  {
+    "name": "signon.firefoxRelay.learn_more_url"
+  },
+  {
+    "name": "signon.firefoxRelay.manage_url"
+  },
+  {
+    "name": "signon.firefoxRelay.privacy_policy_url"
+  },
+  {
+    "name": "signon.firefoxRelay.terms_of_service_url"
+  },
+  {
+    "name": "signon.formRemovalCapture.enabled"
+  },
+  {
+    "name": "signon.formlessCapture.enabled"
+  },
+  {
+    "name": "signon.generation.available"
+  },
+  {
+    "name": "signon.generation.confidenceThreshold"
+  },
+  {
+    "name": "signon.generation.enabled"
+  },
+  {
+    "name": "signon.improvedPasswordRules.enabled"
+  },
+  {
+    "name": "signon.includeOtherSubdomainsInLookup"
+  },
+  {
+    "name": "signon.management.page.breach-alerts.enabled"
+  },
+  {
+    "name": "signon.management.page.breachAlertUrl"
+  },
+  {
+    "name": "signon.management.page.os-auth.locked.enabled"
+  },
+  {
+    "name": "signon.management.page.sort"
+  },
+  {
+    "name": "signon.management.page.vulnerable-passwords.enabled"
+  },
+  {
+    "name": "signon.masterPasswordReprompt.timeout_ms"
+  },
+  {
+    "name": "signon.passwordEditCapture.enabled"
+  },
+  {
+    "name": "signon.privateBrowsingCapture.enabled"
+  },
+  {
+    "name": "signon.recipes.path"
+  },
+  {
+    "name": "signon.recipes.remoteRecipes.enabled"
+  },
+  {
+    "name": "signon.relatedRealms.enabled"
+  },
+  {
+    "name": "signon.rememberSignons"
+  },
+  {
+    "name": "signon.rustMirror.enabled"
+  },
+  {
+    "name": "signon.schemeUpgrades"
+  },
+  {
+    "name": "signon.showAutoCompleteFooter"
+  },
+  {
+    "name": "signon.showAutoCompleteImport"
+  },
+  {
+    "name": "signon.signupDetection.confidenceThreshold"
+  },
+  {
+    "name": "signon.storeWhenAutocompleteOff"
+  },
+  {
+    "name": "signon.suggestImportCount"
+  },
+  {
+    "name": "signon.userInputRequiredToCapture.enabled"
+  },
+  {
+    "name": "signon.usernameOnlyForm.lookupThreshold"
+  },
+  {
+    "name": "startup.homepage_override_nimbus_disable_wnp"
+  },
+  {
+    "name": "startup.homepage_override_nimbus_maxVersion"
+  },
+  {
+    "name": "startup.homepage_override_nimbus_minVersion"
+  },
+  {
+    "name": "startup.homepage_override_url"
+  },
+  {
+    "name": "startup.homepage_override_url_nimbus"
+  },
+  {
+    "name": "startup.homepage_welcome_url"
+  },
+  {
+    "name": "startup.homepage_welcome_url.additional"
+  },
+  {
+    "name": "svg.context-properties.content.allowed-domains"
+  },
+  {
+    "name": "svg.context-properties.content.enabled"
+  },
+  {
+    "name": "svg.disabled"
+  },
+  {
+    "name": "termsofuse.acceptedDate"
+  },
+  {
+    "name": "termsofuse.acceptedVersion"
+  },
+  {
+    "name": "termsofuse.bypassNotification"
+  },
+  {
+    "name": "termsofuse.currentVersion"
+  },
+  {
+    "name": "termsofuse.firstAcceptedDate"
+  },
+  {
+    "name": "termsofuse.minimumVersion"
+  },
+  {
+    "name": "toolkit.aboutLogging.uploadProfileToCloud"
+  },
+  {
+    "name": "toolkit.aboutProcesses.profileDuration"
+  },
+  {
+    "name": "toolkit.aboutProcesses.showAllSubframes"
+  },
+  {
+    "name": "toolkit.aboutProcesses.showProfilerIcons"
+  },
+  {
+    "name": "toolkit.aboutProcesses.showThreads"
+  },
+  {
+    "name": "toolkit.asyncshutdown.crash_timeout"
+  },
+  {
+    "name": "toolkit.asyncshutdown.log"
+  },
+  {
+    "name": "toolkit.autocomplete.richBoundaryCutoff"
+  },
+  {
+    "name": "toolkit.backgroundtasks.defaultTimeoutSec"
+  },
+  {
+    "name": "toolkit.contentRelevancy.enabled"
+  },
+  {
+    "name": "toolkit.contentRelevancy.ingestEnabled"
+  },
+  {
+    "name": "toolkit.contentRelevancy.log"
+  },
+  {
+    "name": "toolkit.coverage.enabled"
+  },
+  {
+    "name": "toolkit.coverage.endpoint.base"
+  },
+  {
+    "name": "toolkit.coverage.opt-out"
+  },
+  {
+    "name": "toolkit.crashreporter.include_context_heap"
+  },
+  {
+    "name": "toolkit.datacollection.infoURL"
+  },
+  {
+    "name": "toolkit.download.loglevel"
+  },
+  {
+    "name": "toolkit.dump.emit"
+  },
+  {
+    "name": "toolkit.legacyUserProfileCustomizations.stylesheets"
+  },
+  {
+    "name": "toolkit.osKeyStore.loglevel"
+  },
+  {
+    "name": "toolkit.pageThumbs.minHeight"
+  },
+  {
+    "name": "toolkit.pageThumbs.minWidth"
+  },
+  {
+    "name": "toolkit.pageThumbs.screenSizeDivisor"
+  },
+  {
+    "name": "toolkit.rust-components.logging.crates"
+  },
+  {
+    "name": "toolkit.rust-components.logging.internal-level"
+  },
+  {
+    "name": "toolkit.scrollbox.clickToScroll.scrollDelay"
+  },
+  {
+    "name": "toolkit.scrollbox.scrollIncrement"
+  },
+  {
+    "name": "toolkit.shopping.ohttpConfigURL"
+  },
+  {
+    "name": "toolkit.shopping.ohttpRelayURL"
+  },
+  {
+    "name": "toolkit.sqlitejsm.loglevel"
+  },
+  {
+    "name": "toolkit.startup.max_resumed_crashes"
+  },
+  {
+    "name": "toolkit.tabbox.switchByScrolling"
+  },
+  {
+    "name": "toolkit.telemetry.archive.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.bhrPing.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.coverage.opt-out"
+  },
+  {
+    "name": "toolkit.telemetry.dap.helper.hpke"
+  },
+  {
+    "name": "toolkit.telemetry.dap.helper.url"
+  },
+  {
+    "name": "toolkit.telemetry.dap.leader.hpke"
+  },
+  {
+    "name": "toolkit.telemetry.dap.leader.url"
+  },
+  {
+    "name": "toolkit.telemetry.dap.logLevel"
+  },
+  {
+    "name": "toolkit.telemetry.dap_enabled"
+  },
+  {
+    "name": "toolkit.telemetry.dap_task1_enabled"
+  },
+  {
+    "name": "toolkit.telemetry.dap_task1_taskid"
+  },
+  {
+    "name": "toolkit.telemetry.dap_visit_counting_enabled"
+  },
+  {
+    "name": "toolkit.telemetry.dap_visit_counting_experiment_list"
+  },
+  {
+    "name": "toolkit.telemetry.debugSlowSql"
+  },
+  {
+    "name": "toolkit.telemetry.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.firstShutdownPing.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.newProfilePing.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.pioneer-new-studies-available"
+  },
+  {
+    "name": "toolkit.telemetry.server"
+  },
+  {
+    "name": "toolkit.telemetry.server_owner"
+  },
+  {
+    "name": "toolkit.telemetry.shutdownPingSender.backgroundtask.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.shutdownPingSender.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.shutdownPingSender.enabledFirstSession"
+  },
+  {
+    "name": "toolkit.telemetry.translations.logLevel"
+  },
+  {
+    "name": "toolkit.telemetry.unified"
+  },
+  {
+    "name": "toolkit.telemetry.updatePing.enabled"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.current_version"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.last_version_sent"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.logLevel"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.opt-out"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.send-once"
+  },
+  {
+    "name": "toolkit.telemetry.user_characteristics_ping.uuid"
+  },
+  {
+    "name": "toolkit.zoomManager.zoomValues"
+  },
+  {
+    "name": "ui.new-webcompat-reporter.enabled"
+  },
+  {
+    "name": "ui.new-webcompat-reporter.reason-dropdown"
+  },
+  {
+    "name": "ui.new-webcompat-reporter.reason-dropdown.randomized"
+  },
+  {
+    "name": "ui.new-webcompat-reporter.send-more-info-link"
+  },
+  {
+    "name": "ui.textHighlightBackground"
+  },
+  {
+    "name": "ui.textHighlightForeground"
+  },
+  {
+    "name": "ui.textSelectAttentionBackground"
+  },
+  {
+    "name": "ui.textSelectAttentionForeground"
+  },
+  {
+    "name": "ui.textSelectDisabledBackground"
+  },
+  {
+    "name": "urlclassifier.alternate_error_page"
+  },
+  {
+    "name": "urlclassifier.blockedTable"
+  },
+  {
+    "name": "urlclassifier.disallow_completions"
+  },
+  {
+    "name": "urlclassifier.downloadAllowTable"
+  },
+  {
+    "name": "urlclassifier.downloadBlockTable"
+  },
+  {
+    "name": "urlclassifier.features.antifraud.annotate.allowlistTables"
+  },
+  {
+    "name": "urlclassifier.features.antifraud.annotate.blocklistTables"
+  },
+  {
+    "name": "urlclassifier.features.consentmanager.annotate.allowlistTables"
+  },
+  {
+    "name": "urlclassifier.features.consentmanager.annotate.blocklistTables"
+  },
+  {
+    "name": "urlclassifier.features.cryptomining.annotate.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.cryptomining.annotate.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.features.cryptomining.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.cryptomining.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.features.emailtracking.allowlistTables"
+  },
+  {
+    "name": "urlclassifier.features.emailtracking.blocklistTables"
+  },
+  {
+    "name": "urlclassifier.features.emailtracking.datacollection.allowlistTables"
+  },
+  {
+    "name": "urlclassifier.features.emailtracking.datacollection.blocklistTables"
+  },
+  {
+    "name": "urlclassifier.features.fingerprinting.annotate.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.fingerprinting.annotate.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.features.fingerprinting.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.fingerprinting.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.features.harmfuladdon.blocklistTables"
+  },
+  {
+    "name": "urlclassifier.features.harmfuladdon.entitylistTables"
+  },
+  {
+    "name": "urlclassifier.features.socialtracking.annotate.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.socialtracking.annotate.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.features.socialtracking.blacklistTables"
+  },
+  {
+    "name": "urlclassifier.features.socialtracking.whitelistTables"
+  },
+  {
+    "name": "urlclassifier.gethash.timeout_ms"
+  },
+  {
+    "name": "urlclassifier.gethashnoise"
+  },
+  {
+    "name": "urlclassifier.malwareTable"
+  },
+  {
+    "name": "urlclassifier.phishTable"
+  },
+  {
+    "name": "urlclassifier.trackingAnnotationSkipURLs"
+  },
+  {
+    "name": "urlclassifier.trackingAnnotationTable"
+  },
+  {
+    "name": "urlclassifier.trackingAnnotationWhitelistTable"
+  },
+  {
+    "name": "urlclassifier.trackingTable"
+  },
+  {
+    "name": "urlclassifier.trackingWhitelistTable"
+  },
+  {
+    "name": "view_source.editor.args"
+  },
+  {
+    "name": "view_source.editor.path"
+  },
+  {
+    "name": "view_source.tab"
+  },
+  {
+    "name": "webextensions.storage.session.enforceQuota"
+  },
+  {
+    "name": "webextensions.storage.sync.kinto"
+  },
+  {
+    "name": "webextensions.storage.sync.serverURL"
+  },
+  {
+    "name": "webextensions.webRequest.requestBodyMaxRawBytes"
+  },
+  {
+    "name": "widget.disable-workspace-management"
+  },
+  {
+    "name": "widget.gtk.rounded-bottom-corners.enabled"
+  },
+  {
+    "name": "widget.non-native-theme.scrollbar.style"
+  },
+  {
+    "name": "widget.non-native-theme.use-theme-accent"
+  },
+  {
+    "name": "widget.support-xdg-config"
+  },
+  {
+    "name": "xpinstall.signatures.required"
+  },
+  {
+    "name": "xpinstall.whitelist.required"
+  },
+  {
+    "name": "zen.ctrlTab.show-pending-tabs"
+  },
+  {
+    "name": "zen.downloads.download-animation"
+  },
+  {
+    "name": "zen.downloads.download-animation-duration"
+  },
+  {
+    "name": "zen.downloads.icon-popup-position"
+  },
+  {
+    "name": "zen.folders.max-subfolders"
+  },
+  {
+    "name": "zen.folders.owned-tabs-in-folder"
+  },
+  {
+    "name": "zen.folders.search.enabled"
+  },
+  {
+    "name": "zen.folders.search.hover-delay"
+  },
+  {
+    "name": "zen.glance.activation-method"
+  },
+  {
+    "name": "zen.glance.animation-duration"
+  },
+  {
+    "name": "zen.glance.enable-contextmenu-search"
+  },
+  {
+    "name": "zen.glance.enabled"
+  },
+  {
+    "name": "zen.glance.open-essential-external-links"
+  },
+  {
+    "name": "zen.haptic-feedback.enabled"
+  },
+  {
+    "name": "zen.injections.match-urls"
+  },
+  {
+    "name": "zen.keyboard.shortcuts.disable-mainkeyset-clear"
+  },
+  {
+    "name": "zen.keyboard.shortcuts.version"
+  },
+  {
+    "name": "zen.mediacontrols.enabled"
+  },
+  {
+    "name": "zen.mods.auto-update"
+  },
+  {
+    "name": "zen.mods.auto-update-days"
+  },
+  {
+    "name": "zen.mods.updated-value-observer"
+  },
+  {
+    "name": "zen.pinned-tab-manager.close-shortcut-behavior"
+  },
+  {
+    "name": "zen.pinned-tab-manager.debug"
+  },
+  {
+    "name": "zen.pinned-tab-manager.restore-pinned-tabs-to-pinned-url"
+  },
+  {
+    "name": "zen.pinned-tab-manager.wheel-close-if-pending"
+  },
+  {
+    "name": "zen.rice.share.notice.accepted"
+  },
+  {
+    "name": "zen.session-store.backup-file"
+  },
+  {
+    "name": "zen.session-store.log"
+  },
+  {
+    "name": "zen.session-store.restore-unsynced-windows"
+  },
+  {
+    "name": "zen.share.enabled"
+  },
+  {
+    "name": "zen.splitView.drag-over-split-delayMC"
+  },
+  {
+    "name": "zen.splitView.drag-over-split-threshold"
+  },
+  {
+    "name": "zen.splitView.enable-drag-over-split"
+  },
+  {
+    "name": "zen.splitView.enable-tab-drop"
+  },
+  {
+    "name": "zen.splitView.min-resize-width"
+  },
+  {
+    "name": "zen.splitView.rearrange-hover-size"
+  },
+  {
+    "name": "zen.startup.smooth-scroll-in-tabs"
+  },
+  {
+    "name": "zen.tabs.close-on-back-with-no-history"
+  },
+  {
+    "name": "zen.tabs.close-window-with-empty"
+  },
+  {
+    "name": "zen.tabs.ctrl-tab.ignore-essential-tabs"
+  },
+  {
+    "name": "zen.tabs.ctrl-tab.ignore-pending-tabs"
+  },
+  {
+    "name": "zen.tabs.dnd-switch-space-delay"
+  },
+  {
+    "name": "zen.tabs.essentials.max"
+  },
+  {
+    "name": "zen.tabs.folder-dragover-threshold-percent"
+  },
+  {
+    "name": "zen.tabs.open-pinned-in-new-tab"
+  },
+  {
+    "name": "zen.tabs.rename-tabs"
+  },
+  {
+    "name": "zen.tabs.select-recently-used-on-close"
+  },
+  {
+    "name": "zen.tabs.show-newtab-vertical"
+  },
+  {
+    "name": "zen.tabs.use-legacy-drag-and-drop"
+  },
+  {
+    "name": "zen.tabs.vertical"
+  },
+  {
+    "name": "zen.tabs.vertical.right-side"
+  },
+  {
+    "name": "zen.theme.accent-color"
+  },
+  {
+    "name": "zen.theme.acrylic-elements"
+  },
+  {
+    "name": "zen.theme.border-radius"
+  },
+  {
+    "name": "zen.theme.content-element-separation"
+  },
+  {
+    "name": "zen.theme.dark-mode-bias"
+  },
+  {
+    "name": "zen.theme.disable-lightweight"
+  },
+  {
+    "name": "zen.theme.essentials-favicon-bg"
+  },
+  {
+    "name": "zen.theme.gradient.show-custom-colors"
+  },
+  {
+    "name": "zen.theme.hide-tab-throbber"
+  },
+  {
+    "name": "zen.theme.hide-unified-extensions-button"
+  },
+  {
+    "name": "zen.theme.styled-status-panel"
+  },
+  {
+    "name": "zen.theme.use-system-colors"
+  },
+  {
+    "name": "zen.updates.show-update-notification"
+  },
+  {
+    "name": "zen.urlbar.behavior"
+  },
+  {
+    "name": "zen.urlbar.enable-overrides"
+  },
+  {
+    "name": "zen.urlbar.hide-one-offs"
+  },
+  {
+    "name": "zen.urlbar.open-on-startup"
+  },
+  {
+    "name": "zen.urlbar.replace-newtab"
+  },
+  {
+    "name": "zen.urlbar.show-contextual-id"
+  },
+  {
+    "name": "zen.urlbar.show-domain-only-in-sidebar"
+  },
+  {
+    "name": "zen.urlbar.show-pip-button"
+  },
+  {
+    "name": "zen.urlbar.show-protections-icon"
+  },
+  {
+    "name": "zen.urlbar.single-toolbar-show-copy-url"
+  },
+  {
+    "name": "zen.urlbar.suggestions.quick-actions"
+  },
+  {
+    "name": "zen.urlbar.wait-to-clear"
+  },
+  {
+    "name": "zen.view.borderless-fullscreen"
+  },
+  {
+    "name": "zen.view.compact.animate-sidebar"
+  },
+  {
+    "name": "zen.view.compact.debug"
+  },
+  {
+    "name": "zen.view.compact.hide-tabbar"
+  },
+  {
+    "name": "zen.view.compact.hide-toolbar"
+  },
+  {
+    "name": "zen.view.compact.show-background-tab-toast"
+  },
+  {
+    "name": "zen.view.compact.show-sidebar-and-toolbar-on-hover"
+  },
+  {
+    "name": "zen.view.compact.sidebar-keep-hover.duration"
+  },
+  {
+    "name": "zen.view.compact.toolbar-flash-popup"
+  },
+  {
+    "name": "zen.view.compact.toolbar-flash-popup.duration"
+  },
+  {
+    "name": "zen.view.compact.toolbar-hide-after-hover.duration"
+  },
+  {
+    "name": "zen.view.context-menu.refresh"
+  },
+  {
+    "name": "zen.view.draggable-sidebar"
+  },
+  {
+    "name": "zen.view.experimental-force-window-controls-left"
+  },
+  {
+    "name": "zen.view.experimental-no-window-controls"
+  },
+  {
+    "name": "zen.view.grey-out-inactive-windows"
+  },
+  {
+    "name": "zen.view.hide-window-controls"
+  },
+  {
+    "name": "zen.view.overflow-webext-toolbar"
+  },
+  {
+    "name": "zen.view.shift-down-site-on-hover"
+  },
+  {
+    "name": "zen.view.show-clear-tabs-button"
+  },
+  {
+    "name": "zen.view.show-newtab-button-top"
+  },
+  {
+    "name": "zen.view.sidebar-expanded"
+  },
+  {
+    "name": "zen.view.sidebar-expanded.max-width"
+  },
+  {
+    "name": "zen.view.sidebar-height-throttle"
+  },
+  {
+    "name": "zen.view.use-single-toolbar"
+  },
+  {
+    "name": "zen.view.window.scheme"
+  },
+  {
+    "name": "zen.watermark.enabled"
+  },
+  {
+    "name": "zen.welcome-screen.seen"
+  },
+  {
+    "name": "zen.widget.linux.transparency"
+  },
+  {
+    "name": "zen.window-sync.enabled"
+  },
+  {
+    "name": "zen.window-sync.log"
+  },
+  {
+    "name": "zen.window-sync.open-link-in-new-unsynced-window"
+  },
+  {
+    "name": "zen.window-sync.prefer-unsynced-windows"
+  },
+  {
+    "name": "zen.window-sync.sync-only-pinned-tabs"
+  },
+  {
+    "name": "zen.workspaces.continue-where-left-off"
+  },
+  {
+    "name": "zen.workspaces.debug"
+  },
+  {
+    "name": "zen.workspaces.dnd-switch-padding"
+  },
+  {
+    "name": "zen.workspaces.force-container-workspace"
+  },
+  {
+    "name": "zen.workspaces.hide-default-container-indicator"
+  },
+  {
+    "name": "zen.workspaces.natural-scroll"
+  },
+  {
+    "name": "zen.workspaces.open-new-tab-if-last-unpinned-tab-is-closed"
+  },
+  {
+    "name": "zen.workspaces.scroll-modifier-key"
+  },
+  {
+    "name": "zen.workspaces.separate-essentials"
+  },
+  {
+    "name": "zen.workspaces.swipe-actions"
+  },
+  {
+    "name": "zen.workspaces.wrap-around-navigation"
   }
 ]
