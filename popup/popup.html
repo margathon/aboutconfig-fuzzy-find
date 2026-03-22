@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Config Fuzzy Finder</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Pref fuzzy find</h1>
+      <p class="hint">Search bundled names; use about:config’s filter for live values.</p>
+    </header>
+    <label class="sr-only" for="search">Search preferences</label>
+    <input
+      id="search"
+      class="search"
+      type="search"
+      placeholder="Type to filter…"
+      autocomplete="off"
+      spellcheck="false"
+      autofocus
+    />
+    <div id="status" class="status" hidden></div>
+    <ul id="results" class="results" role="list"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>

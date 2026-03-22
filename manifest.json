@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "About Config Fuzzy Finder",
+  "version": "1.0.0",
+  "description": "Fuzzy-search preference names and open about:config or copy a name.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aboutconfig-fuzzy-find@local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "browser_action": {
+    "default_title": "About Config Fuzzy Finder",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["tabs", "clipboardWrite"]
+}

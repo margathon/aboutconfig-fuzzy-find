@@ -1,0 +1,74 @@
+[
+  {
+    "name": "browser.startup.page",
+    "description": "What to show when the browser starts (0=blank, 1=home, 2=last session, 3=restore session)."
+  },
+  {
+    "name": "browser.startup.homepage",
+    "description": "Home page URL when using a custom home page."
+  },
+  {
+    "name": "browser.search.region",
+    "description": "Region used for search engine defaults."
+  },
+  {
+    "name": "browser.search.suggest.enabled",
+    "description": "Enable search suggestions in the address bar."
+  },
+  {
+    "name": "browser.urlbar.trimURLs",
+    "description": "Hide https:// and www in the address bar."
+  },
+  {
+    "name": "browser.tabs.loadInBackground",
+    "description": "Whether new tabs load in the background."
+  },
+  {
+    "name": "browser.tabs.warnOnClose",
+    "description": "Warn when closing a window with multiple tabs."
+  },
+  {
+    "name": "privacy.trackingprotection.enabled",
+    "description": "Enable Enhanced Tracking Protection in standard windows."
+  },
+  {
+    "name": "privacy.trackingprotection.enabled.pbmode",
+    "description": "Enhanced Tracking Protection in private windows."
+  },
+  {
+    "name": "privacy.trackingprotection.socialtracking.enabled",
+    "description": "Block social media trackers."
+  },
+  {
+    "name": "browser.cache.disk.enable",
+    "description": "Enable disk cache."
+  },
+  {
+    "name": "network.http.http3.enabled",
+    "description": "Enable HTTP/3 (QUIC)."
+  },
+  {
+    "name": "network.dns.disableIPv6",
+    "description": "Disable IPv6 for DNS (diagnostic)."
+  },
+  {
+    "name": "gfx.webrender.all",
+    "description": "Force-enable WebRender compositor."
+  },
+  {
+    "name": "media.ffmpeg.vaapi.enabled",
+    "description": "Hardware video decode via VA-API on Linux (when supported)."
+  },
+  {
+    "name": "general.useragent.override",
+    "description": "Override the global User-Agent string (empty = default)."
+  },
+  {
+    "name": "devtools.chrome.enabled",
+    "description": "Allow debugging of browser chrome (advanced)."
+  },
+  {
+    "name": "browser.aboutConfig.showWarning",
+    "description": "Show the warning when opening about:config."
+  }
+]
